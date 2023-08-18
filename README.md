@@ -1,1 +1,1 @@
-# genetic-ancestry
+# Genetic Ancestry

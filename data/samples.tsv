@@ -14,7 +14,7 @@ HG00341	male	SAME124922	FIN	Finnish	EUR	European Ancestry
 HG00346	female	SAME125264	FIN	Finnish	EUR	European Ancestry
 HG00353	female	SAME125120	FIN	Finnish	EUR	European Ancestry
 HG00358	male	SAME125126	FIN	Finnish	EUR	European Ancestry
-HG00360	male	SAME124539	FIN	Finnish,Finnish	EUR	European Ancestry,West Eurasia (SGDP)
+HG00360	male	SAME124539	FIN	Finnish	EUR	European Ancestry
 HG00365	female	SAME124542	FIN	Finnish	EUR	European Ancestry
 HG00372	male	SAME124748	FIN	Finnish	EUR	European Ancestry
 HG00132	female	SAME123061	GBR	British	EUR	European Ancestry
@@ -35,7 +35,7 @@ HG00150	female	SAME124591	GBR	British	EUR	European Ancestry
 HG00245	female	SAME123218	GBR	British	EUR	European Ancestry
 HG00155	male	SAME124588	GBR	British	EUR	European Ancestry
 HG00252	male	SAME123052	GBR	British	EUR	European Ancestry
-HG00174	female	SAME124958	FIN	Finnish,Finnish	EUR	European Ancestry,West Eurasia (SGDP)
+HG00174	female	SAME124958	FIN	Finnish	EUR	European Ancestry
 HG00257	female	SAME123047	GBR	British	EUR	European Ancestry
 HG00179	female	SAME124965	FIN	Finnish	EUR	European Ancestry
 HG00264	male	SAME123578	GBR	British	EUR	European Ancestry
@@ -233,7 +233,7 @@ HG01457	male	SAME123428	CLM	Colombian	AMR	American Ancestry
 HG01350	male	SAME124684	CLM	Colombian	AMR	American Ancestry
 HG01464	male	SAME122883	CLM	Colombian	AMR	American Ancestry
 HG01355	female	SAME124679	CLM	Colombian	AMR	American Ancestry
-HG01503	male	SAME124944	IBS	Iberian,Spanish	EUR	European Ancestry,West Eurasia (SGDP)
+HG01503	male	SAME124944	IBS	Iberian	EUR	European Ancestry
 HG01362	male	SAME1839066	CLM	Colombian	AMR	American Ancestry
 HG01508	male	SAME124939	IBS	Iberian	EUR	European Ancestry
 HG01367	female	SAME125266	CLM	Colombian	AMR	American Ancestry
@@ -534,7 +534,7 @@ HG02771	male	SAME1839045	GWD	Gambian Mandinka	AFR	African Ancestry
 HG02602	male	SAME1840290	PJL	Punjabi	SAS	South Asian Ancestry
 HG02776	female	SAME1839017	PJL	Punjabi	SAS	South Asian Ancestry
 HG02614	female	SAME1840385	GWD	Gambian Mandinka	AFR	African Ancestry
-HG02783	male	SAME1839162	PJL	Punjabi,Punjabi	SAS	South Asia (SGDP),South Asian Ancestry
+HG02783	male	SAME1839162	PJL	Punjabi	SAS	South Asia 
 HG02621	female	SAME1840187	GWD	Gambian Mandinka	AFR	African Ancestry
 HG02461	male	SAME1839993	GWD	Gambian Mandinka	AFR	African Ancestry
 HG02645	male	SAME1839774	GWD	Gambian Mandinka	AFR	African Ancestry
@@ -550,7 +550,7 @@ HG02492	male	SAME1839610	PJL	Punjabi	SAS	South Asian Ancestry
 HG02772	female	SAME1839039	GWD	Gambian Mandinka	AFR	African Ancestry
 HG02788	female	SAME1840285	PJL	Punjabi	SAS	South Asian Ancestry
 HG02657	male	SAME1839600	PJL	Punjabi	SAS	South Asian Ancestry
-HG02790	female	SAME1840345	PJL	Punjabi,Punjabi	SAS	South Asia (SGDP),South Asian Ancestry
+HG02790	female	SAME1840345	PJL	Punjabi	SAS	South Asia 
 HG02676	female	SAME1839491	GWD	Gambian Mandinka	AFR	African Ancestry
 HG02808	female	SAME1840069	GWD	Gambian Mandinka	AFR	African Ancestry
 HG02683	female	SAME1839298	PJL	Punjabi	SAS	South Asian Ancestry
@@ -564,7 +564,7 @@ HG02562	female	SAME1839832	GWD	Gambian Mandinka	AFR	African Ancestry
 HG02537	female	SAME1840165	ACB	African Caribbean	AFR	African Ancestry
 HG02567	male	SAME1839905	GWD	Gambian Mandinka	AFR	African Ancestry
 HG02405	male	SAME1839398	CDX	Dai Chinese	EAS	East Asian Ancestry
-HG02574	female	SAME1839652	GWD	Gambian Mandinka,Gambian	AFR	African Ancestry,Africa (SGDP)
+HG02574	female	SAME1839652	GWD	Gambian Mandinka	AFR	African Ancestry
 HG02429	male	SAME1839021	ACB	African Caribbean	AFR	African Ancestry
 HG02586	female	SAME1839414	GWD	Gambian Mandinka	AFR	African Ancestry
 HG02436	male	SAME1839164	ACB	African Caribbean	AFR	African Ancestry
@@ -587,7 +587,7 @@ HG02897	female	SAME1839910	GWD	Gambian Mandinka	AFR	African Ancestry
 HG02668	male	SAME1839377	GWD	Gambian Mandinka	AFR	African Ancestry
 HG02924	male	SAME1839516	ESN	Esan	AFR	African Ancestry
 HG02675	male	SAME1839495	GWD	Gambian Mandinka	AFR	African Ancestry
-HG02943	female	SAME1839085	ESN	Esan,Esan	AFR	African Ancestry,Africa (SGDP)
+HG02943	female	SAME1839085	ESN	Esan	AFR	African Ancestry
 HG02682	female	SAME1839300	PJL	Punjabi	SAS	South Asian Ancestry
 HG02979	female	SAME1840209	ESN	Esan	AFR	African Ancestry
 HG02687	male	SAME1839270	PJL	Punjabi	SAS	South Asian Ancestry
@@ -605,15 +605,15 @@ HG03035	male	SAME1839573	GWD	Gambian Mandinka	AFR	African Ancestry
 HG02497	female	SAME1839682	ACB	African Caribbean	AFR	African Ancestry
 HG03047	female	SAME1839644	GWD	Gambian Mandinka	AFR	African Ancestry
 HG02505	female	SAME1839351	ACB	African Caribbean	AFR	African Ancestry
-HG03078	male	SAME1839047	MSL	Mende,Mende	AFR	African Ancestry,Africa (SGDP)
+HG03078	male	SAME1839047	MSL	Mende	AFR	African Ancestry
 HG02512	male	SAME1839146	KHV	Kinh Vietnamese	EAS	East Asian Ancestry
 HG03080	female	SAME1840307	MSL	Mende	AFR	African Ancestry
 HG02524	male	SAME1840317	KHV	Kinh Vietnamese	EAS	East Asian Ancestry
-HG03085	female	SAME1840328	MSL	Mende,Mende	AFR	African Ancestry,Africa (SGDP)
+HG03085	female	SAME1840328	MSL	Mende	AFR	African Ancestry
 HG02536	male	SAME1840172	ACB	African Caribbean	AFR	African Ancestry
 HG03097	female	SAME1840130	MSL	Mende	AFR	African Ancestry
 HG02409	male	SAME1839457	CDX	Dai Chinese	EAS	East Asian Ancestry
-HG03100	male	SAME1840003	ESN	Esan,Esan	AFR	African Ancestry,Africa (SGDP)
+HG03100	male	SAME1840003	ESN	Esan	AFR	African Ancestry
 HG02428	male	SAME1839027	ACB	African Caribbean	AFR	African Ancestry
 HG03105	female	SAME1840041	ESN	Esan	AFR	African Ancestry
 HG02442	male	SAME1840352	ACB	African Caribbean	AFR	African Ancestry
@@ -1008,7 +1008,7 @@ NA18572	male	SAME123739	CHB	Han Chinese	EAS	East Asian Ancestry
 NA18934	male	SAME123036	YRI	Yoruba	AFR	African Ancestry
 NA18933	female	SAME123037	YRI	Yoruba	AFR	African Ancestry
 NA18939	female	SAME123041	JPT	Japanese	EAS	East Asian Ancestry
-NA18940	male	SAME124310	JPT	Japanese,Japanese	EAS	East Asia (SGDP),East Asian Ancestry
+NA18940	male	SAME124310	JPT	Japanese	EAS	East Asia 
 NA18941	female	SAME124311	JPT	Japanese	EAS	East Asian Ancestry
 NA18945	male	SAME124315	JPT	Japanese	EAS	East Asian Ancestry
 NA18946	female	SAME124312	JPT	Japanese	EAS	East Asian Ancestry
@@ -1250,7 +1250,7 @@ NA19025	male	SAME124852	LWK	Luhya	AFR	African Ancestry
 NA19211	male	SAME125382	YRI	Yoruba	AFR	African Ancestry
 NA19037	female	SAME124665	LWK	Luhya	AFR	African Ancestry
 NA19223	male	SAME125223	YRI	Yoruba	AFR	African Ancestry
-NA19044	male	SAME125244	LWK	Luhya,Luhya	AFR	African Ancestry,Africa (SGDP)
+NA19044	male	SAME125244	LWK	Luhya	AFR	African Ancestry
 NA19235	female	SAME125002	YRI	Yoruba	AFR	African Ancestry
 NA19056	male	SAME125026	JPT	Japanese	EAS	East Asian Ancestry
 NA19247	female	SAME123691	YRI	Yoruba	AFR	African Ancestry
@@ -1539,837 +1539,837 @@ SC_GMWOF5428821	female		GWW	Gambian Wolof	AFR	African Ancestry
 SC_GMWOF5428810	female		GWW	Gambian Wolof	AFR	African Ancestry
 SC_GMWOF5428869	female		GWW	Gambian Wolof	AFR	African Ancestry
 SC_GMWOF5428834	male		GWW	Gambian Wolof	AFR	African Ancestry
-HGDP00005	male			Brahui		Central South Asia (HGDP)
+HGDP00005	male			Brahui		Central South Asia 
 SC_GMWOF5428858	male		GWW	Gambian Wolof	AFR	African Ancestry
-HGDP00017	male			Brahui		Central South Asia (HGDP)
+HGDP00017	male			Brahui		Central South Asia 
 SC_GMWOF5428795	female		GWW	Gambian Wolof	AFR	African Ancestry
-HGDP00029	male			Brahui		Central South Asia (HGDP)
+HGDP00029	male			Brahui		Central South Asia 
 SC_GMWOF5428803	male		GWW	Gambian Wolof	AFR	African Ancestry
-HGDP00031	male			Brahui		Central South Asia (HGDP)
+HGDP00031	male			Brahui		Central South Asia 
 SC_GMWOF5428827	male		GWW	Gambian Wolof	AFR	African Ancestry
-HGDP00043	male			Brahui		Central South Asia (HGDP)
+HGDP00043	male			Brahui		Central South Asia 
 SC_GMMAN5482256	male		GWD	Gambian Mandinka	AFR	African Ancestry
-HGDP00466	male			Biaka		Africa (HGDP)
+HGDP00466	male			Biaka		Africa 
 SC_GMMAN5482193	female		GWD	Gambian Mandinka	AFR	African Ancestry
-HGDP00473	male			Biaka		Africa (HGDP)
+HGDP00473	male			Biaka		Africa 
 SC_GMMAN5482201	female		GWD	Gambian Mandinka	AFR	African Ancestry
-HGDP00478	male			Mbuti		Africa (HGDP)
+HGDP00478	male			Mbuti		Africa 
 SC_GMMAN5482225	female		GWD	Gambian Mandinka	AFR	African Ancestry
-HGDP00512	male			French		Europe (HGDP)
+HGDP00512	male			French		Europe 
 SC_GMMAN5482282	male		GWD	Gambian Mandinka	AFR	African Ancestry
-HGDP00372	male			Burusho		Central South Asia (HGDP)
+HGDP00372	male			Burusho		Central South Asia 
 SC_GMMAN5482314	female		GWD	Gambian Mandinka	AFR	African Ancestry
-HGDP00423	male			Burusho		Central South Asia (HGDP)
+HGDP00423	male			Burusho		Central South Asia 
 SC_GMWOF5428822	female		GWW	Gambian Wolof	AFR	African Ancestry
-HGDP00454	male			Biaka		Africa (HGDP)
+HGDP00454	male			Biaka		Africa 
 SC_GMWOF5428846	female		GWW	Gambian Wolof	AFR	African Ancestry
-HGDP00459	male			Biaka		Africa (HGDP)
+HGDP00459	male			Biaka		Africa 
 SC_GMWOF5428815	male		GWW	Gambian Wolof	AFR	African Ancestry
-HGDP00288	male			Kalash		Central South Asia (HGDP)
+HGDP00288	male			Kalash		Central South Asia 
 SC_GMWOF5428839	male		GWW	Gambian Wolof	AFR	African Ancestry
-HGDP00290	male			Kalash		Central South Asia (HGDP)
+HGDP00290	male			Kalash		Central South Asia 
 SC_GMWOF5428808	male		GWW	Gambian Wolof	AFR	African Ancestry
-HGDP00315	male			Kalash		Central South Asia (HGDP)
+HGDP00315	male			Kalash		Central South Asia 
 SC_GMWOF5428841	male		GWW	Gambian Wolof	AFR	African Ancestry
-HGDP00341	male			Burusho		Central South Asia (HGDP)
+HGDP00341	male			Burusho		Central South Asia 
 SC_GMWOF5428865	female		GWW	Gambian Wolof	AFR	African Ancestry
-HGDP00346	male			Burusho		Central South Asia (HGDP)
+HGDP00346	male			Burusho		Central South Asia 
 SC_GMMAN5482162	male		GWD	Gambian Mandinka	AFR	African Ancestry
-HGDP00137	male			Makrani		Central South Asia (HGDP)
+HGDP00137	male			Makrani		Central South Asia 
 SC_GMMAN5482186	female		GWD	Gambian Mandinka	AFR	African Ancestry
-HGDP00144	male			Makrani		Central South Asia (HGDP)
+HGDP00144	male			Makrani		Central South Asia 
 SC_GMMAN5482299	male		GWD	Gambian Mandinka	AFR	African Ancestry
-HGDP00149	male			Makrani		Central South Asia (HGDP)
+HGDP00149	male			Makrani		Central South Asia 
 SC_GMMAN5482307	male		GWD	Gambian Mandinka	AFR	African Ancestry
-HGDP00151	female			Makrani		Central South Asia (HGDP)
+HGDP00151	female			Makrani		Central South Asia 
 SC_GMMAN5482268	female		GWD	Gambian Mandinka	AFR	African Ancestry
-HGDP00163	male			Sindhi		Central South Asia (HGDP)
+HGDP00163	male			Sindhi		Central South Asia 
 SC_GMMAN5482340	female		GWD	Gambian Mandinka	AFR	African Ancestry
-HGDP00175	male			Sindhi		Central South Asia (HGDP)
+HGDP00175	male			Sindhi		Central South Asia 
 SC_GMMAN5482251	male		GWD	Gambian Mandinka	AFR	African Ancestry
-HGDP00187	male			Sindhi		Central South Asia (HGDP)
+HGDP00187	male			Sindhi		Central South Asia 
 SC_GMMAN5482220	female		GWD	Gambian Mandinka	AFR	African Ancestry
-HGDP00199	male			Sindhi		Central South Asia (HGDP)
+HGDP00199	male			Sindhi		Central South Asia 
 SC_GMMAN5482244	female		GWD	Gambian Mandinka	AFR	African Ancestry
-HGDP00214	male			Pathan		Central South Asia (HGDP)
+HGDP00214	male			Pathan		Central South Asia 
 SC_GMMAN5482181	male		GWD	Gambian Mandinka	AFR	African Ancestry
-HGDP00062	male			Balochi		Central South Asia (HGDP)
+HGDP00062	male			Balochi		Central South Asia 
 SC_GMWOF5428788	male		GWW	Gambian Wolof	AFR	African Ancestry
-HGDP00074	male			Balochi		Central South Asia (HGDP)
+HGDP00074	male			Balochi		Central South Asia 
 SC_GMWOF5428877	male		GWW	Gambian Wolof	AFR	African Ancestry
-HGDP00086	male			Balochi		Central South Asia (HGDP)
+HGDP00086	male			Balochi		Central South Asia 
 SC_GMWOF5428790	female		GWW	Gambian Wolof	AFR	African Ancestry
-HGDP00098	male			Balochi		Central South Asia (HGDP)
+HGDP00098	male			Balochi		Central South Asia 
 SC_GMMAN5482213	female		GWD	Gambian Mandinka	AFR	African Ancestry
-HGDP00517	female			French		Europe (HGDP)
+HGDP00517	female			French		Europe 
 SC_GMMAN5482232	male		GWD	Gambian Mandinka	AFR	African Ancestry
-HGDP00524	female			French		Europe (HGDP)
-HGDP00009	male			Brahui		Central South Asia (HGDP)
-HGDP00529	female			French		Europe (HGDP)
-HGDP00011	male			Brahui		Central South Asia (HGDP)
-HGDP00531	female			French		Europe (HGDP)
-HGDP00023	male			Brahui		Central South Asia (HGDP)
-HGDP00536	female			French		Europe (HGDP)
-HGDP00035	male			Brahui		Central South Asia (HGDP)
-HGDP00106	male			Hazara		Central South Asia (HGDP)
-HGDP00047	male			Brahui		Central South Asia (HGDP)
-HGDP00118	male			Hazara		Central South Asia (HGDP)
-HGDP00302	male			Kalash		Central South Asia (HGDP)
-HGDP00120	male			Hazara		Central South Asia (HGDP)
-HGDP00307	male			Kalash		Central South Asia (HGDP)
-HGDP00226	male			Pathan		Central South Asia (HGDP)
-HGDP00319	male			Kalash		Central South Asia (HGDP)
-HGDP00264	male			Pathan		Central South Asia (HGDP)
-HGDP00321	male			Kalash		Central South Asia (HGDP)
-HGDP00543	male			Papuan,Papuan Sepik		Oceania (SGDP),Oceania (HGDP)
-HGDP00326	male			Kalash		Central South Asia (HGDP)
-HGDP00550	female			Papuan,Papuan Highlands		Oceania (SGDP),Oceania (HGDP)
-HGDP00333	male			Kalash		Central South Asia (HGDP)
-HGDP00555	male			Papuan,Papuan Highlands		Oceania (SGDP),Oceania (HGDP)
-HGDP00364	male			Burusho		Central South Asia (HGDP)
-HGDP00562	male			Druze		Middle East (HGDP)
-HGDP00371	female			Burusho		Central South Asia (HGDP)
-HGDP00649	female			Bedouin		Middle East (HGDP)
-HGDP00179	male			Sindhi		Central South Asia (HGDP)
-HGDP00651	female			Bedouin		Middle East (HGDP)
-HGDP00181	male			Sindhi		Central South Asia (HGDP)
-HGDP00663	female			Bougainville		Oceania (HGDP)
-HGDP00201	male			Sindhi		Central South Asia (HGDP)
-HGDP00668	male			Sardinian		Europe (HGDP)
+HGDP00524	female			French		Europe 
+HGDP00009	male			Brahui		Central South Asia 
+HGDP00529	female			French		Europe 
+HGDP00011	male			Brahui		Central South Asia 
+HGDP00531	female			French		Europe 
+HGDP00023	male			Brahui		Central South Asia 
+HGDP00536	female			French		Europe 
+HGDP00035	male			Brahui		Central South Asia 
+HGDP00106	male			Hazara		Central South Asia 
+HGDP00047	male			Brahui		Central South Asia 
+HGDP00118	male			Hazara		Central South Asia 
+HGDP00302	male			Kalash		Central South Asia 
+HGDP00120	male			Hazara		Central South Asia 
+HGDP00307	male			Kalash		Central South Asia 
+HGDP00226	male			Pathan		Central South Asia 
+HGDP00319	male			Kalash		Central South Asia 
+HGDP00264	male			Pathan		Central South Asia 
+HGDP00321	male			Kalash		Central South Asia 
+HGDP00543	male			Papuan		Oceania 
+HGDP00326	male			Kalash		Central South Asia 
+HGDP00550	female			Papuan		Oceania 
+HGDP00333	male			Kalash		Central South Asia 
+HGDP00555	male			Papuan		Oceania 
+HGDP00364	male			Burusho		Central South Asia 
+HGDP00562	male			Druze		Middle East 
+HGDP00371	female			Burusho		Central South Asia 
+HGDP00649	female			Bedouin		Middle East 
+HGDP00179	male			Sindhi		Central South Asia 
+HGDP00651	female			Bedouin		Middle East 
+HGDP00181	male			Sindhi		Central South Asia 
+HGDP00663	female			Bougainville		Oceania 
+HGDP00201	male			Sindhi		Central South Asia 
+HGDP00668	male			Sardinian		Europe 
 HG00135	female	SAME123068	GBR	British	EUR	European Ancestry
-HGDP00206	female			Sindhi		Central South Asia (HGDP)
-HGDP00670	male			Sardinian		Europe (HGDP)
+HGDP00206	female			Sindhi		Central South Asia 
+HGDP00670	male			Sardinian		Europe 
 HG00142	male	SAME124818	GBR	British	EUR	European Ancestry
-HGDP00213	male			Pathan		Central South Asia (HGDP)
-HGDP00675	male			Palestinian		Middle East (HGDP)
+HGDP00213	male			Pathan		Central South Asia 
+HGDP00675	male			Palestinian		Middle East 
 HG00147	female	SAME124389	GBR	British	EUR	European Ancestry
-HGDP00218	male			Pathan		Central South Asia (HGDP)
-HGDP00714	male			Cambodian		East Asia (HGDP)
+HGDP00218	male			Pathan		Central South Asia 
+HGDP00714	male			Cambodian		East Asia 
 HG00138	male	SAME123059	GBR	British	EUR	European Ancestry
 HG00154	female	SAME124587	GBR	British	EUR	European Ancestry
-HGDP00460	male			Biaka		Africa (HGDP)
-HGDP00719	female			Cambodian		East Asia (HGDP)
+HGDP00460	male			Biaka		Africa 
+HGDP00719	female			Cambodian		East Asia 
 HG00140	male	SAME124396	GBR	British	EUR	European Ancestry
 HG00159	male	SAME124586	GBR	British	EUR	European Ancestry
-HGDP00465	male			Biaka		Africa (HGDP)
-HGDP00721	female			Cambodian		East Asia (HGDP)
+HGDP00465	male			Biaka		Africa 
+HGDP00721	female			Cambodian		East Asia 
 HG00145	male	SAME124391	GBR	British	EUR	European Ancestry
 HG00173	female	SAME124960	FIN	Finnish	EUR	European Ancestry
-HGDP00472	male			Biaka		Africa (HGDP)
-HGDP00726	male			Palestinian		Middle East (HGDP)
+HGDP00472	male			Biaka		Africa 
+HGDP00726	male			Palestinian		Middle East 
 HG00152	male	SAME124593	GBR	British	EUR	European Ancestry
 HG00178	female	SAME124964	FIN	Finnish	EUR	European Ancestry
-HGDP00491	male			Bougainville		Oceania (HGDP)
-HGDP00733	male			Palestinian		Middle East (HGDP)
+HGDP00491	male			Bougainville		Oceania 
+HGDP00733	male			Palestinian		Middle East 
 HG00157	male	SAME124590	GBR	British	EUR	European Ancestry
 HG00180	female	SAME123645	FIN	Finnish	EUR	European Ancestry
-HGDP00511	male			French		Europe (HGDP)
-HGDP00764	male			Japanese		East Asia (HGDP)
+HGDP00511	male			French		Europe 
+HGDP00764	male			Japanese		East Asia 
 HG00171	female	SAME124961	FIN	Finnish	EUR	European Ancestry
 HG00185	male	SAME123648	FIN	Finnish	EUR	European Ancestry
-HGDP00136	male			Makrani		Central South Asia (HGDP)
-HGDP00769	male			Japanese		East Asia (HGDP)
+HGDP00136	male			Makrani		Central South Asia 
+HGDP00769	male			Japanese		East Asia 
 HG00176	female	SAME124956	FIN	Finnish	EUR	European Ancestry
 HG00231	female	SAME124126	GBR	British	EUR	European Ancestry
-HGDP00143	male			Makrani		Central South Asia (HGDP)
-HGDP00771	female			Japanese		East Asia (HGDP)
+HGDP00143	male			Makrani		Central South Asia 
+HGDP00771	female			Japanese		East Asia 
 HG00183	male	SAME123642	FIN	Finnish	EUR	European Ancestry
 HG00236	female	SAME123273	GBR	British	EUR	European Ancestry
-HGDP00148	male			Makrani		Central South Asia (HGDP)
-HGDP00776	female			Han		East Asia (HGDP)
+HGDP00148	male			Makrani		Central South Asia 
+HGDP00776	female			Han		East Asia 
 HG00188	male	SAME123641	FIN	Finnish	EUR	European Ancestry
 HG00243	male	SAME123224	GBR	British	EUR	European Ancestry
-HGDP00150	male			Makrani		Central South Asia (HGDP)
-HGDP00788	male			Bougainville		Oceania (HGDP)
-HG00190	male	SAME123856	FIN	Finnish,Finnish	EUR	European Ancestry,West Eurasia (SGDP)
+HGDP00150	male			Makrani		Central South Asia 
+HGDP00788	male			Bougainville		Oceania 
+HG00190	male	SAME123856	FIN	Finnish	EUR	European Ancestry
 HG00248	female	SAME123226	GBR	British	EUR	European Ancestry
-HGDP00155	female			Makrani		Central South Asia (HGDP)
-HGDP00790	male			Japanese		East Asia (HGDP)
+HGDP00155	female			Makrani		Central South Asia 
+HGDP00790	male			Japanese		East Asia 
 HG00234	male	SAME124123	GBR	British	EUR	European Ancestry
 HG00250	female	SAME123054	GBR	British	EUR	European Ancestry
-HGDP00167	male			Sindhi		Central South Asia (HGDP)
-HGDP00738	female			Palestinian		Middle East (HGDP)
+HGDP00167	male			Sindhi		Central South Asia 
+HGDP00738	female			Palestinian		Middle East 
 HG00239	female	SAME124130	GBR	British	EUR	European Ancestry
 HG00255	female	SAME123049	GBR	British	EUR	European Ancestry
-HGDP00516	female			French		Europe (HGDP)
-HGDP00740	female			Palestinian		Middle East (HGDP)
+HGDP00516	female			French		Europe 
+HGDP00740	female			Palestinian		Middle East 
 HG00246	male	SAME123219	GBR	British	EUR	European Ancestry
 HG00262	female	SAME123580	GBR	British	EUR	European Ancestry
-HGDP00523	female			French		Europe (HGDP)
-HGDP00745	female			Palestinian		Middle East (HGDP)
+HGDP00523	female			French		Europe 
+HGDP00745	female			Palestinian		Middle East 
 HG00253	female	SAME123051	GBR	British	EUR	European Ancestry
 HG00267	male	SAME123577	FIN	Finnish	EUR	European Ancestry
-HGDP00528	male			French		Europe (HGDP)
-HGDP00752	male			Japanese		East Asia (HGDP)
+HGDP00528	male			French		Europe 
+HGDP00752	male			Japanese		East Asia 
 HG00258	female	SAME123057	GBR	British	EUR	European Ancestry
 HG00274	female	SAME123422	FIN	Finnish	EUR	European Ancestry
-HGDP00535	female			French		Europe (HGDP)
-HGDP00757	male			Japanese		East Asia (HGDP)
+HGDP00535	female			French		Europe 
+HGDP00757	male			Japanese		East Asia 
 HG00260	male	SAME123582	GBR	British	EUR	European Ancestry
 HG00281	female	SAME122832	FIN	Finnish	EUR	European Ancestry
-HGDP00542	male			Papuan Sepik		Oceania (HGDP)
-HGDP00598	male			Druze		Middle East (HGDP)
+HGDP00542	male			Papuan Sepik		Oceania 
+HGDP00598	male			Druze		Middle East 
 HG00265	male	SAME123579	GBR	British	EUR	European Ancestry
 HG00306	female	SAME124159	FIN	Finnish	EUR	European Ancestry
-HGDP00376	male			Burusho		Central South Asia (HGDP)
-HGDP00601	female			Druze		Middle East (HGDP)
+HGDP00376	male			Burusho		Central South Asia 
+HGDP00601	female			Druze		Middle East 
 HG00272	female	SAME123420	FIN	Finnish	EUR	European Ancestry
 HG00313	female	SAME124337	FIN	Finnish	EUR	European Ancestry
-HGDP00388	male			Burusho		Central South Asia (HGDP)
-HGDP00606	female			Druze		Middle East (HGDP)
+HGDP00388	male			Burusho		Central South Asia 
+HGDP00606	female			Druze		Middle East 
 HG00277	male	SAME123423	FIN	Finnish	EUR	European Ancestry
 HG00318	female	SAME124333	FIN	Finnish	EUR	European Ancestry
-HGDP00453	male			Biaka		Africa (HGDP)
-HGDP00613	female			Bedouin		Middle East (HGDP)
+HGDP00453	male			Biaka		Africa 
+HGDP00613	female			Bedouin		Middle East 
 HG00501	female	SAME123362	CHS	Southern Han Chinese	EAS	East Asian Ancestry
 HG00320	female	SAME123797	FIN	Finnish	EUR	European Ancestry
-HGDP00458	male			Biaka		Africa (HGDP)
-HGDP00618	male			Bedouin		Middle East (HGDP)
+HGDP00458	male			Biaka		Africa 
+HGDP00618	male			Bedouin		Middle East 
 HG00513	female	SAME123526	CHS	Southern Han Chinese	EAS	East Asian Ancestry
 HG00325	male	SAME123793	FIN	Finnish	EUR	European Ancestry
-HGDP00100	male			Hazara		Central South Asia (HGDP)
-HGDP00620	male			Bedouin		Middle East (HGDP)
+HGDP00100	male			Hazara		Central South Asia 
+HGDP00620	male			Bedouin		Middle East 
 HG00525	female	SAME123242	CHS	Southern Han Chinese	EAS	East Asian Ancestry
 HG00332	female	SAME123987	FIN	Finnish	EUR	European Ancestry
-HGDP00105	male			Hazara		Central South Asia (HGDP)
-HGDP00567	female			Druze		Middle East (HGDP)
+HGDP00105	male			Hazara		Central South Asia 
+HGDP00567	female			Druze		Middle East 
 HG00532	male	SAME125268	CHS	Southern Han Chinese	EAS	East Asian Ancestry
 HG00337	female	SAME123984	FIN	Finnish	EUR	European Ancestry
-HGDP00129	male			Hazara		Central South Asia (HGDP)
-HGDP00574	female			Druze		Middle East (HGDP)
+HGDP00129	male			Hazara		Central South Asia 
+HGDP00574	female			Druze		Middle East 
 HG00537	female	SAME124345	CHS	Southern Han Chinese	EAS	East Asian Ancestry
 HG00344	female	SAME125255	FIN	Finnish	EUR	European Ancestry
-HGDP00131	male			Makrani		Central South Asia (HGDP)
-HGDP00579	female			Druze		Middle East (HGDP)
+HGDP00131	male			Makrani		Central South Asia 
+HGDP00579	female			Druze		Middle East 
 HG00544	female	SAME124086	CHS	Southern Han Chinese	EAS	East Asian Ancestry
 HG00349	female	SAME124925	FIN	Finnish	EUR	European Ancestry
-HGDP00237	female			Pathan		Central South Asia (HGDP)
-HGDP00581	female			Druze		Middle East (HGDP)
+HGDP00237	female			Pathan		Central South Asia 
+HGDP00581	female			Druze		Middle East 
 HG00551	female	SAME124252	PUR	Puerto Rican	AMR	American Ancestry
 HG00351	male	SAME125122	FIN	Finnish	EUR	European Ancestry
-HGDP00244	female			Pathan		Central South Asia (HGDP)
-HGDP00586	female			Druze		Middle East (HGDP)
+HGDP00244	female			Pathan		Central South Asia 
+HGDP00586	female			Druze		Middle East 
 HG00556	male	SAME123971	CHS	Southern Han Chinese	EAS	East Asian Ancestry
 HG00356	female	SAME125123	FIN	Finnish	EUR	European Ancestry
-HGDP00251	male			Pathan		Central South Asia (HGDP)
-HGDP00682	female			Palestinian		Middle East (HGDP)
+HGDP00251	male			Pathan		Central South Asia 
+HGDP00682	female			Palestinian		Middle East 
 HG00582	female	SAME124830	CHS	Southern Han Chinese	EAS	East Asian Ancestry
 HG00368	female	SAME124535	FIN	Finnish	EUR	European Ancestry
-HGDP00054	male			Balochi		Central South Asia (HGDP)
-HGDP00687	female			Palestinian		Middle East (HGDP)
+HGDP00054	male			Balochi		Central South Asia 
+HGDP00687	female			Palestinian		Middle East 
 HG00378	female	SAME124745	FIN	Finnish	EUR	European Ancestry
 HG00375	male	SAME124750	FIN	Finnish	EUR	European Ancestry
-HGDP00066	male			Balochi		Central South Asia (HGDP)
-HGDP00694	female			Palestinian		Middle East (HGDP)
+HGDP00066	male			Balochi		Central South Asia 
+HGDP00694	female			Palestinian		Middle East 
 HG00380	female	SAME123031	FIN	Finnish	EUR	European Ancestry
 HG00096	male	SAME123268	GBR	British	EUR	European Ancestry
-HGDP00078	male			Balochi		Central South Asia (HGDP)
-HGDP00699	female			Palestinian		Middle East (HGDP)
+HGDP00078	male			Balochi		Central South Asia 
+HGDP00699	female			Palestinian		Middle East 
 HG00405	female	SAME123159	CHS	Southern Han Chinese	EAS	East Asian Ancestry
 HG00104	female	SAME123950	GBR	British	EUR	European Ancestry
-HGDP00080	male			Balochi		Central South Asia (HGDP)
-HGDP00625	male			Bedouin		Middle East (HGDP)
+HGDP00080	male			Balochi		Central South Asia 
+HGDP00625	male			Bedouin		Middle East 
 HG00429	male	SAME122812	CHS	Southern Han Chinese	EAS	East Asian Ancestry
 HG00109	male	SAME125160	GBR	British	EUR	European Ancestry
-HGDP00092	male			Balochi		Central South Asia (HGDP)
-HGDP00632	female			Bedouin		Middle East (HGDP)
+HGDP00092	male			Balochi		Central South Asia 
+HGDP00632	female			Bedouin		Middle East 
 HG00436	male	SAME125262	CHS	Southern Han Chinese	EAS	East Asian Ancestry
 HG00111	female	SAME125340	GBR	British	EUR	European Ancestry
-HGDP00547	male			Papuan,Papuan Sepik		Oceania (SGDP),Oceania (HGDP)
-HGDP00637	female			Bedouin		Middle East (HGDP)
+HGDP00547	male			Papuan		Oceania 
+HGDP00637	female			Bedouin		Middle East 
 HG00443	female	SAME124920	CHS	Southern Han Chinese	EAS	East Asian Ancestry
 HG00116	male	SAME125345	GBR	British	EUR	European Ancestry
-HGDP00559	female			Druze		Middle East (HGDP)
-HGDP00644	male			Bedouin		Middle East (HGDP)
+HGDP00559	female			Druze		Middle East 
+HGDP00644	male			Bedouin		Middle East 
 HG00448	male	SAME124200	CHS	Southern Han Chinese	EAS	East Asian Ancestry
 HG00123	female	SAME122875	GBR	British	EUR	European Ancestry
-HGDP00561	female			Druze		Middle East (HGDP)
-HGDP01027	female			Bougainville		Oceania (HGDP)
+HGDP00561	female			Druze		Middle East 
+HGDP01027	female			Bougainville		Oceania 
 HG00450	female	SAME125167	CHS	Southern Han Chinese	EAS	East Asian Ancestry
-HG00128	female	SAME122868	GBR	British,English	EUR	European Ancestry,West Eurasia (SGDP)
-HGDP00566	female			Druze		Middle East (HGDP)
-HGDP01041	female			Pima		America (HGDP)
+HG00128	female	SAME122868	GBR	British	EUR	European Ancestry
+HGDP00566	female			Druze		Middle East 
+HGDP01041	female			Pima		America 
 HG00474	male	SAME123343	CHS	Southern Han Chinese	EAS	East Asian Ancestry
 HG00130	female	SAME123063	GBR	British	EUR	European Ancestry
-HGDP00648	male			Bedouin		Middle East (HGDP)
-HGDP01053	female			Pima		America (HGDP)
+HGDP00648	male			Bedouin		Middle East 
+HGDP01053	female			Pima		America 
 HG00479	female	SAME123334	CHS	Southern Han Chinese	EAS	East Asian Ancestry
-HGDP00655	male			Bougainville		Oceania (HGDP)
-HGDP01058	female			Pima		America (HGDP)
+HGDP00655	male			Bougainville		Oceania 
+HGDP01058	female			Pima		America 
 HG00284	male	SAME122835	FIN	Finnish	EUR	European Ancestry
-HGDP00662	male			Bougainville		Oceania (HGDP)
-HGDP01060	male			Pima		America (HGDP)
+HGDP00662	male			Bougainville		Oceania 
+HGDP01060	male			Pima		America 
 HG00304	female	SAME1840118	FIN	Finnish	EUR	European Ancestry
-HGDP00667	female			Sardinian		Europe (HGDP)
-HGDP01065	female			Sardinian		Europe (HGDP)
+HGDP00667	female			Sardinian		Europe 
+HGDP01065	female			Sardinian		Europe 
 HG00309	female	SAME124160	FIN	Finnish	EUR	European Ancestry
-HGDP00674	male			Sardinian		Europe (HGDP)
-HGDP00872	female			Maya		America (HGDP)
+HGDP00674	male			Sardinian		Europe 
+HGDP00872	female			Maya		America 
 HG00311	male	SAME124339	FIN	Finnish	EUR	European Ancestry
-HGDP00679	female			Palestinian		Middle East (HGDP)
-HGDP00877	male			Maya		America (HGDP)
+HGDP00679	female			Palestinian		Middle East 
+HGDP00877	male			Maya		America 
 HG00323	female	SAME123795	FIN	Finnish	EUR	European Ancestry
-HGDP00686	female			Palestinian		Middle East (HGDP)
-HGDP00884	female			Russian		Europe (HGDP)
+HGDP00686	female			Palestinian		Middle East 
+HGDP00884	female			Russian		Europe 
 HG00328	female	SAME123799	FIN	Finnish	EUR	European Ancestry
-HGDP00693	female			Palestinian		Middle East (HGDP)
-HGDP00889	female			Russian		Europe (HGDP)
+HGDP00693	female			Palestinian		Middle East 
+HGDP00889	female			Russian		Europe 
 HG00330	female	SAME123985	FIN	Finnish	EUR	European Ancestry
-HGDP00698	female			Palestinian		Middle East (HGDP)
-HGDP00891	male			Russian		Europe (HGDP)
+HGDP00698	female			Palestinian		Middle East 
+HGDP00891	male			Russian		Europe 
 HG00335	male	SAME123982	FIN	Finnish	EUR	European Ancestry
-HGDP00701	female			Bedouin		Middle East (HGDP)
-HGDP00985	male			Biaka		Africa (HGDP)
+HGDP00701	female			Bedouin		Middle East 
+HGDP00985	male			Biaka		Africa 
 HG00342	male	SAME124924	FIN	Finnish	EUR	European Ancestry
-HGDP00763	male			Japanese		East Asia (HGDP)
-HGDP00992	male			San		Africa (HGDP)
+HGDP00763	male			Japanese		East Asia 
+HGDP00992	male			San		Africa 
 HG00359	female	SAME125127	FIN	Finnish	EUR	European Ancestry
-HGDP00768	male			Japanese		East Asia (HGDP)
-HGDP01010	female			Karitiana		America (HGDP)
+HGDP00768	male			Japanese		East Asia 
+HGDP01010	female			Karitiana		America 
 HG00361	female	SAME124538	FIN	Finnish	EUR	European Ancestry
-HGDP00782	male			Han		East Asia (HGDP)
-HGDP00954	male			Yakut		East Asia (HGDP)
+HGDP00782	male			Han		East Asia 
+HGDP00954	male			Yakut		East Asia 
 HG00366	male	SAME124541	FIN	Finnish	EUR	European Ancestry
-HGDP00787	female			Bougainville		Oceania (HGDP)
-HGDP00959	female			Yakut		East Asia (HGDP)
+HGDP00787	female			Bougainville		Oceania 
+HGDP00959	female			Yakut		East Asia 
 HG00373	female	SAME124749	FIN	Finnish	EUR	European Ancestry
-HGDP00720	male			Cambodian		East Asia (HGDP)
-HGDP00961	male			Yakut		East Asia (HGDP)
+HGDP00720	male			Cambodian		East Asia 
+HGDP00961	male			Yakut		East Asia 
 HG00594	male	SAME125005	CHS	Southern Han Chinese	EAS	East Asian Ancestry
-HGDP00732	male			Palestinian		Middle East (HGDP)
-HGDP00966	female			Yakut		East Asia (HGDP)
+HGDP00732	male			Palestinian		Middle East 
+HGDP00966	female			Yakut		East Asia 
 HG00599	female	SAME1839802	CHS	Southern Han Chinese	EAS	East Asian Ancestry
-HGDP00744	female			Palestinian		Middle East (HGDP)
-HGDP00973	male			Han		East Asia (HGDP)
+HGDP00744	female			Palestinian		Middle East 
+HGDP00973	male			Han		East Asia 
 HG00607	male	SAME125373	CHS	Southern Han Chinese	EAS	East Asian Ancestry
-HGDP00751	male			Japanese		East Asia (HGDP)
-HGDP00896	male			Russian		Europe (HGDP)
+HGDP00751	male			Japanese		East Asia 
+HGDP00896	male			Russian		Europe 
 HG00614	female	SAME125195	CHS	Southern Han Chinese	EAS	East Asian Ancestry
 HG00382	male	SAME123033	FIN	Finnish	EUR	European Ancestry
-HGDP00756	female			Japanese		East Asia (HGDP)
-HGDP00904	male			Mandenka		Africa (HGDP)
+HGDP00756	female			Japanese		East Asia 
+HGDP00904	male			Mandenka		Africa 
 HG00619	male	SAME125193	CHS	Southern Han Chinese	EAS	East Asian Ancestry
 HG00407	female	SAME125106	CHS	Southern Han Chinese	EAS	East Asian Ancestry
-HGDP00624	male			Bedouin		Middle East (HGDP)
-HGDP00909	female			Mandenka		Africa (HGDP)
+HGDP00624	male			Bedouin		Middle East 
+HGDP00909	female			Mandenka		Africa 
 HG00621	male	SAME123082	CHS	Southern Han Chinese	EAS	East Asian Ancestry
 HG00419	female	SAME122991	CHS	Southern Han Chinese	EAS	East Asian Ancestry
-HGDP00629	male			Bedouin		Middle East (HGDP)
-HGDP00911	male			Mandenka		Africa (HGDP)
+HGDP00629	male			Bedouin		Middle East 
+HGDP00911	male			Mandenka		Africa 
 HG00626	female	SAME123078	CHS	Southern Han Chinese	EAS	East Asian Ancestry
 HG00421	male	SAME122808	CHS	Southern Han Chinese	EAS	East Asian Ancestry
-HGDP00631	male			Bedouin		Middle East (HGDP)
-HGDP00916	female			Mandenka		Africa (HGDP)
+HGDP00631	male			Bedouin		Middle East 
+HGDP00916	female			Mandenka		Africa 
 HG00633	male	SAME1839144	CHS	Southern Han Chinese	EAS	East Asian Ancestry
 HG00438	female	SAME125267	CHS	Southern Han Chinese	EAS	East Asian Ancestry
-HGDP00636	female			Bedouin		Middle East (HGDP)
-HGDP00822	male			Han		East Asia (HGDP)
+HGDP00636	female			Bedouin		Middle East 
+HGDP00822	male			Han		East Asia 
 HG00638	female	SAME123652	PUR	Puerto Rican	AMR	American Ancestry
 HG00445	male	SAME124975	CHS	Southern Han Chinese	EAS	East Asian Ancestry
-HGDP00643	female			Bedouin		Middle East (HGDP)
-HGDP00858	female			Maya		America (HGDP)
+HGDP00643	female			Bedouin		Middle East 
+HGDP00858	female			Maya		America 
 HG00099	female	SAME123271	GBR	British	EUR	European Ancestry
 HG00452	female	SAME123115	CHS	Southern Han Chinese	EAS	East Asian Ancestry
-HGDP00573	female			Druze		Middle East (HGDP)
-HGDP00860	female			Maya		America (HGDP)
+HGDP00573	female			Druze		Middle East 
+HGDP00860	female			Maya		America 
 HG00102	female	SAME123945	GBR	British	EUR	European Ancestry
 HG00457	male	SAME123095	CHS	Southern Han Chinese	EAS	East Asian Ancestry
-HGDP00578	female			Druze		Middle East (HGDP)
-HGDP00865	female			Maya		America (HGDP)
+HGDP00578	female			Druze		Middle East 
+HGDP00865	female			Maya		America 
 HG00107	male	SAME123947	GBR	British	EUR	European Ancestry
 HG00464	female	SAME123497	CHS	Southern Han Chinese	EAS	East Asian Ancestry
-HGDP00580	male			Druze		Middle East (HGDP)
-HGDP00795	male			Orcadian		Europe (HGDP)
+HGDP00580	male			Druze		Middle East 
+HGDP00795	male			Orcadian		Europe 
 HG00114	male	SAME125343	GBR	British	EUR	European Ancestry
 HG00476	female	SAME123341	CHS	Southern Han Chinese	EAS	East Asian Ancestry
-HGDP00600	male			Druze		Middle East (HGDP)
-HGDP00803	male			Orcadian		Europe (HGDP)
+HGDP00600	male			Druze		Middle East 
+HGDP00803	male			Orcadian		Europe 
 HG00119	male	SAME125348	GBR	British	EUR	European Ancestry
 HG00729	female	SAME1840273	CHS	Southern Han Chinese	EAS	East Asian Ancestry
-HGDP00612	female			Bedouin		Middle East (HGDP)
-HGDP00808	male			Orcadian		Europe (HGDP)
+HGDP00612	female			Bedouin		Middle East 
+HGDP00808	male			Orcadian		Europe 
 HG00121	female	SAME122873	GBR	British	EUR	European Ancestry
 HG00731	male	SAME125390	PUR	Puerto Rican	AMR	American Ancestry
-HGDP00977	male			Han		East Asia (HGDP)
-HGDP00810	male			Orcadian		Europe (HGDP)
-HG00126	male	SAME122872	GBR	British,English	EUR	European Ancestry,West Eurasia (SGDP)
+HGDP00977	male			Han		East Asia 
+HGDP00810	male			Orcadian		Europe 
+HG00126	male	SAME122872	GBR	British	EUR	European Ancestry
 HG00736	male	SAME123058	PUR	Puerto Rican	AMR	American Ancestry
-HGDP00984	male			Mbuti		Africa (HGDP)
-HGDP00815	male			Han		East Asia (HGDP)
+HGDP00984	male			Mbuti		Africa 
+HGDP00815	male			Han		East Asia 
 HG00133	female	SAME123062	GBR	British	EUR	European Ancestry
 HG00743	female	SAME1840184	PUR	Puerto Rican	AMR	American Ancestry
-HGDP01014	female			Karitiana		America (HGDP)
-HGDP00930	male			Yoruba		Africa (HGDP)
+HGDP01014	female			Karitiana		America 
+HGDP00930	male			Yoruba		Africa 
 HG00844	male	SAME123952	CDX	Dai Chinese	EAS	East Asian Ancestry
-HGDP01019	male			Karitiana		America (HGDP)
-HGDP00935	female			Yoruba		Africa (HGDP)
+HGDP01019	male			Karitiana		America 
+HGDP00935	female			Yoruba		Africa 
 HG00851	female	SAME123756	CDX	Dai Chinese	EAS	East Asian Ancestry
-HGDP01021	female			Han		East Asia (HGDP)
-HGDP00942	male			Yoruba		Africa (HGDP)
+HGDP01021	female			Han		East Asia 
+HGDP00942	male			Yoruba		Africa 
 HG00983	male	SAME123769	CDX	Dai Chinese	EAS	East Asian Ancestry
-HGDP01069	male			Sardinian		Europe (HGDP)
-HGDP00947	male			Yakut		East Asia (HGDP)
+HGDP01069	male			Sardinian		Europe 
+HGDP00947	male			Yakut		East Asia 
 HG00640	male	SAME123434	PUR	Puerto Rican	AMR	American Ancestry
 HG01094	male	SAME122925	PUR	Puerto Rican	AMR	American Ancestry
-HGDP01071	male			Sardinian		Europe (HGDP)
-HGDP01072	female			Sardinian		Europe (HGDP)
+HGDP01071	male			Sardinian		Europe 
+HGDP01072	female			Sardinian		Europe 
 HG00652	female	SAME123252	CHS	Southern Han Chinese	EAS	East Asian Ancestry
 HG01099	male	SAME123771	PUR	Puerto Rican	AMR	American Ancestry
-HGDP01090	male			Biaka		Africa (HGDP)
-HGDP01077	male			Sardinian		Europe (HGDP)
+HGDP01090	male			Biaka		Africa 
+HGDP01077	male			Sardinian		Europe 
 HG00657	female	SAME123255	CHS	Southern Han Chinese	EAS	East Asian Ancestry
 HG01102	female	SAME123678	PUR	Puerto Rican	AMR	American Ancestry
-HGDP01103	male			Tujia		East Asia (HGDP)
-HGDP01096	male			Tujia		East Asia (HGDP)
+HGDP01103	male			Tujia		East Asia 
+HGDP01096	male			Tujia		East Asia 
 HG00664	male	SAME123814	CHS	Southern Han Chinese	EAS	East Asian Ancestry
 HG01107	male	SAME123675	PUR	Puerto Rican	AMR	American Ancestry
-HGDP00794	female			Orcadian		Europe (HGDP)
-HGDP01387	female			Adygei		Europe (HGDP)
+HGDP00794	female			Orcadian		Europe 
+HGDP01387	female			Adygei		Europe 
 HG00671	male	SAME123604	CHS	Southern Han Chinese	EAS	East Asian Ancestry
 HG01114	female	SAME123483	CLM	Colombian	AMR	American Ancestry
-HGDP00799	female			Orcadian		Europe (HGDP)
-HGDP01399	female			Adygei		Europe (HGDP)
+HGDP00799	female			Orcadian		Europe 
+HGDP01399	female			Adygei		Europe 
 HG00676	male	SAME1840071	CHS	Southern Han Chinese	EAS	East Asian Ancestry
 HG01119	female	SAME1840402	CLM	Colombian	AMR	American Ancestry
-HGDP00802	female			Orcadian		Europe (HGDP)
-HGDP01419	male			Bantu Kenya		Africa (HGDP)
+HGDP00802	female			Orcadian		Europe 
+HGDP01419	male			Bantu Kenya		Africa 
 HG00683	male	SAME123892	CHS	Southern Han Chinese	EAS	East Asian Ancestry
 HG01121	male	SAME1840127	CLM	Colombian	AMR	American Ancestry
-HGDP00807	male			Orcadian		Europe (HGDP)
-Armenian222	male	SAMEA3302672		Armenian		West Eurasia (SGDP)
+HGDP00807	male			Orcadian		Europe 
+Armenian222	male	SAMEA3302672		Armenian		West Eurasia 
 HG00690	female	SAME123686	CHS	Southern Han Chinese	EAS	East Asian Ancestry
 HG01126	male	SAME124052	CLM	Colombian	AMR	American Ancestry
-HGDP00814	female			Han		East Asia (HGDP)
-HGDP01243	male			Xibo		East Asia (HGDP)
+HGDP00814	female			Han		East Asia 
+HGDP01243	male			Xibo		East Asia 
 HG00703	male	SAME122933	CHS	Southern Han Chinese	EAS	East Asian Ancestry
 HG01133	male	SAME123884	CLM	Colombian	AMR	American Ancestry
-HGDP00819	male			Han		East Asia (HGDP)
-HGDP01248	male			Xibo		East Asia (HGDP)
+HGDP00819	male			Han		East Asia 
+HGDP01248	male			Xibo		East Asia 
 HG00708	female	SAME122940	CHS	Southern Han Chinese	EAS	East Asian Ancestry
 HG01138	male	SAME123877	CLM	Colombian	AMR	American Ancestry
-HGDP00869	female			Maya		America (HGDP)
-HGDP01255	male			Mozabite		Middle East (HGDP)
+HGDP00869	female			Maya		America 
+HGDP01255	male			Mozabite		Middle East 
 HG01148	male	SAME124424	CLM	Colombian	AMR	American Ancestry
 HG01140	female	SAME124422	CLM	Colombian	AMR	American Ancestry
-HGDP00871	female			Maya		America (HGDP)
-HGDP01262	male			Mozabite		Middle East (HGDP)
+HGDP00871	female			Maya		America 
+HGDP01262	male			Mozabite		Middle East 
 HG01150	female	SAME124216	CLM	Colombian	AMR	American Ancestry
 HG00534	female	SAME123915	CHS	Southern Han Chinese	EAS	East Asian Ancestry
-HGDP00876	female			Maya		America (HGDP)
-HGDP01267	female			Mozabite		Middle East (HGDP)
+HGDP00876	female			Maya		America 
+HGDP01267	female			Mozabite		Middle East 
 HG01162	female	SAME1839707	PUR	Puerto Rican	AMR	American Ancestry
 HG00553	male	SAME124254	PUR	Puerto Rican	AMR	American Ancestry
-HGDP00883	male			Russian		Europe (HGDP)
-HGDP01185	male			Yi		East Asia (HGDP)
+HGDP00883	male			Russian		Europe 
+HGDP01185	male			Yi		East Asia 
 HG01167	male	SAME124798	PUR	Puerto Rican	AMR	American Ancestry
 HG00558	female	SAME124247	CHS	Southern Han Chinese	EAS	East Asian Ancestry
-HGDP00888	male			Russian		Europe (HGDP)
-HGDP01192	male			Miao		East Asia (HGDP)
+HGDP00888	male			Russian		Europe 
+HGDP01192	male			Miao		East Asia 
 HG01174	female	SAME124619	PUR	Puerto Rican	AMR	American Ancestry
 HG00560	female	SAME124456	CHS	Southern Han Chinese	EAS	East Asian Ancestry
-HGDP00890	male			Russian		Europe (HGDP)
-HGDP01197	female			Miao		East Asia (HGDP)
+HGDP00890	male			Russian		Europe 
+HGDP01197	female			Miao		East Asia 
 HG01198	female	SAME125228	PUR	Puerto Rican	AMR	American Ancestry
 HG00565	male	SAME124452	CHS	Southern Han Chinese	EAS	East Asian Ancestry
-HGDP01033	male			Bantu South Africa		Africa (HGDP)
-HGDP01200	male			Mandenka		Africa (HGDP)
+HGDP01033	male			Bantu South Africa		Africa 
+HGDP01200	male			Mandenka		Africa 
 HG01206	male	SAME124295	PUR	Puerto Rican	AMR	American Ancestry
 HG00577	male	SAME123516	CHS	Southern Han Chinese	EAS	East Asian Ancestry
-HGDP01057	male			Pima		America (HGDP)
-HGDP01205	male			Oroqen		East Asia (HGDP)
+HGDP01057	male			Pima		America 
+HGDP01205	male			Oroqen		East Asia 
 HG01249	female	SAME125057	PUR	Puerto Rican	AMR	American Ancestry
 HG00584	female	SAME124663	CHS	Southern Han Chinese	EAS	East Asian Ancestry
-HGDP01064	female			Sardinian		Europe (HGDP)
-HGDP01212	female			Oroqen		East Asia (HGDP)
+HGDP01064	female			Sardinian		Europe 
+HGDP01212	female			Oroqen		East Asia 
 HG01251	female	SAME125282	CLM	Colombian	AMR	American Ancestry
 HG00589	male	SAME124824	CHS	Southern Han Chinese	EAS	East Asian Ancestry
-HGDP00821	male			Han		East Asia (HGDP)
-HGDP01104	male			Tujia		East Asia (HGDP)
+HGDP00821	male			Han		East Asia 
+HGDP01104	male			Tujia		East Asia 
 HG01326	female	SAME1839598	PUR	Puerto Rican	AMR	American Ancestry
 HG00642	male	SAME123436	PUR	Puerto Rican	AMR	American Ancestry
-HGDP00838	female			Surui		America (HGDP)
-HGDP01161	male			Tuscan		Europe (HGDP)
+HGDP00838	female			Surui		America 
+HGDP01161	male			Tuscan		Europe 
 HG01345	female	SAME124863	CLM	Colombian	AMR	American Ancestry
 HG00654	female	SAME123234	CHS	Southern Han Chinese	EAS	East Asian Ancestry
-HGDP00845	male			Surui		America (HGDP)
-HGDP01166	male			Tuscan		Europe (HGDP)
+HGDP00845	male			Surui		America 
+HGDP01166	male			Tuscan		Europe 
 HG01352	female	SAME124686	CLM	Colombian	AMR	American Ancestry
 HG00673	male	SAME123605	CHS	Southern Han Chinese	EAS	East Asian Ancestry
-HGDP00864	female			Maya		America (HGDP)
-HGDP01173	male			Bergamo Italian		Europe (HGDP)
+HGDP00864	female			Maya		America 
+HGDP01173	male			Bergamo Italian		Europe 
 HG01357	female	SAME124681	CLM	Colombian	AMR	American Ancestry
 HG00685	male	SAME123891	CHS	Southern Han Chinese	EAS	East Asian Ancestry
-HGDP00934	female			Yoruba		Africa (HGDP)
-HGDP01180	male			Yi		East Asia (HGDP)
+HGDP00934	female			Yoruba		Africa 
+HGDP01180	male			Yi		East Asia 
 HG01364	female	SAME1839152	CLM	Colombian	AMR	American Ancestry
 HG00692	male	SAME123684	CHS	Southern Han Chinese	EAS	East Asian Ancestry
-HGDP00939	female			Yoruba		Africa (HGDP)
-HGDP01217	male			Daur		East Asia (HGDP)
+HGDP00939	female			Yoruba		Africa 
+HGDP01217	male			Daur		East Asia 
 HG01369	female	SAME1839124	CLM	Colombian	AMR	American Ancestry
 HG00700	female	SAME122932	CHS	Southern Han Chinese	EAS	East Asian Ancestry
-HGDP00941	male			Yoruba		Africa (HGDP)
-HGDP01224	male			Mongolian		East Asia (HGDP)
+HGDP00941	male			Yoruba		Africa 
+HGDP01224	male			Mongolian		East Asia 
 HG01092	female	SAME1839489	PUR	Puerto Rican	AMR	American Ancestry
 HG00705	female	SAME122927	CHS	Southern Han Chinese	EAS	East Asian Ancestry
-HGDP00946	male			Yakut		East Asia (HGDP)
-HGDP01229	male			Mongolian		East Asia (HGDP)
+HGDP00946	male			Yakut		East Asia 
+HGDP01229	male			Mongolian		East Asia 
 HG01097	male	SAME122924	PUR	Puerto Rican	AMR	American Ancestry
 HG00717	female	SAME124926	CHS	Southern Han Chinese	EAS	East Asian Ancestry
-HGDP00953	male			Yakut		East Asia (HGDP)
-HGDP01231	female			Mongolian		East Asia (HGDP)
+HGDP00953	male			Yakut		East Asia 
+HGDP01231	female			Mongolian		East Asia 
 HG01100	female	SAME123676	PUR	Puerto Rican	AMR	American Ancestry
 HG00591	male	SAME125010	CHS	Southern Han Chinese	EAS	East Asian Ancestry
-HGDP00958	male			Yakut		East Asia (HGDP)
-HGDP01236	male			Hezhen		East Asia (HGDP)
+HGDP00958	male			Yakut		East Asia 
+HGDP01236	male			Hezhen		East Asia 
 HG01105	female	SAME123673	PUR	Puerto Rican	AMR	American Ancestry
 HG00596	female	SAME125007	CHS	Southern Han Chinese	EAS	East Asian Ancestry
-HGDP00960	male			Yakut		East Asia (HGDP)
-HGDP01363	female			Basque		Europe (HGDP)
+HGDP00960	male			Yakut		East Asia 
+HGDP01363	female			Basque		Europe 
 HG01112	male	SAME123485	CLM	Colombian	AMR	American Ancestry
 HG00609	male	SAME125370	CHS	Southern Han Chinese	EAS	East Asian Ancestry
-HGDP00965	male			Yakut		East Asia (HGDP)
-HGDP01368	female			Basque		Europe (HGDP)
+HGDP00965	male			Yakut		East Asia 
+HGDP01368	female			Basque		Europe 
 HG01124	male	SAME124053	CLM	Colombian	AMR	American Ancestry
 HG00611	female	SAME125198	CHS	Southern Han Chinese	EAS	East Asian Ancestry
-HGDP00972	female			Han		East Asia (HGDP)
-HGDP01370	male			Basque		Europe (HGDP)
+HGDP00972	female			Han		East Asia 
+HGDP01370	male			Basque		Europe 
 HG01131	female	SAME1839985	CLM	Colombian	AMR	American Ancestry
 HG00623	female	SAME1839285	CHS	Southern Han Chinese	EAS	East Asian Ancestry
-HGDP00895	male			Russian		Europe (HGDP)
-HGDP01375	male			Basque		Europe (HGDP)
+HGDP00895	male			Russian		Europe 
+HGDP01375	male			Basque		Europe 
 HG01136	male	SAME123889	CLM	Colombian	AMR	American Ancestry
 HG00628	male	SAME123085	CHS	Southern Han Chinese	EAS	East Asian Ancestry
-HGDP00908	male			Mandenka		Africa (HGDP)
-HGDP01382	female			Adygei		Europe (HGDP)
+HGDP00908	male			Mandenka		Africa 
+HGDP01382	female			Adygei		Europe 
 HG01028	male	SAME123524	CDX	Dai Chinese	EAS	East Asian Ancestry
 HG00630	male	SAME122901	CHS	Southern Han Chinese	EAS	East Asian Ancestry
-HGDP00910	female			Mandenka		Africa (HGDP)
-HGDP01298	male			Uygur		Central South Asia (HGDP)
+HGDP00910	female			Mandenka		Africa 
+HGDP01298	male			Uygur		Central South Asia 
 HG01047	male	SAME123166	PUR	Puerto Rican	AMR	American Ancestry
 HG00635	female	SAME122902	CHS	Southern Han Chinese	EAS	East Asian Ancestry
-HGDP01247	male			Xibo		East Asia (HGDP)
-HGDP01301	male			Uygur		Central South Asia (HGDP)
+HGDP01247	male			Xibo		East Asia 
+HGDP01301	male			Uygur		Central South Asia 
 HG01054	male	SAME123663	PUR	Puerto Rican	AMR	American Ancestry
 HG01049	female	SAME125248	PUR	Puerto Rican	AMR	American Ancestry
-HGDP01254	female			Mozabite		Middle East (HGDP)
-HGDP01313	male			Dai		East Asia (HGDP)
+HGDP01254	female			Mozabite		Middle East 
+HGDP01313	male			Dai		East Asia 
 HG01061	female	SAME122821	PUR	Puerto Rican	AMR	American Ancestry
 HG01051	male	SAME123712	PUR	Puerto Rican	AMR	American Ancestry
-HGDP01259	male			Mozabite		Middle East (HGDP)
-HGDP01318	male			Lahu		East Asia (HGDP)
+HGDP01259	male			Mozabite		Middle East 
+HGDP01318	male			Lahu		East Asia 
 HG01066	male	SAME124294	PUR	Puerto Rican	AMR	American Ancestry
 HG01056	male	SAME123658	PUR	Puerto Rican	AMR	American Ancestry
-HGDP01261	male			Mozabite		Middle East (HGDP)
-HGDP01332	male			She		East Asia (HGDP)
+HGDP01261	male			Mozabite		Middle East 
+HGDP01332	male			She		East Asia 
 HG01073	female	SAME124095	PUR	Puerto Rican	AMR	American Ancestry
 HG01063	male	SAME1839767	PUR	Puerto Rican	AMR	American Ancestry
-HGDP01266	male			Mozabite		Middle East (HGDP)
-HGDP01337	male			Naxi		East Asia (HGDP)
+HGDP01266	male			Mozabite		Middle East 
+HGDP01337	male			Naxi		East Asia 
 HG01080	female	SAME125333	PUR	Puerto Rican	AMR	American Ancestry
 HG01068	female	SAME122826	PUR	Puerto Rican	AMR	American Ancestry
-HGDP01273	female			Mozabite		Middle East (HGDP)
-HGDP01349	male			Tu		East Asia (HGDP)
+HGDP01273	female			Mozabite		Middle East 
+HGDP01349	male			Tu		East Asia 
 HG01085	male	SAME125391	PUR	Puerto Rican	AMR	American Ancestry
 HG01070	female	SAME123993	PUR	Puerto Rican	AMR	American Ancestry
-HGDP01280	female			Mozabite		Middle East (HGDP)
-HGDP01351	male			Tu		East Asia (HGDP)
+HGDP01280	female			Mozabite		Middle East 
+HGDP01351	male			Tu		East Asia 
 HG01376	female	SAME124289	CLM	Colombian	AMR	American Ancestry
 HG01075	male	SAME124071	PUR	Puerto Rican	AMR	American Ancestry
-HGDP01285	male			Mandenka		Africa (HGDP)
-HGDP01356	female			Tu		East Asia (HGDP)
+HGDP01285	male			Mandenka		Africa 
+HGDP01356	female			Tu		East Asia 
 HG01383	male	SAME122971	CLM	Colombian	AMR	American Ancestry
 HG01082	male	SAME125398	PUR	Puerto Rican	AMR	American Ancestry
-HGDP01292	male			Northern Han		East Asia (HGDP)
-HGDP01279	male			Mozabite		Middle East (HGDP)
+HGDP01292	male			Northern Han		East Asia 
+HGDP01279	male			Mozabite		Middle East 
 HG01390	female	SAME122805	CLM	Colombian	AMR	American Ancestry
 HG01087	female	SAME125393	PUR	Puerto Rican	AMR	American Ancestry
-HGDP01386	female			Adygei		Europe (HGDP)
-HGDP01293	male			Northern Han		East Asia (HGDP)
+HGDP01386	female			Adygei		Europe 
+HGDP01293	male			Northern Han		East Asia 
 HG01395	male	SAME1840207	PUR	Puerto Rican	AMR	American Ancestry
 HG01164	male	SAME1839690	PUR	Puerto Rican	AMR	American Ancestry
-HGDP01398	female			Adygei		Europe (HGDP)
-Ul31	female	SAMEA3302862		Ulchi		Central Asia and Siberia (SGDP)
+HGDP01398	female			Adygei		Europe 
+Ul31	female	SAMEA3302862		Ulchi		Central Asia and Siberia 
 HG01403	female	SAME1839867	PUR	Puerto Rican	AMR	American Ancestry
 HG01169	female	SAME124797	PUR	Puerto Rican	AMR	American Ancestry
-HGDP01406	male			Bantu Kenya		Africa (HGDP)
-HGDP01344	male	SAMEA3302776		Naxi		East Asia (SGDP)
+HGDP01406	male			Bantu Kenya		Africa 
+HGDP01344	male	SAMEA3302776		Naxi		East Asia 
 HG01415	female	SAME1839705	PUR	Puerto Rican	AMR	American Ancestry
 HG01171	female	SAME124622	PUR	Puerto Rican	AMR	American Ancestry
-HGDP01413	male			Bantu Kenya		Africa (HGDP)
-Mansi79	male	SAMEA3302762		Mansi		Central Asia and Siberia (SGDP)
+HGDP01413	male			Bantu Kenya		Africa 
+Mansi79	male	SAMEA3302762		Mansi		Central Asia and Siberia 
 HG01439	female	SAME124972	CLM	Colombian	AMR	American Ancestry
 HG01176	male	SAME124621	PUR	Puerto Rican	AMR	American Ancestry
-HGDP01418	male			Bantu Kenya		Africa (HGDP)
-HGDP01274	female	SAMEA3302836		Mozabite,Mozabite		Middle East (HGDP),Africa (SGDP)
+HGDP01418	male			Bantu Kenya		Africa 
+HGDP01274	female	SAMEA3302836		Mozabite		Middle East 
 HG01441	female	SAME123236	CLM	Colombian	AMR	American Ancestry
 HG01183	female	SAME124792	PUR	Puerto Rican	AMR	American Ancestry
-HGDP01362	male			Basque		Europe (HGDP)
-HGDP01306	female	SAMEA3302611		Uygur		East Asia (SGDP)
+HGDP01362	male			Basque		Europe 
+HGDP01306	female	SAMEA3302611		Uygur		East Asia 
 HG01453	female	SAME1839159	CLM	Colombian	AMR	American Ancestry
 HG01188	female	SAME124927	PUR	Puerto Rican	AMR	American Ancestry
-HGDP01367	female			Basque		Europe (HGDP)
-HGDP01402	male	SAMEA3302656		Adygei		West Eurasia (SGDP)
+HGDP01367	female			Basque		Europe 
+HGDP01402	male	SAMEA3302656		Adygei		West Eurasia 
 HG01465	female	SAME122882	CLM	Colombian	AMR	American Ancestry
 HG01190	male	SAME123654	PUR	Puerto Rican	AMR	American Ancestry
-HGDP01374	male			Basque		Europe (HGDP)
-Est375	male	SAMEA3302735		Estonian		West Eurasia (SGDP)
+HGDP01374	male			Basque		Europe 
+Est375	male	SAMEA3302735		Estonian		West Eurasia 
 HG00734	female	SAME123016	PUR	Puerto Rican	AMR	American Ancestry
 HG01195	female	SAME1839101	PUR	Puerto Rican	AMR	American Ancestry
-HGDP01379	male			Basque		Europe (HGDP)
-NorthOssetia5	male	SAMEA3302698		North Ossetian		West Eurasia (SGDP)
+HGDP01379	male			Basque		Europe 
+NorthOssetia5	male	SAMEA3302698		North Ossetian		West Eurasia 
 HG00739	male	SAME125113	PUR	Puerto Rican	AMR	American Ancestry
 HG01241	male	SAME125065	PUR	Puerto Rican	AMR	American Ancestry
-HGDP01381	female			Adygei		Europe (HGDP)
-iran11	male	SAMEA3302612		Iranian		West Eurasia (SGDP)
+HGDP01381	female			Adygei		Europe 
+iran11	male	SAMEA3302612		Iranian		West Eurasia 
 HG00741	female	SAME124833	PUR	Puerto Rican	AMR	American Ancestry
 HG01253	male	SAME125284	CLM	Colombian	AMR	American Ancestry
-HGDP01300	male			Uygur		Central South Asia (HGDP)
-HGDP00461	male	SAMEA3302673		Biaka		Africa (SGDP)
+HGDP01300	male			Uygur		Central South Asia 
+HGDP00461	male	SAMEA3302673		Biaka		Africa 
 HG00866	male	SAME123549	CDX	Dai Chinese	EAS	East Asian Ancestry
 HG01258	male	SAME125279	CLM	Colombian	AMR	American Ancestry
-HGDP01305	female			Uygur		Central South Asia (HGDP)
-BulgarianB4	male	SAMEA3302718		Bulgarian		West Eurasia (SGDP)
+HGDP01305	female			Uygur		Central South Asia 
+BulgarianB4	male	SAMEA3302718		Bulgarian		West Eurasia 
 HG01256	male	SAME125287	CLM	Colombian	AMR	American Ancestry
 HG01260	female	SAME122815	CLM	Colombian	AMR	American Ancestry
-HGDP01317	male			Lahu		East Asia (HGDP)
-IHW9193	male	SAMEA3302681		Australian		Oceania (SGDP)
+HGDP01317	male			Lahu		East Asia 
+IHW9193	male	SAMEA3302681		Australian		Oceania 
 HG01275	female	SAME123002	CLM	Colombian	AMR	American Ancestry
 HG01272	female	SAME122996	CLM	Colombian	AMR	American Ancestry
-HGDP01329	male			She		East Asia (HGDP)
-HGDP01286	male	SAMEA3302736		Mandenka		Africa (SGDP)
+HGDP01329	male			She		East Asia 
+HGDP01286	male	SAMEA3302736		Mandenka		Africa 
 HG01302	male	SAME1840038	PUR	Puerto Rican	AMR	American Ancestry
 HG01277	male	SAME123000	CLM	Colombian	AMR	American Ancestry
-HGDP01189	male			Miao		East Asia (HGDP)
-NA11200	male	SAMEA3302848		Quechua		America (SGDP)
+HGDP01189	male			Miao		East Asia 
+NA11200	male	SAMEA3302848		Quechua		America 
 HG01477	female	SAME1840183	CLM	Colombian	AMR	American Ancestry
 HG01284	female	SAME1839191	CLM	Colombian	AMR	American Ancestry
-HGDP01196	female			Miao		East Asia (HGDP)
-TGBS21	male	SAMEA3302784		Chane		America (SGDP)
+HGDP01196	female			Miao		East Asia 
+TGBS21	male	SAMEA3302784		Chane		America 
 HG01484	female	SAME1839960	CLM	Colombian	AMR	American Ancestry
 HG01311	male	SAME1839796	PUR	Puerto Rican	AMR	American Ancestry
-HGDP01204	male			Oroqen		East Asia (HGDP)
-Ul5	female	SAMEA3302703		Ulchi		Central Asia and Siberia (SGDP)
+HGDP01204	male			Oroqen		East Asia 
+Ul5	female	SAMEA3302703		Ulchi		Central Asia and Siberia 
 HG01489	female	SAME123972	CLM	Colombian	AMR	American Ancestry
 HG01323	female	SAME1839534	PUR	Puerto Rican	AMR	American Ancestry
-HGDP01209	female			Oroqen		East Asia (HGDP)
-Nlk18	male	SAMEA3302752		Even		Central Asia and Siberia (SGDP)
+HGDP01209	female			Oroqen		East Asia 
+Nlk18	male	SAMEA3302752		Even		Central Asia and Siberia 
 HG01491	male	SAME124140	CLM	Colombian	AMR	American Ancestry
 HG01342	female	SAME124856	CLM	Colombian	AMR	American Ancestry
-HGDP01177	female			Bergamo Italian		Europe (HGDP)
-HGDP01015	male	SAMEA3302902		Karitiana		America (SGDP)
+HGDP01177	female			Bergamo Italian		Europe 
+HGDP01015	male	SAMEA3302902		Karitiana		America 
 HG01496	female	SAME124133	CLM	Colombian	AMR	American Ancestry
 HG01347	male	SAME124861	CLM	Colombian	AMR	American Ancestry
-HGDP01184	male			Yi		East Asia (HGDP)
-HGDP00928	female	SAMEA3302835		Yoruba		Africa (SGDP)
-HG01504	female	SAME124945	IBS	Iberian,Spanish	EUR	European Ancestry,West Eurasia (SGDP)
+HGDP01184	male			Yi		East Asia 
+HGDP00928	female	SAMEA3302835		Yoruba		Africa 
+HG01504	female	SAME124945	IBS	Iberian	EUR	European Ancestry
 HG01354	female	SAME124680	CLM	Colombian	AMR	American Ancestry
-HGDP01216	male			Daur		East Asia (HGDP)
-HGDP01250	male	SAMEA3302755		Xibo		East Asia (SGDP)
+HGDP01216	male			Daur		East Asia 
+HGDP01250	male	SAMEA3302755		Xibo		East Asia 
 HG01597	female	SAME125226	KHV	Kinh Vietnamese	EAS	East Asian Ancestry
 HG01359	male	SAME124687	CLM	Colombian	AMR	American Ancestry
-HGDP01230	male			Mongolian		East Asia (HGDP)
-HGDP00846	female	SAMEA3302865		Surui		America (SGDP)
-HG01600	female	SAME123456	KHV	Kinh,Kinh Vietnamese	EAS	East Asia (SGDP),East Asian Ancestry
+HGDP01230	male			Mongolian		East Asia 
+HGDP00846	female	SAMEA3302865		Surui		America 
+HG01600	female	SAME123456	KHV	Kinh	EAS	East Asia 
 HG01361	female	SAME124504	CLM	Colombian	AMR	American Ancestry
-HGDP01331	male			She		East Asia (HGDP)
-TZ-11	male	SAMEA3302625		Crete		West Eurasia (SGDP)
+HGDP01331	male			She		East Asia 
+TZ-11	male	SAMEA3302625		Crete		West Eurasia 
 HG01605	female	SAME123459	IBS	Iberian	EUR	European Ancestry
 HG01366	female	SAME125265	CLM	Colombian	AMR	American Ancestry
-HGDP01336	female			She		East Asia (HGDP)
-I3	male	SAMEA3302742		Irula		South Asia (SGDP)
+HGDP01336	female			She		East Asia 
+I3	male	SAMEA3302742		Irula		South Asia 
 HG01612	female	SAME123625	IBS	Iberian	EUR	European Ancestry
 HG01474	female	SAME1840189	CLM	Colombian	AMR	American Ancestry
-HGDP01348	male			Tu		East Asia (HGDP)
-R6	male	SAMEA3302767		Relli		South Asia (SGDP)
+HGDP01348	male			Tu		East Asia 
+R6	male	SAMEA3302767		Relli		South Asia 
 HG01509	male	SAME124940	IBS	Iberian	EUR	European Ancestry
 HG01479	male	SAME1840251	CLM	Colombian	AMR	American Ancestry
-HGDP00597	male	SAMEA3302870		Druze		West Eurasia (SGDP)
-Ale22	male	SAMEA3302773		Aleut		Central Asia and Siberia (SGDP)
+HGDP00597	male	SAMEA3302870		Druze		West Eurasia 
+Ale22	male	SAMEA3302773		Aleut		Central Asia and Siberia 
 HG01511	female	SAME124770	IBS	Iberian	EUR	European Ancestry
 HG01481	female	SAME1839971	CLM	Colombian	AMR	American Ancestry
-mixe0007	female	SAMEA3302697		Mixe		America (SGDP)
-NA17385	male	SAMEA3302908		Hawaiian		Oceania (SGDP)
+mixe0007	female	SAMEA3302697		Mixe		America 
+NA17385	male	SAMEA3302908		Hawaiian		Oceania 
 HG01516	female	SAME124773	IBS	Iberian	EUR	European Ancestry
 HG01486	female	SAME1840048	CLM	Colombian	AMR	American Ancestry
-Tuba19	female	SAMEA3302764		Tubalar		Central Asia and Siberia (SGDP)
-HGDP00702	female	SAMEA3302619		Piapoco		America (SGDP)
+Tuba19	female	SAMEA3302764		Tubalar		Central Asia and Siberia 
+HGDP00702	female	SAMEA3302619		Piapoco		America 
 HG01523	male	SAME125322	IBS	Iberian	EUR	European Ancestry
 HG01493	female	SAME124138	CLM	Colombian	AMR	American Ancestry
-NA15763	female	SAMEA3302859		Icelandic		West Eurasia (SGDP)
-ND19394	male	SAMEA3302778		Korean		East Asia (SGDP)
+NA15763	female	SAMEA3302859		Icelandic		West Eurasia 
+ND19394	male	SAMEA3302778		Korean		East Asia 
 HG01528	female	SAME125329	IBS	Iberian	EUR	European Ancestry
 HG01498	female	SAME124142	CLM	Colombian	AMR	American Ancestry
-HGDP00554	female	SAMEA3302746		Papuan		Oceania (SGDP)
-HGDP01414	female	SAMEA3302710		Bantu Kenya		Africa (SGDP)
+HGDP00554	female	SAMEA3302746		Papuan		Oceania 
+HGDP01414	female	SAMEA3302710		Bantu Kenya		Africa 
 HG01530	male	SAME125137	IBS	Iberian	EUR	European Ancestry
 HG01501	female	SAME124942	IBS	Iberian	EUR	European Ancestry
-K1	male	SAMEA3302633		Kapu		South Asia (SGDP)
-HGDP00548	male	SAMEA3302704		Papuan		Oceania (SGDP)
+K1	male	SAMEA3302633		Kapu		South Asia 
+HGDP00548	male	SAMEA3302704		Papuan		Oceania 
 HG01617	male	SAME123630	IBS	Iberian	EUR	European Ancestry
 HG01614	female	SAME123627	IBS	Iberian	EUR	European Ancestry
-HGDP00857	female	SAMEA3302904		Mayan,Maya		America (SGDP),America (HGDP)
-HGDP00125	male	SAMEA3302731		Hazara		South Asia (SGDP)
+HGDP00857	female	SAMEA3302904		Mayan		America 
+HGDP00125	male	SAMEA3302731		Hazara		South Asia 
 HG01624	male	SAME123840	IBS	Iberian	EUR	European Ancestry
 HG01619	male	SAME123632	IBS	Iberian	EUR	European Ancestry
-Y4	male	SAMEA3302740		Yadava		South Asia (SGDP)
-HGDP01320	male	SAMEA3302832		Lahu		East Asia (SGDP)
+Y4	male	SAMEA3302740		Yadava		South Asia 
+HGDP01320	male	SAMEA3302832		Lahu		East Asia 
 HG01629	male	SAME123836	IBS	Iberian	EUR	European Ancestry
 HG01621	male	SAME123843	IBS	Iberian	EUR	European Ancestry
-altai363p	male	SAMEA3302753		Altaian		Central Asia and Siberia (SGDP)
-BulgarianC1	male	SAMEA3302842		Bulgarian		West Eurasia (SGDP)
+altai363p	male	SAMEA3302753		Altaian		Central Asia and Siberia 
+BulgarianC1	male	SAMEA3302842		Bulgarian		West Eurasia 
 HG01631	male	SAME124035	IBS	Iberian	EUR	European Ancestry
 HG01626	female	SAME123842	IBS	Iberian	EUR	European Ancestry
-ND15865	male	SAMEA3302699		Polish		West Eurasia (SGDP)
-NA15202	male	SAMEA3302649		Hungarian		West Eurasia (SGDP)
+ND15865	male	SAMEA3302699		Polish		West Eurasia 
+NA15202	male	SAMEA3302649		Hungarian		West Eurasia 
 HG01667	male	SAME123116	IBS	Iberian	EUR	European Ancestry
 HG01633	male	SAME124033	IBS	Iberian	EUR	European Ancestry
-HGDP01211	female	SAMEA3302614		Oroqen		East Asia (SGDP)
-HGDP00656	female	SAMEA3302636		Bougainville		Oceania (SGDP)
+HGDP01211	female	SAMEA3302614		Oroqen		East Asia 
+HGDP00656	female	SAMEA3302636		Bougainville		Oceania 
 HG01674	male	SAME123286	IBS	Iberian	EUR	European Ancestry
 HG01669	male	SAME123110	IBS	Iberian	EUR	European Ancestry
-Peru60	female	SAMEA3302709		Quechua		America (SGDP)
-HGDP00783	female	SAMEA3302770		Han		East Asia (SGDP)
+Peru60	female	SAMEA3302709		Quechua		America 
+HGDP00783	female	SAMEA3302770		Han		East Asia 
 HG01566	female	SAME124564	PEL	Peruvian	AMR	American Ancestry
 HG01671	male	SAME123291	IBS	Iberian	EUR	European Ancestry
-NA00726	female	SAMEA3302891		Korean		East Asia (SGDP)
-HGDP01034	male	SAMEA3302849		Bantu Tswana		Africa (SGDP)
+NA00726	female	SAMEA3302891		Korean		East Asia 
+HGDP01034	male	SAMEA3302849		Bantu Tswana		Africa 
 HG01573	female	SAME124347	PEL	Peruvian	AMR	American Ancestry
 HG01378	female	SAME124076	CLM	Colombian	AMR	American Ancestry
-mixe0002	female	SAMEA3302796		Mixe		America (SGDP)
-zapo0098	male	SAMEA3302744		Zapotec		America (SGDP)
+mixe0002	female	SAMEA3302796		Mixe		America 
+zapo0098	male	SAMEA3302744		Zapotec		America 
 HG01578	female	SAME124351	PEL	Peruvian	AMR	American Ancestry
 HG01385	female	SAME122970	CLM	Colombian	AMR	American Ancestry
-NA17377	male	SAMEA3302732		Greek		West Eurasia (SGDP)
-HGDP00428	male	SAMEA3302798		Burusho		South Asia (SGDP)
+NA17377	male	SAMEA3302732		Greek		West Eurasia 
+HGDP00428	male	SAMEA3302798		Burusho		South Asia 
 HG01679	female	SAME123293	IBS	Iberian	EUR	European Ancestry
 HG01392	male	SAME1840234	PUR	Puerto Rican	AMR	American Ancestry
-HGDP00903	female	SAMEA3302766		Russian		West Eurasia (SGDP)
-DNK11	male	SAMEA3302792		Dinka		Africa (SGDP)
+HGDP00903	female	SAMEA3302766		Russian		West Eurasia 
+DNK11	male	SAMEA3302792		Dinka		Africa 
 HG01681	female	SAME124655	IBS	Iberian	EUR	European Ancestry
 HG01397	female	SAME1839946	PUR	Puerto Rican	AMR	American Ancestry
-IHW9118	female	SAMEA3302719		Australian		Oceania (SGDP)
-Jordan603	male	SAMEA3302675		Jordanian		West Eurasia (SGDP)
+IHW9118	female	SAMEA3302719		Australian		Oceania 
+Jordan603	male	SAMEA3302675		Jordanian		West Eurasia 
 HG01686	male	SAME124658	IBS	Iberian	EUR	European Ancestry
 HG01405	male	SAME1839863	PUR	Puerto Rican	AMR	American Ancestry
-HGDP01228	male	SAMEA3302653		Mongola		Central Asia and Siberia (SGDP)
-GM21487	female		MKK	Masai		Africa (SGDP)
+HGDP01228	male	SAMEA3302653		Mongola		Central Asia and Siberia 
+GM21487	female		MKK	Masai		Africa 
 HG01698	male	SAME1839214	IBS	Iberian	EUR	European Ancestry
 HG01412	male	SAME1839619	PUR	Puerto Rican	AMR	American Ancestry
-HGDP00749	male	SAMEA3302867		Japanese		East Asia (SGDP)
+HGDP00749	male	SAMEA3302867		Japanese		East Asia 
 HG01701	male	SAME123262	IBS	Iberian	EUR	European Ancestry
 HG01594	male	SAME1839631	PJL	Punjabi	SAS	South Asian Ancestry
-HGDP01297	male	SAMEA3302818		Uygur		East Asia (SGDP)
+HGDP01297	male	SAMEA3302818		Uygur		East Asia 
 HG01768	female	SAME1839665	IBS	Iberian	EUR	European Ancestry
 HG01599	female	SAME125238	KHV	Kinh Vietnamese	EAS	East Asian Ancestry
-HGDP01355	female	SAMEA3302824		Tu		East Asia (SGDP)
+HGDP01355	female	SAMEA3302824		Tu		East Asia 
 HG01770	female	SAME124638	IBS	Iberian	EUR	European Ancestry
 HG01602	female	SAME123454	IBS	Iberian	EUR	European Ancestry
-HGDP01312	male	SAMEA3302864		Dai		East Asia (SGDP)
+HGDP01312	male	SAMEA3302864		Dai		East Asia 
 HG01775	male	SAME124633	IBS	Iberian	EUR	European Ancestry
 HG01607	female	SAME123457	IBS	Iberian	EUR	European Ancestry
-tdj409_shugnan	male	SAMEA3302901		Tajik		West Eurasia (SGDP)
+tdj409_shugnan	male	SAMEA3302901		Tajik		West Eurasia 
 HG01782	female	SAME124426	IBS	Iberian	EUR	European Ancestry
 HG01506	male	SAME124947	IBS	Iberian	EUR	European Ancestry
-abh107	male	SAMEA3302655		Abkhasian		West Eurasia (SGDP)
+abh107	male	SAMEA3302655		Abkhasian		West Eurasia 
 HG01787	female	SAME1839306	IBS	Iberian	EUR	European Ancestry
 HG01513	female	SAME124768	IBS	Iberian	EUR	European Ancestry
-HGDP01076	male	SAMEA3302876		Sardinian		West Eurasia (SGDP)
+HGDP01076	male	SAMEA3302876		Sardinian		West Eurasia 
 HG01706	female	SAME123263	IBS	Iberian	EUR	European Ancestry
 HG01518	male	SAME124766	IBS	Iberian	EUR	European Ancestry
-HGDP00991	male	SAMEA3302858		Ju|'hoan North		Africa (SGDP)
+HGDP00991	male	SAMEA3302858		Ju|'hoan North		Africa 
 HG01756	male	SAME124988	IBS	Iberian	EUR	European Ancestry
 HG01520	female	SAME125323	IBS	Iberian	EUR	European Ancestry
-HGDP00775	male	SAMEA3302877		Han		East Asia (SGDP)
+HGDP00775	male	SAMEA3302877		Han		East Asia 
 HG01763	female	SAME124812	IBS	Iberian	EUR	European Ancestry
 HG01525	female	SAME125328	IBS	Iberian	EUR	European Ancestry
-HGDP01153	male	SAMEA3449876		Bergamo		West Eurasia (SGDP)
+HGDP01153	male	SAMEA3449876		Bergamo		West Eurasia 
 HG01794	female	SAME124218	CDX	Dai Chinese	EAS	East Asian Ancestry
 HG01532	male	SAME125138	IBS	Iberian	EUR	European Ancestry
-HGDP00713	female	SAMEA3302791		Cambodian,Cambodian		East Asia (SGDP),East Asia (HGDP)
+HGDP00713	female	SAMEA3302791		Cambodian		East Asia 
 HG01799	female	SAME124227	CDX	Dai Chinese	EAS	East Asian Ancestry
 HG01537	female	SAME125134	IBS	Iberian	EUR	European Ancestry
-HGDP00915	female	SAMEA3302850		Mandenka		Africa (SGDP)
+HGDP00915	female	SAMEA3302850		Mandenka		Africa 
 HG01802	female	SAME124307	CDX	Dai Chinese	EAS	East Asian Ancestry
 HG01551	female	SAME124008	CLM	Colombian	AMR	American Ancestry
-HGDP00852	female	SAMEA3302830		Surui		America (SGDP)
+HGDP00852	female	SAMEA3302830		Surui		America 
 HG01807	female	SAME124303	CDX	Dai Chinese	EAS	East Asian Ancestry
 HG01556	male	SAME1840141	CLM	Colombian	AMR	American Ancestry
-HGDP01172	female	SAMEA3302855		Bergamo		West Eurasia (SGDP)
+HGDP01172	female	SAMEA3302855		Bergamo		West Eurasia 
 HG01888	male	SAME122852	ACB	African Caribbean	AFR	African Ancestry
 HG01431	male	SAME1839260	CLM	Colombian	AMR	American Ancestry
-NA13616	male	SAMEA3302623		Ami		East Asia (SGDP)
+NA13616	male	SAMEA3302623		Ami		East Asia 
 HG01890	male	SAME123028	ACB	African Caribbean	AFR	African Ancestry
 HG01443	male	SAME1839032	CLM	Colombian	AMR	American Ancestry
-HGDP00650	female	SAMEA3302695		Bedouin B		West Eurasia (SGDP)
+HGDP00650	female	SAMEA3302695		Bedouin B		West Eurasia 
 HG01895	male	SAME1840349	ACB	African Caribbean	AFR	African Ancestry
 HG01455	male	SAME123429	CLM	Colombian	AMR	American Ancestry
-B17	male	SAMEA3302645		Brahmin		South Asia (SGDP)
+B17	male	SAMEA3302645		Brahmin		South Asia 
 HG01915	female	SAME1839757	ACB	African Caribbean	AFR	African Ancestry
 HG01462	female	SAME123539	CLM	Colombian	AMR	American Ancestry
-HGDP01242	female	SAMEA3302845		Hezhen		East Asia (SGDP)
+HGDP01242	female	SAMEA3302845		Hezhen		East Asia 
 HG01922	female	SAME123787	PEL	Peruvian	AMR	American Ancestry
 HG01676	female	SAME123284	IBS	Iberian	EUR	European Ancestry
-lez42	male	SAMEA3302843		Lezgin		West Eurasia (SGDP)
+lez42	male	SAMEA3302843		Lezgin		West Eurasia 
 HG01953	male	SAME123974	PEL	Peruvian	AMR	American Ancestry
 HG01683	male	SAME124653	IBS	Iberian	EUR	European Ancestry
-HGDP00338	female	SAMEA3302795		Burusho		South Asia (SGDP)
+HGDP00338	female	SAMEA3302795		Burusho		South Asia 
 HG01958	female	SAME1839349	ACB	African Caribbean	AFR	African Ancestry
 HG01695	female	SAME124845	IBS	Iberian	EUR	European Ancestry
-HGDP01223	female	SAMEA3302743		Mongola		Central Asia and Siberia (SGDP)
+HGDP01223	female	SAMEA3302743		Mongola		Central Asia and Siberia 
 HG01960	female	SAME1839076	ACB	African Caribbean	AFR	African Ancestry
 HG01979	male	SAME124331	PEL	Peruvian	AMR	American Ancestry
-HGDP00530	male	SAMEA3302635		French		West Eurasia (SGDP)
+HGDP00530	male	SAMEA3302635		French		West Eurasia 
 HG01965	female	SAME1839145	PEL	Peruvian	AMR	American Ancestry
 HG01981	female	SAME125247	PEL	Peruvian	AMR	American Ancestry
-KD4	male	SAMEA3302861		Khonda Dora		South Asia (SGDP)
+KD4	male	SAMEA3302861		Khonda Dora		South Asia 
 HG01972	female	SAME124329	PEL	Peruvian	AMR	American Ancestry
 HG01986	male	SAME1840091	ACB	African Caribbean	AFR	African Ancestry
-HGDP00124	male	SAMEA3302749		Hazara		South Asia (SGDP)
+HGDP00124	male	SAMEA3302749		Hazara		South Asia 
 HG01977	male	SAME124324	PEL	Peruvian	AMR	American Ancestry
 HG01993	female	SAME124741	PEL	Peruvian	AMR	American Ancestry
-NA13604	male	SAMEA3302745		Atayal		East Asia (SGDP)
+NA13604	male	SAMEA3302745		Atayal		East Asia 
 HG01984	male	SAME1840105	PEL	Peruvian	AMR	American Ancestry
 HG01998	male	SAME124739	PEL	Peruvian	AMR	American Ancestry
-HGDP01191	male	SAMEA3302846		Miao		East Asia (SGDP)
+HGDP01191	male	SAMEA3302846		Miao		East Asia 
 HG01989	female	SAME1840166	ACB	African Caribbean	AFR	African Ancestry
 HG01892	male	SAME123026	PEL	Peruvian	AMR	American Ancestry
-HGDP00737	female	SAMEA3302897		Palestinian		West Eurasia (SGDP)
+HGDP00737	female	SAMEA3302897		Palestinian		West Eurasia 
 HG01991	male	SAME124743	PEL	Peruvian	AMR	American Ancestry
 HG01897	male	SAME1840343	ACB	African Caribbean	AFR	African Ancestry
-HGDP01350	male	SAMEA3302909		Tu		East Asia (SGDP)
+HGDP01350	male	SAMEA3302909		Tu		East Asia 
 HG02002	male	SAME123618	PEL	Peruvian	AMR	American Ancestry
 HG01912	male	SAME1839779	ACB	African Caribbean	AFR	African Ancestry
-Esk29	male	SAMEA3302660		Eskimo Chaplin		Central Asia and Siberia (SGDP)
+Esk29	male	SAMEA3302660		Eskimo Chaplin		Central Asia and Siberia 
 HG02014	male	SAME123448	ACB	African Caribbean	AFR	African Ancestry
 HG01917	male	SAME123235	PEL	Peruvian	AMR	American Ancestry
-Ayodo_430C	male	SAMEA3302868		Luo		Africa (SGDP)
+Ayodo_430C	male	SAMEA3302868		Luo		Africa 
 HG02019	female	SAME123450	KHV	Kinh Vietnamese	EAS	East Asian Ancestry
 HG01924	female	SAME123785	PEL	Peruvian	AMR	American Ancestry
-HGDP00725	female	SAMEA3302646		Palestinian		West Eurasia (SGDP)
+HGDP00725	female	SAMEA3302646		Palestinian		West Eurasia 
 HG02021	male	SAME125171	KHV	Kinh Vietnamese	EAS	East Asian Ancestry
 HG01866	male	SAME123195	KHV	Kinh Vietnamese	EAS	East Asian Ancestry
-HGDP00706	female	SAMEA3302669		Piapoco		America (SGDP)
+HGDP00706	female	SAMEA3302669		Piapoco		America 
 HG02026	male	SAME125315	KHV	Kinh Vietnamese	EAS	East Asian Ancestry
 HG01873	male	SAME123400	KHV	Kinh Vietnamese	EAS	East Asian Ancestry
-Ale14	female	SAMEA3302889		Tlingit		Central Asia and Siberia (SGDP)
+Ale14	female	SAMEA3302889		Tlingit		Central Asia and Siberia 
 HG01927	female	SAME123784	PEL	Peruvian	AMR	American Ancestry
 HG01878	female	SAME123394	KHV	Kinh Vietnamese	EAS	East Asian Ancestry
-mixa0099	male	SAMEA3302618		Mixtec		America (SGDP)
+mixa0099	male	SAMEA3302618		Mixtec		America 
 HG01934	male	SAME123589	PEL	Peruvian	AMR	American Ancestry
 HG01880	female	SAME1839109	ACB	African Caribbean	AFR	African Ancestry
-HGDP01401	female	SAMEA3302728		Adygei		West Eurasia (SGDP)
+HGDP01401	female	SAMEA3302728		Adygei		West Eurasia 
 HG01939	female	SAME123592	PEL	Peruvian	AMR	American Ancestry
 HG01885	male	SAME122844	ACB	African Caribbean	AFR	African Ancestry
-HGDP01095	male	SAMEA3302878		Tujia		East Asia (SGDP)
+HGDP01095	male	SAMEA3302878		Tujia		East Asia 
 HG01941	male	SAME124149	PEL	Peruvian	AMR	American Ancestry
 HG01772	female	SAME124636	IBS	Iberian	EUR	European Ancestry
-Nlk1	female	SAMEA3302715		Even		Central Asia and Siberia (SGDP)
+Nlk1	female	SAMEA3302715		Even		Central Asia and Siberia 
 HG01946	male	SAME124154	PEL	Peruvian	AMR	American Ancestry
 HG01777	male	SAME124631	IBS	Iberian	EUR	European Ancestry
-HGDP00232	female	SAMEA3302639		Pathan,Pathan		South Asia (SGDP),Central South Asia (HGDP)
+HGDP00232	female	SAMEA3302639		Pathan		South Asia 
 HG01864	male	SAME123197	KHV	Kinh Vietnamese	EAS	East Asian Ancestry
 HG01784	female	SAME124431	IBS	Iberian	EUR	European Ancestry
-IraqiJew4291	male	SAMEA3302705		Iraqi Jew		West Eurasia (SGDP)
+IraqiJew4291	male	SAMEA3302705		Iraqi Jew		West Eurasia 
 HG01869	female	SAME123192	KHV	Kinh Vietnamese	EAS	East Asian Ancestry
 HG01789	male	SAME124433	GBR	British	EUR	European Ancestry
 HG01871	female	SAME123398	KHV	Kinh Vietnamese	EAS	East Asian Ancestry
@@ -2668,7 +2668,7 @@ HG02415	female	SAME1839263	PEL	Peruvian	AMR	American Ancestry
 HG02470	male	SAME1839744	ACB	African Caribbean	AFR	African Ancestry
 HG01322	male	SAME1839539	PUR	Puerto Rican	AMR	American Ancestry
 HG02427	female	SAME1839036	ACB	African Caribbean	AFR	African Ancestry
-HG02494	female	SAME1839698	PJL	Punjabi,Punjabi	SAS	South Asia (SGDP),South Asian Ancestry
+HG02494	female	SAME1839698	PJL	Punjabi	SAS	South Asia 
 HG01327	male	SAME1839599	PUR	Puerto Rican	AMR	American Ancestry
 HG02439	male	SAME1840297	ACB	African Caribbean	AFR	African Ancestry
 HG02855	female	SAME1839330	GWD	Gambian Mandinka	AFR	African Ancestry
@@ -2709,7 +2709,7 @@ HG01182	male	SAME124789	PUR	Puerto Rican	AMR	American Ancestry
 HG02984	male	SAME1840004	GWD	Gambian Mandinka	AFR	African Ancestry
 HG03050	male	SAME1839482	GWD	Gambian Mandinka	AFR	African Ancestry
 HG01187	male	SAME124783	PUR	Puerto Rican	AMR	American Ancestry
-HG03007	female	SAME1840245	BEB	Bengali,Bengali	SAS	South Asia (SGDP),South Asian Ancestry
+HG03007	female	SAME1840245	BEB	Bengali	SAS	South Asia 
 HG03055	female	SAME1839514	MSL	Mende	AFR	African Ancestry
 HG01199	male	SAME124366	PUR	Puerto Rican	AMR	American Ancestry
 HG03019	female	SAME1840060	PJL	Punjabi	SAS	South Asian Ancestry
@@ -2954,7 +2954,7 @@ HG03771	male	SAME1840393	ITU	Telugu	SAS	South Asian Ancestry
 HG01776	female	SAME124632	IBS	Iberian	EUR	European Ancestry
 HG03401	female	SAME1839299	MSL	Mende	AFR	African Ancestry
 HG03834	female	SAME1839269	BEB	Bengali	SAS	South Asian Ancestry
-HG01783	male	SAME124427	IBS,MSL	Iberian,Mende	EUR,AFR	European Ancestry,African Ancestry
+HG01783	male	SAME124427	IBS	Iberian	EUR	European Ancestry
 HG03312	female	SAME1839209	ESN	Esan	AFR	African Ancestry
 HG03846	male	SAME1839172	STU	Tamil	SAS	South Asian Ancestry
 HG01790	female	SAME124222	GBR	British	EUR	European Ancestry
@@ -2993,7 +2993,7 @@ HG03745	male	SAME1839195	STU	Tamil	SAS	South Asian Ancestry
 HG01841	female	SAME123551	KHV	Kinh Vietnamese	EAS	East Asian Ancestry
 HG03305	female	SAME1839497	ESN	Esan	AFR	African Ancestry
 HG03752	female	SAME1839314	STU	Tamil	SAS	South Asian Ancestry
-HG01846	male	SAME123558	KHV	Kinh,Kinh Vietnamese	EAS	East Asia (SGDP),East Asian Ancestry
+HG01846	male	SAME123558	KHV	Kinh	EAS	East Asia 
 HG03456	male	SAME1839778	MSL	Mende	AFR	African Ancestry
 HG03872	male	SAME1840202	ITU	Telugu	SAS	South Asian Ancestry
 HG01853	female	SAME123751	KHV	Kinh Vietnamese	EAS	East Asian Ancestry
@@ -3236,7 +3236,7 @@ NA12348	female	SAME125163	CEU	CEPH	EUR	European Ancestry
 HG02717	male	SAME1839976	GWD	Gambian Mandinka	AFR	African Ancestry
 HG03982	male	SAME1839585	STU	Tamil	SAS	South Asian Ancestry
 NA12386	female	SAME124386	CEU	CEPH	EUR	European Ancestry
-HG02724	male	SAME1839740	PJL	Punjabi,Punjabi	SAS	South Asia (SGDP),South Asian Ancestry
+HG02724	male	SAME1839740	PJL	Punjabi	SAS	South Asia 
 NA18521	male	SAME123566	YRI	Yoruba	AFR	African Ancestry
 NA12413	male	SAME124055	CEU	CEPH	EUR	European Ancestry
 HG02729	male	SAME1839715	PJL	Punjabi	SAS	South Asian Ancestry
@@ -3245,7 +3245,7 @@ NA12716	male	SAME123912	CEU	CEPH	EUR	European Ancestry
 HG02731	female	SAME1839886	PJL	Punjabi	SAS	South Asian Ancestry
 NA18533	female	SAME124481	CHB	Han Chinese	EAS	East Asian Ancestry
 NA12761	female	SAME124466	CEU	CEPH	EUR	European Ancestry
-HG02464	male	SAME1839978	GWD	Gambian Mandinka,Gambian	AFR	African Ancestry,Africa (SGDP)
+HG02464	male	SAME1839978	GWD	Gambian Mandinka	AFR	African Ancestry
 NA18538	female	SAME123774	CHB	Han Chinese	EAS	East Asian Ancestry
 NA18865	male	SAME124902	YRI	Yoruba	AFR	African Ancestry
 HG02471	female	SAME1839741	ACB	African Caribbean	AFR	African Ancestry
@@ -3362,7 +3362,7 @@ NA10835	male	SAME124547	CEU	CEPH	EUR	European Ancestry
 HG02983	female	SAME1840009	GWD	Gambian Mandinka	AFR	African Ancestry
 NA06994	male	SAME124931	CEU	CEPH	EUR	European Ancestry
 NA10842	male	SAME124755	CEU	CEPH	EUR	European Ancestry
-HG03006	male	SAME1840242	BEB	Bengali,Bengali	SAS	South Asia (SGDP),South Asian Ancestry
+HG03006	male	SAME1840242	BEB	Bengali	SAS	South Asia 
 NA07000	female	SAME124963	CEU	CEPH	EUR	European Ancestry
 NA10847	female	SAME124757	CEU	CEPH	EUR	European Ancestry
 HG03018	male	SAME1840053	PJL	Punjabi	SAS	South Asian Ancestry
@@ -3910,7 +3910,7 @@ NA20862	female	SAME123804	GIH	Gujarati	SAS	South Asian Ancestry
 NA18529	female	SAME124662	CHB	Han Chinese	EAS	East Asian Ancestry
 NA18506	male	SAME125059	YRI	Yoruba	AFR	African Ancestry
 NA20867	male	SAME123809	GIH	Gujarati	SAS	South Asian Ancestry
-HGDP00001	male			Brahui		Central South Asia (HGDP)
+HGDP00001	male			Brahui		Central South Asia 
 NA18518	female	SAME124889	YRI	Yoruba	AFR	African Ancestry
 NA20874	female	SAME123597	GIH	Gujarati	SAS	South Asian Ancestry
 SC_GMWOF5428724	male		GWW	Gambian Wolof	AFR	African Ancestry
@@ -4018,962 +4018,962 @@ SC_GMJOL5309836	female		GWJ	Gambian Jola	AFR	African Ancestry
 SC_GMWOF5428875	male		GWW	Gambian Wolof	AFR	African Ancestry
 NA06986	male	SAME124764	CEU	CEPH	EUR	European Ancestry
 SC_GMJOL5309797	female		GWJ	Gambian Jola	AFR	African Ancestry
-HGDP00392	male			Burusho		Central South Asia (HGDP)
+HGDP00392	male			Burusho		Central South Asia 
 NA06993	male	SAME124934	CEU	CEPH	EUR	European Ancestry
 SC_GMJOL5309805	male		GWJ	Gambian Jola	AFR	African Ancestry
-HGDP00397	male			Burusho		Central South Asia (HGDP)
+HGDP00397	male			Burusho		Central South Asia 
 NA07340	female	SAME123573	CEU	CEPH	EUR	European Ancestry
 SC_GMJOL5309829	male		GWJ	Gambian Jola	AFR	African Ancestry
-HGDP00412	male			Burusho		Central South Asia (HGDP)
+HGDP00412	male			Burusho		Central South Asia 
 HG04162	female	SAME1840098	BEB	Bengali	SAS	South Asian Ancestry
 SC_GMJOL5309956	female		GWJ	Gambian Jola	AFR	African Ancestry
-HGDP00417	male			Burusho		Central South Asia (HGDP)
+HGDP00417	male			Burusho		Central South Asia 
 HG04174	female	SAME1839982	BEB	Bengali	SAS	South Asian Ancestry
 SC_GMJOL5309925	male		GWJ	Gambian Jola	AFR	African Ancestry
-HGDP00450	male			Mbuti		Africa (HGDP)
+HGDP00450	male			Mbuti		Africa 
 HG04181	female	SAME1840018	BEB	Bengali	SAS	South Asian Ancestry
 SC_GMJOL5309949	male		GWJ	Gambian Jola	AFR	African Ancestry
-HGDP00455	male			Biaka		Africa (HGDP)
+HGDP00455	male			Biaka		Africa 
 HG04186	female	SAME1839753	BEB	Bengali	SAS	South Asian Ancestry
 SC_GMJOL5309918	female		GWJ	Gambian Jola	AFR	African Ancestry
-HGDP00462	male			Mbuti		Africa (HGDP)
+HGDP00462	male			Mbuti		Africa 
 HG04193	male	SAME1839811	BEB	Bengali	SAS	South Asian Ancestry
 SC_GMJOL5309982	female		GWJ	Gambian Jola	AFR	African Ancestry
-HGDP00467	male			Mbuti		Africa (HGDP)
+HGDP00467	male			Mbuti		Africa 
 HG04198	male	SAME1839835	ITU	Telugu	SAS	South Asian Ancestry
 SC_GMFUL5309725	female		GWF	Gambian Fula	AFR	African Ancestry
-HGDP00479	male			Biaka		Africa (HGDP)
+HGDP00479	male			Biaka		Africa 
 HG04206	male	SAME1839447	ITU	Telugu	SAS	South Asian Ancestry
 SC_GMFUL5306416	male		GWF	Gambian Fula	AFR	African Ancestry
-HGDP00513	female			French		Europe (HGDP)
+HGDP00513	female			French		Europe 
 HG04225	male	SAME1839048	ITU	Telugu	SAS	South Asian Ancestry
 SC_GMFUL5306411	male		GWF	Gambian Fula	AFR	African Ancestry
-HGDP00518	male			French		Europe (HGDP)
-NA19023	female	SAME124854	LWK	Luhya,Luhya	AFR	African Ancestry,Africa (SGDP)
+HGDP00518	male			French		Europe 
+NA19023	female	SAME124854	LWK	Luhya	AFR	African Ancestry
 SC_GMFUL5306353	male		GWF	Gambian Fula	AFR	African Ancestry
-HGDP00234	male			Pathan		Central South Asia (HGDP)
+HGDP00234	male			Pathan		Central South Asia 
 NA19028	male	SAME124848	LWK	Luhya	AFR	African Ancestry
 SC_GMJOL5309913	female		GWJ	Gambian Jola	AFR	African Ancestry
-HGDP00239	female			Pathan		Central South Asia (HGDP)
+HGDP00239	female			Pathan		Central South Asia 
 NA19030	female	SAME123544	LWK	Luhya	AFR	African Ancestry
 SC_GMJOL5309937	male		GWJ	Gambian Jola	AFR	African Ancestry
-HGDP00241	male			Pathan		Central South Asia (HGDP)
+HGDP00241	male			Pathan		Central South Asia 
 NA19035	male	SAME124664	LWK	Luhya	AFR	African Ancestry
 SC_GMJOL5309843	female		GWJ	Gambian Jola	AFR	African Ancestry
-HGDP00258	male			Pathan		Central South Asia (HGDP)
+HGDP00258	male			Pathan		Central South Asia 
 NA19042	female	SAME125242	LWK	Luhya	AFR	African Ancestry
 SC_GMJOL5309867	female		GWJ	Gambian Jola	AFR	African Ancestry
-HGDP00277	male			Kalash		Central South Asia (HGDP)
+HGDP00277	male			Kalash		Central South Asia 
 NA19054	female	SAME125028	JPT	Japanese	EAS	East Asian Ancestry
 SC_GMFUL5306391	female		GWF	Gambian Fula	AFR	African Ancestry
-HGDP00304	female			Kalash		Central South Asia (HGDP)
+HGDP00304	female			Kalash		Central South Asia 
 NA19059	female	SAME125023	JPT	Japanese	EAS	East Asian Ancestry
 SC_GMFUL5306423	male		GWF	Gambian Fula	AFR	African Ancestry
-HGDP00309	male			Kalash		Central South Asia (HGDP)
+HGDP00309	male			Kalash		Central South Asia 
 NA19066	male	SAME123008	JPT	Japanese	EAS	East Asian Ancestry
 SC_GMFUL5306346	male		GWF	Gambian Fula	AFR	African Ancestry
-HGDP00311	male			Kalash		Central South Asia (HGDP)
+HGDP00311	male			Kalash		Central South Asia 
 NA19078	female	SAME122824	JPT	Japanese	EAS	East Asian Ancestry
 SC_GMFUL5306389	male		GWF	Gambian Fula	AFR	African Ancestry
-HGDP00323	female			Kalash		Central South Asia (HGDP)
+HGDP00323	female			Kalash		Central South Asia 
 NA19080	female	SAME125313	JPT	Japanese	EAS	East Asian Ancestry
 SC_GMMAN5482332	male		GWD	Gambian Mandinka	AFR	African Ancestry
-HGDP00330	male			Kalash		Central South Asia (HGDP)
+HGDP00330	male			Kalash		Central South Asia 
 NA19085	male	SAME123365	JPT	Japanese	EAS	East Asian Ancestry
 SC_GMMAN5482293	female		GWD	Gambian Mandinka	AFR	African Ancestry
-HGDP00359	male			Burusho		Central South Asia (HGDP)
+HGDP00359	male			Burusho		Central South Asia 
 NA19092	male	SAME123173	YRI	Yoruba	AFR	African Ancestry
 SC_GMMAN5482301	male		GWD	Gambian Mandinka	AFR	African Ancestry
-HGDP00068	male			Balochi		Central South Asia (HGDP)
+HGDP00068	male			Balochi		Central South Asia 
 NA19472	female	SAME123120	LWK	Luhya	AFR	African Ancestry
 NA18540	female	SAME124269	CHB	Han Chinese	EAS	East Asian Ancestry
-HGDP00070	male			Balochi		Central South Asia (HGDP)
+HGDP00070	male			Balochi		Central South Asia 
 NA19648	female	SAME123307	MXL	Mexican Ancestry	AMR	American Ancestry
-HGDP00003	male			Brahui		Central South Asia (HGDP)
-HGDP00082	male			Balochi		Central South Asia (HGDP)
+HGDP00003	male			Brahui		Central South Asia 
+HGDP00082	male			Balochi		Central South Asia 
 NA19650	male	SAME124976	MXL	Mexican Ancestry	AMR	American Ancestry
 SC_GMMAN5482243	female		GWD	Gambian Mandinka	AFR	African Ancestry
-HGDP00094	male			Balochi		Central South Asia (HGDP)
+HGDP00094	male			Balochi		Central South Asia 
 NA19655	male	SAME124980	MXL	Mexican Ancestry	AMR	American Ancestry
 SC_GMMAN5482180	male		GWD	Gambian Mandinka	AFR	African Ancestry
-HGDP00099	male			Hazara		Central South Asia (HGDP)
+HGDP00099	male			Hazara		Central South Asia 
 NA19662	female	SAME122960	MXL	Mexican Ancestry	AMR	American Ancestry
 SC_GMMAN5482212	female		GWD	Gambian Mandinka	AFR	African Ancestry
-HGDP00102	male			Hazara		Central South Asia (HGDP)
+HGDP00102	male			Hazara		Central South Asia 
 NA19674	male	SAME122792	MXL	Mexican Ancestry	AMR	American Ancestry
 SC_GMMAN5482236	male		GWD	Gambian Mandinka	AFR	African Ancestry
-HGDP00013	male			Brahui		Central South Asia (HGDP)
+HGDP00013	male			Brahui		Central South Asia 
 NA19679	male	SAME122796	MXL	Mexican Ancestry	AMR	American Ancestry
 SC_GMMAN5482173	female		GWD	Gambian Mandinka	AFR	African Ancestry
-HGDP00025	male			Brahui		Central South Asia (HGDP)
+HGDP00025	male			Brahui		Central South Asia 
 NA19681	female	SAME122938	MXL	Mexican Ancestry	AMR	American Ancestry
 SC_GMMAN5482197	female		GWD	Gambian Mandinka	AFR	African Ancestry
-HGDP00037	male			Brahui		Central South Asia (HGDP)
+HGDP00037	male			Brahui		Central South Asia 
 NA19686	female	SAME122939	MXL	Mexican Ancestry	AMR	American Ancestry
 SC_GMMAN5482205	male		GWD	Gambian Mandinka	AFR	African Ancestry
-HGDP00049	male			Brahui		Central South Asia (HGDP)
+HGDP00049	male			Brahui		Central South Asia 
 NA19701	female	SAME124232	ASW	African Ancestry SW	AFR	African Ancestry
 SC_GMMAN5482229	male		GWD	Gambian Mandinka	AFR	African Ancestry
-HGDP00056	male			Balochi		Central South Asia (HGDP)
+HGDP00056	male			Balochi		Central South Asia 
 NA19352	male	SAME124075	LWK	Luhya	AFR	African Ancestry
 SC_GMMAN5482231	male		GWD	Gambian Mandinka	AFR	African Ancestry
-HGDP00183	male			Sindhi		Central South Asia (HGDP)
+HGDP00183	male			Sindhi		Central South Asia 
 NA19371	male	SAME125111	LWK	Luhya	AFR	African Ancestry
 SC_GMMAN5482255	male		GWD	Gambian Mandinka	AFR	African Ancestry
-HGDP00210	female			Sindhi		Central South Asia (HGDP)
+HGDP00210	female			Sindhi		Central South Asia 
 NA19376	male	SAME124469	LWK	Luhya	AFR	African Ancestry
 SC_GMMAN5482192	female		GWD	Gambian Mandinka	AFR	African Ancestry
-HGDP00222	male			Pathan		Central South Asia (HGDP)
+HGDP00222	male			Pathan		Central South Asia 
 NA19383	male	SAME124273	LWK	Luhya	AFR	African Ancestry
 SC_GMMAN5482200	female		GWD	Gambian Mandinka	AFR	African Ancestry
-HGDP00140	male			Makrani		Central South Asia (HGDP)
+HGDP00140	male			Makrani		Central South Asia 
 NA19390	female	SAME124493	LWK	Luhya	AFR	African Ancestry
 SC_GMMAN5482224	female		GWD	Gambian Mandinka	AFR	African Ancestry
-HGDP00145	male			Makrani		Central South Asia (HGDP)
+HGDP00145	male			Makrani		Central South Asia 
 NA19395	female	SAME124490	LWK	Luhya	AFR	African Ancestry
 SC_GMMAN5482248	female		GWD	Gambian Mandinka	AFR	African Ancestry
-HGDP00169	male			Sindhi		Central South Asia (HGDP)
+HGDP00169	male			Sindhi		Central South Asia 
 NA19403	female	SAME123636	LWK	Luhya	AFR	African Ancestry
 SC_GMWOF5428859	male		GWW	Gambian Wolof	AFR	African Ancestry
-HGDP00171	male			Sindhi		Central South Asia (HGDP)
+HGDP00171	male			Sindhi		Central South Asia 
 NA19434	female	SAME123850	LWK	Luhya	AFR	African Ancestry
 SC_GMWOF5428796	female		GWW	Gambian Wolof	AFR	African Ancestry
-HGDP00119	male			Hazara		Central South Asia (HGDP)
+HGDP00119	male			Hazara		Central South Asia 
 NA19439	female	SAME123847	LWK	Luhya	AFR	African Ancestry
 SC_GMWOF5428804	male		GWW	Gambian Wolof	AFR	African Ancestry
-HGDP00121	male			Hazara		Central South Asia (HGDP)
+HGDP00121	male			Hazara		Central South Asia 
 NA19446	female	SAME122949	LWK	Luhya	AFR	African Ancestry
 SC_GMWOF5428828	male		GWW	Gambian Wolof	AFR	African Ancestry
-HGDP00133	male			Makrani		Central South Asia (HGDP)
+HGDP00133	male			Makrani		Central South Asia 
 NA19453	male	SAME125413	LWK	Luhya	AFR	African Ancestry
 SC_GMWOF5428789	male		GWW	Gambian Wolof	AFR	African Ancestry
-HGDP00549	male			Papuan,Papuan Highlands		Oceania (SGDP),Oceania (HGDP)
+HGDP00549	male			Papuan		Oceania 
 NA18948	male	SAME124316	JPT	Japanese	EAS	East Asian Ancestry
 SC_GMWOF5428861	male		GWW	Gambian Wolof	AFR	African Ancestry
-HGDP00551	male			Papuan,Papuan Highlands		Oceania (SGDP),Oceania (HGDP)
+HGDP00551	male			Papuan		Oceania 
 NA18950	female	SAME124112	JPT	Japanese	EAS	East Asian Ancestry
 SC_GMMAN5482185	male		GWD	Gambian Mandinka	AFR	African Ancestry
-HGDP00556	male			Papuan,Papuan Highlands		Oceania (SGDP),Oceania (HGDP)
+HGDP00556	male			Papuan		Oceania 
 NA18955	male	SAME124107	JPT	Japanese	EAS	East Asian Ancestry
 SC_GMMAN5482217	female		GWD	Gambian Mandinka	AFR	African Ancestry
-HGDP00563	female			Druze		Middle East (HGDP)
+HGDP00563	female			Druze		Middle East 
 NA18962	male	SAME123958	JPT	Japanese	EAS	East Asian Ancestry
 SC_GMMAN5482274	male		GWD	Gambian Mandinka	AFR	African Ancestry
-HGDP00568	female			Druze		Middle East (HGDP)
+HGDP00568	female			Druze		Middle East 
 NA18967	male	SAME123963	JPT	Japanese	EAS	East Asian Ancestry
 SC_GMMAN5482298	male		GWD	Gambian Mandinka	AFR	African Ancestry
-HGDP00683	female			Palestinian		Middle East (HGDP)
+HGDP00683	female			Palestinian		Middle East 
 NA18974	male	SAME123768	JPT	Japanese	EAS	East Asian Ancestry
 SC_GMMAN5482306	male		GWD	Gambian Mandinka	AFR	African Ancestry
-HGDP00688	female			Palestinian		Middle East (HGDP)
+HGDP00688	female			Palestinian		Middle East 
 NA18979	female	SAME123759	JPT	Japanese	EAS	East Asian Ancestry
 SC_GMWOF5428830	male		GWW	Gambian Wolof	AFR	African Ancestry
-HGDP00690	female			Palestinian		Middle East (HGDP)
+HGDP00690	female			Palestinian		Middle East 
 NA18981	female	SAME123426	JPT	Japanese	EAS	East Asian Ancestry
 SC_GMWOF5428854	male		GWW	Gambian Wolof	AFR	African Ancestry
-HGDP00703	male			Colombian		America (HGDP)
+HGDP00703	male			Colombian		America 
 NA18986	male	SAME125069	JPT	Japanese	EAS	East Asian Ancestry
 SC_GMWOF5428823	female		GWW	Gambian Wolof	AFR	African Ancestry
-HGDP00708	female			Colombian		America (HGDP)
+HGDP00708	female			Colombian		America 
 NA18993	female	SAME124894	JPT	Japanese	EAS	East Asian Ancestry
 SC_GMWOF5428847	female		GWW	Gambian Wolof	AFR	African Ancestry
-HGDP00710	male			Colombian		America (HGDP)
+HGDP00710	male			Colombian		America 
 NA18998	female	SAME124891	JPT	Japanese	EAS	East Asian Ancestry
 SC_GMWOF5428816	male		GWW	Gambian Wolof	AFR	African Ancestry
-HGDP00715	male			Cambodian		East Asia (HGDP)
+HGDP00715	male			Cambodian		East Asia 
 NA19004	male	SAME124473	JPT	Japanese	EAS	East Asian Ancestry
 SC_GMWOF5428842	female		GWW	Gambian Wolof	AFR	African Ancestry
-HGDP00727	male			Palestinian		Middle East (HGDP)
+HGDP00727	male			Palestinian		Middle East 
 NA19009	male	SAME125133	JPT	Japanese	EAS	East Asian Ancestry
 SC_GMWOF5428866	female		GWW	Gambian Wolof	AFR	African Ancestry
-HGDP00734	male			Palestinian		Middle East (HGDP)
+HGDP00734	male			Palestinian		Middle East 
 NA19011	female	SAME124512	JPT	Japanese	EAS	East Asian Ancestry
 SC_GMWOF5428811	female		GWW	Gambian Wolof	AFR	African Ancestry
-HGDP00739	female			Palestinian		Middle East (HGDP)
+HGDP00739	female			Palestinian		Middle East 
 NA19213	male	SAME125384	YRI	Yoruba	AFR	African Ancestry
 SC_GMWOF5428835	male		GWW	Gambian Wolof	AFR	African Ancestry
-HGDP00741	female			Palestinian		Middle East (HGDP)
+HGDP00741	female			Palestinian		Middle East 
 NA19225	female	SAME125218	YRI	Yoruba	AFR	African Ancestry
 SC_GMWOF5428873	female		GWW	Gambian Wolof	AFR	African Ancestry
-HGDP00746	female			Palestinian		Middle East (HGDP)
+HGDP00746	female			Palestinian		Middle East 
 NA19237	female	SAME125000	YRI	Yoruba	AFR	African Ancestry
 SC_GMMAN5482178	male		GWD	Gambian Mandinka	AFR	African Ancestry
-HGDP00753	male			Japanese		East Asia (HGDP)
+HGDP00753	male			Japanese		East Asia 
 NA19249	male	SAME123682	YRI	Yoruba	AFR	African Ancestry
 SC_GMMAN5482250	male		GWD	Gambian Mandinka	AFR	African Ancestry
-HGDP00758	male			Japanese		East Asia (HGDP)
+HGDP00758	male			Japanese		East Asia 
 NA19256	male	SAME124707	YRI	Yoruba	AFR	African Ancestry
 SC_GMWOF5428715	female		GWW	Gambian Wolof	AFR	African Ancestry
-HGDP00760	female			Japanese		East Asia (HGDP)
+HGDP00760	female			Japanese		East Asia 
 NA19307	male	SAME124981	LWK	Luhya	AFR	African Ancestry
 SC_GMWOF5428739	female		GWW	Gambian Wolof	AFR	African Ancestry
-HGDP00765	female			Japanese		East Asia (HGDP)
+HGDP00765	female			Japanese		East Asia 
 NA19314	female	SAME123309	LWK	Luhya	AFR	African Ancestry
 SC_GMWOF5428708	male		GWW	Gambian Wolof	AFR	African Ancestry
-HGDP00664	female			Bougainville		Oceania (HGDP)
+HGDP00664	female			Bougainville		Oceania 
 NA19319	male	SAME123438	LWK	Luhya	AFR	African Ancestry
-HGDP00464	male			Biaka		Africa (HGDP)
-HGDP00669	female			Sardinian		Europe (HGDP)
+HGDP00464	male			Biaka		Africa 
+HGDP00669	female			Sardinian		Europe 
 NA19321	female	SAME124569	LWK	Luhya	AFR	African Ancestry
-HGDP00469	male			Biaka		Africa (HGDP)
-HGDP00671	male			Sardinian		Europe (HGDP)
+HGDP00469	male			Biaka		Africa 
+HGDP00671	male			Sardinian		Europe 
 NA19338	female	SAME123274	LWK	Luhya	AFR	African Ancestry
-HGDP00471	female			Mbuti		Africa (HGDP)
-HGDP00676	male			Palestinian		Middle East (HGDP)
+HGDP00471	female			Mbuti		Africa 
+HGDP00676	male			Palestinian		Middle East 
 NA19713	female	SAME124448	ASW	African Ancestry SW	AFR	African Ancestry
-HGDP00490	male			Bougainville		Oceania (HGDP)
-HGDP00602	male			Druze		Middle East (HGDP)
+HGDP00490	male			Bougainville		Oceania 
+HGDP00602	male			Druze		Middle East 
 NA19718	female	SAME124444	MXL	Mexican Ancestry	AMR	American Ancestry
-HGDP00515	male			French		Europe (HGDP)
-HGDP00607	female			Bedouin		Middle East (HGDP)
+HGDP00515	male			French		Europe 
+HGDP00607	female			Bedouin		Middle East 
 NA19720	male	SAME124118	MXL	Mexican Ancestry	AMR	American Ancestry
-HGDP00382	male			Burusho		Central South Asia (HGDP)
-HGDP00614	female			Bedouin		Middle East (HGDP)
+HGDP00382	male			Burusho		Central South Asia 
+HGDP00614	female			Bedouin		Middle East 
 NA19725	female	SAME124689	MXL	Mexican Ancestry	AMR	American Ancestry
-HGDP00402	male			Burusho		Central South Asia (HGDP)
-HGDP00619	male			Bedouin		Middle East (HGDP)
+HGDP00402	male			Burusho		Central South Asia 
+HGDP00619	male			Bedouin		Middle East 
 NA19732	male	SAME124778	MXL	Mexican Ancestry	AMR	American Ancestry
-HGDP00407	male			Burusho		Central South Asia (HGDP)
-HGDP00621	male			Bedouin		Middle East (HGDP)
+HGDP00407	male			Burusho		Central South Asia 
+HGDP00621	male			Bedouin		Middle East 
 NA19737	female	SAME124872	MXL	Mexican Ancestry	AMR	American Ancestry
-HGDP00433	male			Burusho		Central South Asia (HGDP)
-HGDP00626	male			Bedouin		Middle East (HGDP)
+HGDP00433	male			Burusho		Central South Asia 
+HGDP00626	male			Bedouin		Middle East 
 NA19749	female	SAME124726	MXL	Mexican Ancestry	AMR	American Ancestry
-HGDP00438	male			Burusho		Central South Asia (HGDP)
-HGDP00520	female			French		Europe (HGDP)
+HGDP00438	male			Burusho		Central South Asia 
+HGDP00520	female			French		Europe 
 NA19751	male	SAME123699	MXL	Mexican Ancestry	AMR	American Ancestry
-HGDP00445	male			Burusho		Central South Asia (HGDP)
-HGDP00525	male			French		Europe (HGDP)
+HGDP00445	male			Burusho		Central South Asia 
+HGDP00525	male			French		Europe 
 NA19756	male	SAME123696	MXL	Mexican Ancestry	AMR	American Ancestry
-HGDP00452	male			Biaka		Africa (HGDP)
-HGDP00537	female			French		Europe (HGDP)
+HGDP00452	male			Biaka		Africa 
+HGDP00537	female			French		Europe 
 NA19143	female	SAME124609	YRI	Yoruba	AFR	African Ancestry
-HGDP00243	male			Pathan		Central South Asia (HGDP)
-HGDP00544	female			Papuan Sepik		Oceania (HGDP)
+HGDP00243	male			Pathan		Central South Asia 
+HGDP00544	female			Papuan Sepik		Oceania 
 NA19148	female	SAME124606	YRI	Yoruba	AFR	African Ancestry
-HGDP00248	male			Pathan		Central South Asia (HGDP)
-HGDP00575	female			Druze		Middle East (HGDP)
+HGDP00248	male			Pathan		Central South Asia 
+HGDP00575	female			Druze		Middle East 
 NA19150	male	SAME124838	YRI	Yoruba	AFR	African Ancestry
-HGDP00262	male			Pathan		Central South Asia (HGDP)
-HGDP00582	female			Druze		Middle East (HGDP)
+HGDP00262	male			Pathan		Central South Asia 
+HGDP00582	female			Druze		Middle East 
 NA19174	male	SAME124882	YRI	Yoruba	AFR	African Ancestry
-HGDP00274	female			Kalash		Central South Asia (HGDP)
-HGDP00587	female			Druze		Middle East (HGDP)
+HGDP00274	female			Kalash		Central South Asia 
+HGDP00587	female			Druze		Middle East 
 NA19186	male	SAME123861	YRI	Yoruba	AFR	African Ancestry
-HGDP00279	male			Kalash		Central South Asia (HGDP)
-HGDP00594	male			Druze		Middle East (HGDP)
+HGDP00279	male			Kalash		Central South Asia 
+HGDP00594	male			Druze		Middle East 
 NA19198	male	SAME124049	YRI	Yoruba	AFR	African Ancestry
-HGDP00281	male			Kalash		Central South Asia (HGDP)
-HGDP00599	male			Druze		Middle East (HGDP)
+HGDP00281	male			Kalash		Central South Asia 
+HGDP00599	male			Druze		Middle East 
 NA19201	female	SAME122990	YRI	Yoruba	AFR	African Ancestry
-HGDP00173	male			Sindhi		Central South Asia (HGDP)
-HGDP00638	female			Bedouin		Middle East (HGDP)
+HGDP00173	male			Sindhi		Central South Asia 
+HGDP00638	female			Bedouin		Middle East 
 NA19206	female	SAME122983	YRI	Yoruba	AFR	African Ancestry
-HGDP00185	male			Sindhi		Central South Asia (HGDP)
-HGDP00640	male			Bedouin		Middle East (HGDP)
+HGDP00185	male			Sindhi		Central South Asia 
+HGDP00640	male			Bedouin		Middle East 
 NA18873	female	SAME123536	YRI	Yoruba	AFR	African Ancestry
-HGDP00192	female			Sindhi		Central South Asia (HGDP)
-HGDP00645	male			Bedouin		Middle East (HGDP)
+HGDP00192	female			Sindhi		Central South Asia 
+HGDP00645	male			Bedouin		Middle East 
 NA18878	female	SAME125107	YRI	Yoruba	AFR	African Ancestry
-HGDP00197	male			Sindhi		Central South Asia (HGDP)
-HGDP00981	male			Biaka		Africa (HGDP)
+HGDP00197	male			Sindhi		Central South Asia 
+HGDP00981	male			Biaka		Africa 
 NA18912	female	SAME123404	YRI	Yoruba	AFR	African Ancestry
-HGDP00205	male			Sindhi		Central South Asia (HGDP)
-HGDP00986	male			Biaka		Africa (HGDP)
+HGDP00205	male			Sindhi		Central South Asia 
+HGDP00986	male			Biaka		Africa 
 NA18917	male	SAME123407	YRI	Yoruba	AFR	African Ancestry
-HGDP00224	male			Pathan		Central South Asia (HGDP)
-HGDP00993	male			Bantu South Africa		Africa (HGDP)
+HGDP00224	male			Pathan		Central South Asia 
+HGDP00993	male			Bantu South Africa		Africa 
 NA18924	female	SAME123202	YRI	Yoruba	AFR	African Ancestry
-HGDP00298	female			Kalash		Central South Asia (HGDP)
-HGDP01009	male			Karitiana		America (HGDP)
+HGDP00298	female			Kalash		Central South Asia 
+HGDP01009	male			Karitiana		America 
 NA18943	male	SAME124309	JPT	Japanese	EAS	East Asian Ancestry
-HGDP00313	male			Kalash		Central South Asia (HGDP)
-HGDP01023	female			Han		East Asia (HGDP)
+HGDP00313	male			Kalash		Central South Asia 
+HGDP01023	female			Han		East Asia 
 NA19097	female	SAME123168	YRI	Yoruba	AFR	African Ancestry
-HGDP00351	male			Burusho		Central South Asia (HGDP)
-HGDP00823	male			Bougainville		Oceania (HGDP)
+HGDP00351	male			Burusho		Central South Asia 
+HGDP00823	male			Bougainville		Oceania 
 NA19100	female	SAME125401	YRI	Yoruba	AFR	African Ancestry
-HGDP00356	female			Burusho		Central South Asia (HGDP)
-HGDP00828	male			Japanese		East Asia (HGDP)
+HGDP00356	female			Burusho		Central South Asia 
+HGDP00828	male			Japanese		East Asia 
 NA19105	female	SAME125389	YRI	Yoruba	AFR	African Ancestry
-HGDP00104	male			Hazara		Central South Asia (HGDP)
-HGDP00854	female			Maya		America (HGDP)
+HGDP00104	male			Hazara		Central South Asia 
+HGDP00854	female			Maya		America 
 NA19117	male	SAME124914	YRI	Yoruba	AFR	African Ancestry
-HGDP00109	male			Hazara		Central South Asia (HGDP)
-HGDP00859	female			Maya		America (HGDP)
+HGDP00109	male			Hazara		Central South Asia 
+HGDP00859	female			Maya		America 
 NA19129	female	SAME125021	YRI	Yoruba	AFR	African Ancestry
-HGDP00130	male			Makrani		Central South Asia (HGDP)
-HGDP00861	female			Maya		America (HGDP)
+HGDP00130	male			Makrani		Central South Asia 
+HGDP00861	female			Maya		America 
 NA19131	female	SAME125230	YRI	Yoruba	AFR	African Ancestry
-HGDP00135	male			Makrani		Central South Asia (HGDP)
-HGDP00929	male			Yoruba		Africa (HGDP)
+HGDP00135	male			Makrani		Central South Asia 
+HGDP00929	male			Yoruba		Africa 
 NA20359	female	SAME124601	ASW	African Ancestry SW	AFR	African Ancestry
-HGDP00154	female			Makrani		Central South Asia (HGDP)
-HGDP00931	male			Yoruba		Africa (HGDP)
+HGDP00154	female			Makrani		Central South Asia 
+HGDP00931	male			Yoruba		Africa 
 NA20361	female	SAME124785	ASW	African Ancestry SW	AFR	African Ancestry
-HGDP00161	male			Makrani		Central South Asia (HGDP)
-HGDP00943	male			Yoruba		Africa (HGDP)
+HGDP00161	male			Makrani		Central South Asia 
+HGDP00943	male			Yoruba		Africa 
 NA20412	female	SAME124002	ASW	African Ancestry SW	AFR	African Ancestry
-HGDP00060	male			Balochi		Central South Asia (HGDP)
-HGDP00948	male			Yakut		East Asia (HGDP)
+HGDP00060	male			Balochi		Central South Asia 
+HGDP00948	male			Yakut		East Asia 
 NA20506	female	SAME124362	TSI	Toscani	EUR	European Ancestry
-HGDP00072	male			Balochi		Central South Asia (HGDP)
-HGDP00950	male			Yakut		East Asia (HGDP)
+HGDP00072	male			Balochi		Central South Asia 
+HGDP00950	male			Yakut		East Asia 
 NA20513	male	SAME124561	TSI	Toscani	EUR	European Ancestry
-HGDP00096	male			Balochi		Central South Asia (HGDP)
-HGDP00900	male			Russian		Europe (HGDP)
+HGDP00096	male			Balochi		Central South Asia 
+HGDP00900	male			Russian		Europe 
 NA20518	male	SAME123178	TSI	Toscani	EUR	European Ancestry
-HGDP00015	male			Brahui		Central South Asia (HGDP)
-HGDP00905	male			Mandenka		Africa (HGDP)
+HGDP00015	male			Brahui		Central South Asia 
+HGDP00905	male			Mandenka		Africa 
 NA20520	male	SAME124019	TSI	Toscani	EUR	European Ancestry
-HGDP00039	male			Brahui		Central South Asia (HGDP)
-HGDP00912	male			Mandenka		Africa (HGDP)
+HGDP00039	male			Brahui		Central South Asia 
+HGDP00912	male			Mandenka		Africa 
 NA20525	male	SAME124015	TSI	Toscani	EUR	European Ancestry
-HGDP00041	male			Brahui		Central South Asia (HGDP)
-HGDP00917	female			Mandenka		Africa (HGDP)
+HGDP00041	male			Brahui		Central South Asia 
+HGDP00917	female			Mandenka		Africa 
 NA20532	male	SAME124171	TSI	Toscani	EUR	European Ancestry
-HGDP00546	male			Papuan,Papuan Sepik		Oceania (SGDP),Oceania (HGDP)
-HGDP00924	female			Yoruba		Africa (HGDP)
+HGDP00546	male			Papuan		Oceania 
+HGDP00924	female			Yoruba		Africa 
 NA20537	male	SAME124168	TSI	Toscani	EUR	European Ancestry
-HGDP00553	male			Papuan,Papuan Highlands		Oceania (SGDP),Oceania (HGDP)
-HGDP00955	female			Yakut		East Asia (HGDP)
+HGDP00553	male			Papuan		Oceania 
+HGDP00955	female			Yakut		East Asia 
 NA20544	male	SAME125146	TSI	Toscani	EUR	European Ancestry
-HGDP00558	female			Druze		Middle East (HGDP)
-HGDP00962	male			Yakut		East Asia (HGDP)
+HGDP00558	female			Druze		Middle East 
+HGDP00962	male			Yakut		East Asia 
 NA20582	female	SAME123474	TSI	Toscani	EUR	European Ancestry
-HGDP00560	female			Druze		Middle East (HGDP)
-HGDP00967	female			Yakut		East Asia (HGDP)
+HGDP00560	female			Druze		Middle East 
+HGDP00967	female			Yakut		East Asia 
 NA20587	female	SAME123481	TSI	Toscani	EUR	European Ancestry
-HGDP00565	female			Druze		Middle East (HGDP)
-HGDP00974	female			Han		East Asia (HGDP)
+HGDP00565	female			Druze		Middle East 
+HGDP00974	female			Han		East Asia 
 NA20753	female	SAME124178	TSI	Toscani	EUR	European Ancestry
-HGDP00522	male			French		Europe (HGDP)
-HGDP00873	female			Maya		America (HGDP)
+HGDP00522	male			French		Europe 
+HGDP00873	female			Maya		America 
 NA20758	male	SAME125117	TSI	Toscani	EUR	European Ancestry
-HGDP00527	female			French		Europe (HGDP)
-HGDP00880	male			Russian		Europe (HGDP)
+HGDP00527	female			French		Europe 
+HGDP00880	male			Russian		Europe 
 NA20760	female	SAME124364	TSI	Toscani	EUR	European Ancestry
-HGDP00534	female			French		Europe (HGDP)
-HGDP00885	female			Russian		Europe (HGDP)
+HGDP00534	female			French		Europe 
+HGDP00885	female			Russian		Europe 
 NA20765	male	SAME124367	TSI	Toscani	EUR	European Ancestry
-HGDP00539	female			French		Europe (HGDP)
-HGDP00892	male			Russian		Europe (HGDP)
+HGDP00539	female			French		Europe 
+HGDP00892	male			Russian		Europe 
 NA20772	female	SAME124574	TSI	Toscani	EUR	European Ancestry
-HGDP00541	male			Papuan,Papuan Sepik		Oceania (SGDP),Oceania (HGDP)
-HGDP00897	male			Russian		Europe (HGDP)
+HGDP00541	male			Papuan		Oceania 
+HGDP00897	male			Russian		Europe 
 NA20796	male	SAME123819	TSI	Toscani	EUR	European Ancestry
-HGDP00712	female			Cambodian		East Asia (HGDP)
-HGDP00772	female			Japanese		East Asia (HGDP)
+HGDP00712	female			Cambodian		East Asia 
+HGDP00772	female			Japanese		East Asia 
 NA20804	female	SAME125224	TSI	Toscani	EUR	European Ancestry
-HGDP00724	male			Palestinian		Middle East (HGDP)
-HGDP00777	male			Han		East Asia (HGDP)
+HGDP00724	male			Palestinian		Middle East 
+HGDP00777	male			Han		East Asia 
 NA20809	male	SAME125359	TSI	Toscani	EUR	European Ancestry
-HGDP00729	male			Palestinian		Middle East (HGDP)
-HGDP00784	female			Han		East Asia (HGDP)
+HGDP00729	male			Palestinian		Middle East 
+HGDP00784	female			Han		East Asia 
 NA20811	male	SAME123069	TSI	Toscani	EUR	European Ancestry
-HGDP00731	male			Palestinian		Middle East (HGDP)
-HGDP00791	male			Japanese		East Asia (HGDP)
+HGDP00731	male			Palestinian		Middle East 
+HGDP00791	male			Japanese		East Asia 
 NA20816	male	SAME125186	TSI	Toscani	EUR	European Ancestry
-HGDP00654	male			Bedouin		Middle East (HGDP)
-HGDP00804	male			Orcadian		Europe (HGDP)
+HGDP00654	male			Bedouin		Middle East 
+HGDP00804	male			Orcadian		Europe 
 NA19763	female	SAME123896	MXL	Mexican Ancestry	AMR	American Ancestry
-HGDP00661	female			Bougainville		Oceania (HGDP)
-HGDP00811	female			Han		East Asia (HGDP)
+HGDP00661	female			Bougainville		Oceania 
+HGDP00811	female			Han		East Asia 
 NA19770	female	SAME124068	MXL	Mexican Ancestry	AMR	American Ancestry
-HGDP00666	male			Sardinian		Europe (HGDP)
-HGDP01059	male			Pima		America (HGDP)
+HGDP00666	male			Sardinian		Europe 
+HGDP01059	male			Pima		America 
 NA19775	female	SAME124065	MXL	Mexican Ancestry	AMR	American Ancestry
-HGDP00673	female			Sardinian		Europe (HGDP)
-HGDP01066	male			Sardinian		Europe (HGDP)
+HGDP00673	female			Sardinian		Europe 
+HGDP01066	male			Sardinian		Europe 
 NA19782	female	SAME123145	MXL	Mexican Ancestry	AMR	American Ancestry
-HGDP00736	female			Palestinian		Middle East (HGDP)
-HGDP01275	female			Mozabite		Middle East (HGDP)
+HGDP00736	female			Palestinian		Middle East 
+HGDP01275	female			Mozabite		Middle East 
 NA19787	male	SAME123148	MXL	Mexican Ancestry	AMR	American Ancestry
-HGDP00748	male			Japanese		East Asia (HGDP)
-HGDP01282	male			Mozabite		Middle East (HGDP)
+HGDP00748	male			Japanese		East Asia 
+HGDP01282	male			Mozabite		Middle East 
 NA19794	female	SAME123328	MXL	Mexican Ancestry	AMR	American Ancestry
-HGDP00750	male			Japanese		East Asia (HGDP)
-HGDP01287	female			Northern Han		East Asia (HGDP)
+HGDP00750	male			Japanese		East Asia 
+HGDP01287	female			Northern Han		East Asia 
 NA19819	female	SAME124676	ASW	African Ancestry SW	AFR	African Ancestry
-HGDP00755	male			Japanese		East Asia (HGDP)
-HGDP01294	male			Northern Han		East Asia (HGDP)
+HGDP00755	male			Japanese		East Asia 
+HGDP01294	male			Northern Han		East Asia 
 NA19908	male	SAME125053	ASW	African Ancestry SW	AFR	African Ancestry
-HGDP00762	male			Japanese		East Asia (HGDP)
-HGDP01299	male			Uygur		Central South Asia (HGDP)
+HGDP00762	male			Japanese		East Asia 
+HGDP01299	male			Uygur		Central South Asia 
 NA19915	male	SAME125274	ASW	African Ancestry SW	AFR	African Ancestry
-HGDP00678	male			Palestinian		Middle East (HGDP)
-HGDP01155	male			Bergamo Italian		Europe (HGDP)
+HGDP00678	male			Palestinian		Middle East 
+HGDP01155	male			Bergamo Italian		Europe 
 NA19922	male	SAME124711	ASW	African Ancestry SW	AFR	African Ancestry
-HGDP00680	female			Palestinian		Middle East (HGDP)
-HGDP01162	male			Tuscan		Europe (HGDP)
+HGDP00680	female			Palestinian		Middle East 
+HGDP01162	male			Tuscan		Europe 
 NA19984	male	SAME124287	ASW	African Ancestry SW	AFR	African Ancestry
-HGDP00685	female			Palestinian		Middle East (HGDP)
-HGDP01167	male			Tuscan		Europe (HGDP)
+HGDP00685	female			Palestinian		Middle East 
+HGDP01167	male			Tuscan		Europe 
 NA20126	male	SAME122885	ASW	African Ancestry SW	AFR	African Ancestry
-HGDP00692	female			Palestinian		Middle East (HGDP)
-HGDP01174	male			Bergamo Italian		Europe (HGDP)
+HGDP00692	female			Palestinian		Middle East 
+HGDP01174	male			Bergamo Italian		Europe 
 NA20277	female	SAME123613	ASW	African Ancestry SW	AFR	African Ancestry
-HGDP00697	female			Palestinian		Middle East (HGDP)
-HGDP01181	male			Yi		East Asia (HGDP)
+HGDP00697	female			Palestinian		Middle East 
+HGDP01181	male			Yi		East Asia 
 NA20284	male	SAME124581	ASW	African Ancestry SW	AFR	African Ancestry
-HGDP00700	female			Palestinian		Middle East (HGDP)
-HGDP01186	male			Yi		East Asia (HGDP)
+HGDP00700	female			Palestinian		Middle East 
+HGDP01186	male			Yi		East Asia 
 NA20289	female	SAME124579	ASW	African Ancestry SW	AFR	African Ancestry
-HGDP00604	male			Druze		Middle East (HGDP)
-HGDP01218	male			Daur		East Asia (HGDP)
+HGDP00604	male			Druze		Middle East 
+HGDP01218	male			Daur		East Asia 
 NA20291	male	SAME124373	ASW	African Ancestry SW	AFR	African Ancestry
-HGDP00609	male			Bedouin		Middle East (HGDP)
-HGDP01220	male			Daur		East Asia (HGDP)
+HGDP00609	male			Bedouin		Middle East 
+HGDP01220	male			Daur		East Asia 
 NA20296	female	SAME124380	ASW	African Ancestry SW	AFR	African Ancestry
-HGDP00611	male			Bedouin		Middle East (HGDP)
-HGDP01225	male			Mongolian		East Asia (HGDP)
+HGDP00611	male			Bedouin		Middle East 
+HGDP01225	male			Mongolian		East Asia 
 NA20828	female	SAME123076	TSI	Toscani	EUR	European Ancestry
-HGDP00623	male			Bedouin		Middle East (HGDP)
-HGDP01232	female			Mongolian		East Asia (HGDP)
+HGDP00623	male			Bedouin		Middle East 
+HGDP01232	female			Mongolian		East Asia 
 NA20847	female	SAME123432	GIH	Gujarati	SAS	South Asian Ancestry
-HGDP00628	male			Bedouin		Middle East (HGDP)
-HGDP01237	male			Hezhen		East Asia (HGDP)
+HGDP00628	male			Bedouin		Middle East 
+HGDP01237	male			Hezhen		East Asia 
 NA20854	female	SAME123248	GIH	Gujarati	SAS	South Asian Ancestry
-HGDP00630	male			Bedouin		Middle East (HGDP)
-HGDP01244	male			Xibo		East Asia (HGDP)
+HGDP00630	male			Bedouin		Middle East 
+HGDP01244	male			Xibo		East Asia 
 NA20859	female	SAME123249	GIH	Gujarati	SAS	South Asian Ancestry
-HGDP00635	female			Bedouin		Middle East (HGDP)
-HGDP01249	male			Xibo		East Asia (HGDP)
+HGDP00635	female			Bedouin		Middle East 
+HGDP01249	male			Xibo		East Asia 
 NA20861	male	SAME123807	GIH	Gujarati	SAS	South Asian Ancestry
-HGDP00642	male			Bedouin		Middle East (HGDP)
-HGDP01251	female			Xibo		East Asia (HGDP)
+HGDP00642	male			Bedouin		Middle East 
+HGDP01251	female			Xibo		East Asia 
 NA20866	male	SAME123808	GIH	Gujarati	SAS	South Asian Ancestry
-HGDP00647	female			Bedouin		Middle East (HGDP)
-HGDP01256	male			Mozabite		Middle East (HGDP)
+HGDP00647	female			Bedouin		Middle East 
+HGDP01256	male			Mozabite		Middle East 
 NA20316	male	SAME123806	ASW	African Ancestry SW	AFR	African Ancestry
-HGDP00572	female			Druze		Middle East (HGDP)
-HGDP01263	male			Mozabite		Middle East (HGDP)
+HGDP00572	female			Druze		Middle East 
+HGDP01263	male			Mozabite		Middle East 
 NA20335	male	SAME124197	ASW	African Ancestry SW	AFR	African Ancestry
-HGDP00577	female			Druze		Middle East (HGDP)
-HGDP01268	male			Mozabite		Middle East (HGDP)
+HGDP00577	female			Druze		Middle East 
+HGDP01268	male			Mozabite		Middle East 
 NA20342	male	SAME124398	ASW	African Ancestry SW	AFR	African Ancestry
-HGDP00584	female			Druze		Middle East (HGDP)
-HGDP01270	female			Mozabite		Middle East (HGDP)
+HGDP00584	female			Druze		Middle East 
+HGDP01270	female			Mozabite		Middle East 
 NA20347	male	SAME124401	ASW	African Ancestry SW	AFR	African Ancestry
-HGDP00591	female			Druze		Middle East (HGDP)
-HGDP01193	male			Miao		East Asia (HGDP)
+HGDP00591	female			Druze		Middle East 
+HGDP01193	male			Miao		East Asia 
 NA20892	female	SAME123109	GIH	Gujarati	SAS	South Asian Ancestry
-HGDP00976	female			Han		East Asia (HGDP)
-HGDP01201	female			Mandenka		Africa (HGDP)
+HGDP00976	female			Han		East Asia 
+HGDP01201	female			Mandenka		Africa 
 NA20897	male	SAME123664	GIH	Gujarati	SAS	South Asian Ancestry
-HGDP00983	male			Mbuti		Africa (HGDP)
-HGDP01206	male			Oroqen		East Asia (HGDP)
+HGDP00983	male			Mbuti		Africa 
+HGDP01206	male			Oroqen		East Asia 
 NA20900	female	SAME122920	GIH	Gujarati	SAS	South Asian Ancestry
-HGDP00995	female			Karitiana		America (HGDP)
-HGDP01213	male			Daur		East Asia (HGDP)
+HGDP00995	female			Karitiana		America 
+HGDP01213	male			Daur		East Asia 
 NA20905	male	SAME122915	GIH	Gujarati	SAS	South Asian Ancestry
-HGDP01001	female			Karitiana		America (HGDP)
-HGDP01073	male			Sardinian		Europe (HGDP)
+HGDP01001	female			Karitiana		America 
+HGDP01073	male			Sardinian		Europe 
 NA21092	male	SAME123322	GIH	Gujarati	SAS	South Asian Ancestry
-HGDP01006	female			Karitiana		America (HGDP)
-HGDP01092	male			Biaka		Africa (HGDP)
+HGDP01006	female			Karitiana		America 
+HGDP01092	male			Biaka		Africa 
 NA21097	female	SAME123319	GIH	Gujarati	SAS	South Asian Ancestry
-HGDP01013	male			Karitiana		America (HGDP)
-HGDP01097	male			Tujia		East Asia (HGDP)
+HGDP01013	male			Karitiana		America 
+HGDP01097	male			Tujia		East Asia 
 NA21100	male	SAME124440	GIH	Gujarati	SAS	South Asian Ancestry
-HGDP00832	female			Surui		America (HGDP)
-HGDP01100	male			Tujia		East Asia (HGDP)
+HGDP00832	female			Surui		America 
+HGDP01100	male			Tujia		East Asia 
 NA21105	male	SAME124437	GIH	Gujarati	SAS	South Asian Ancestry
-HGDP00837	male			Surui		America (HGDP)
-HGDP01369	female			Basque		Europe (HGDP)
+HGDP00837	male			Surui		America 
+HGDP01369	female			Basque		Europe 
 NA20873	male	SAME122841	GIH	Gujarati	SAS	South Asian Ancestry
-HGDP00849	male			Surui		America (HGDP)
-HGDP01371	male			Basque		Europe (HGDP)
+HGDP00849	male			Surui		America 
+HGDP01371	male			Basque		Europe 
 NA20878	female	SAME123595	GIH	Gujarati	SAS	South Asian Ancestry
-HGDP00856	male			Maya		America (HGDP)
-HGDP01376	male			Basque		Europe (HGDP)
+HGDP00856	male			Maya		America 
+HGDP01376	male			Basque		Europe 
 NA20885	male	SAME124525	GIH	Gujarati	SAS	South Asian Ancestry
-HGDP00863	female			Maya		America (HGDP)
-HGDP01383	male			Adygei		Europe (HGDP)
+HGDP00863	female			Maya		America 
+HGDP01383	male			Adygei		Europe 
 NA21143	female	SAME123359	GIH	Gujarati	SAS	South Asian Ancestry
-HGDP00868	female			Maya		America (HGDP)
-HGDP01388	female			Adygei		Europe (HGDP)
+HGDP00868	female			Maya		America 
+HGDP01388	female			Adygei		Europe 
 SC_GMFUL5306354	female		GWF	Gambian Fula	AFR	African Ancestry
-HGDP00952	male			Yakut		East Asia (HGDP)
-HGDP01302	male			Uygur		Central South Asia (HGDP)
+HGDP00952	male			Yakut		East Asia 
+HGDP01302	male			Uygur		Central South Asia 
 SC_GMJOL5309914	female		GWJ	Gambian Jola	AFR	African Ancestry
-HGDP00957	female			Yakut		East Asia (HGDP)
-HGDP01319	male			Lahu		East Asia (HGDP)
+HGDP00957	female			Yakut		East Asia 
+HGDP01319	male			Lahu		East Asia 
 SC_GMJOL5309899	male		GWJ	Gambian Jola	AFR	African Ancestry
-HGDP00964	male			Yakut		East Asia (HGDP)
-HGDP01321	male			Lahu		East Asia (HGDP)
+HGDP00964	male			Yakut		East Asia 
+HGDP01321	male			Lahu		East Asia 
 SC_GMJOL5309907	female		GWJ	Gambian Jola	AFR	African Ancestry
-HGDP00969	male			Yakut		East Asia (HGDP)
-HGDP01326	male			Lahu		East Asia (HGDP)
+HGDP00969	male			Yakut		East Asia 
+HGDP01326	male			Lahu		East Asia 
 SC_GMFUL5306378	female		GWF	Gambian Fula	AFR	African Ancestry
-HGDP00971	male			Han		East Asia (HGDP)
-HGDP01340	male			Naxi		East Asia (HGDP)
+HGDP00971	male			Han		East Asia 
+HGDP01340	male			Naxi		East Asia 
 SC_GMFUL5306397	male		GWF	Gambian Fula	AFR	African Ancestry
-HGDP00899	female			Russian		Europe (HGDP)
-HGDP01352	male			Tu		East Asia (HGDP)
+HGDP00899	female			Russian		Europe 
+HGDP01352	male			Tu		East Asia 
 SC_GMFUL5306405	female		GWF	Gambian Fula	AFR	African Ancestry
-HGDP00902	female			Russian		Europe (HGDP)
-HGDP01357	male			Basque		Europe (HGDP)
+HGDP00902	female			Russian		Europe 
+HGDP01357	male			Basque		Europe 
 SC_GMFUL5306429	female		GWF	Gambian Fula	AFR	African Ancestry
-HGDP00907	male			Mandenka		Africa (HGDP)
-HGDP00936	male	SAMEA3302730		Yoruba		Africa (SGDP)
+HGDP00907	male			Mandenka		Africa 
+HGDP00936	male	SAMEA3302730		Yoruba		Africa 
 SC_GMFUL5309738	female		GWF	Gambian Fula	AFR	African Ancestry
-HGDP00914	female			Mandenka		Africa (HGDP)
-Kor82	female	SAMEA3302806		Itelman		Central Asia and Siberia (SGDP)
+HGDP00914	female			Mandenka		Africa 
+Kor82	female	SAMEA3302806		Itelman		Central Asia and Siberia 
 SC_GMFUL5306366	male		GWF	Gambian Fula	AFR	African Ancestry
-HGDP00919	male			Mandenka		Africa (HGDP)
-CHI-034	female	SAMEA3302826		Thai		East Asia (SGDP)
+HGDP00919	male			Mandenka		Africa 
+CHI-034	female	SAMEA3302826		Thai		East Asia 
 SC_GMFUL5309719	female		GWF	Gambian Fula	AFR	African Ancestry
-HGDP00767	male			Japanese		East Asia (HGDP)
-NA17386	male	SAMEA3302905		Maori		Oceania (SGDP)
+HGDP00767	male			Japanese		East Asia 
+NA17386	male	SAMEA3302905		Maori		Oceania 
 SC_GMFUL5306412	female		GWF	Gambian Fula	AFR	African Ancestry
-HGDP00774	male			Han		East Asia (HGDP)
-HGDP01028	male	SAMEA3302727		Bantu Herero		Africa (SGDP)
+HGDP00774	male			Han		East Asia 
+HGDP01028	male	SAMEA3302727		Bantu Herero		Africa 
 SC_GMJOL5309971	male		GWJ	Gambian Jola	AFR	African Ancestry
-HGDP00779	male			Han		East Asia (HGDP)
-HGDP00208	male	SAMEA3302815		Sindhi		South Asia (SGDP)
+HGDP00779	male			Han		East Asia 
+HGDP00208	male	SAMEA3302815		Sindhi		South Asia 
 SC_GMJOL5309940	male		GWJ	Gambian Jola	AFR	African Ancestry
-HGDP00781	female			Han		East Asia (HGDP)
-IraqiJew1771	female	SAMEA3302747		Iraqi Jew		West Eurasia (SGDP)
+HGDP00781	female			Han		East Asia 
+IraqiJew1771	female	SAMEA3302747		Iraqi Jew		West Eurasia 
 SC_GMJOL5309964	female		GWJ	Gambian Jola	AFR	African Ancestry
-HGDP00786	male			Han		East Asia (HGDP)
-Nesk_25	female	SAMEA3302856		Eskimo Naukan		Central Asia and Siberia (SGDP)
+HGDP00786	male			Han		East Asia 
+Nesk_25	female	SAMEA3302856		Eskimo Naukan		Central Asia and Siberia 
 SC_GMFUL5309764	female		GWF	Gambian Fula	AFR	African Ancestry
-HGDP00926	female			Yoruba		Africa (HGDP)
-NA21490	male	SAMEA3302814	MKK	Masai		Africa (SGDP)
+HGDP00926	female			Yoruba		Africa 
+NA21490	male	SAMEA3302814	MKK	Masai		Africa 
 SC_GMFUL5306392	male		GWF	Gambian Fula	AFR	African Ancestry
-HGDP00933	female			Yoruba		Africa (HGDP)
-HGDP01078	female	SAMEA3302813		Sardinian		West Eurasia (SGDP)
+HGDP00933	female			Yoruba		Africa 
+HGDP01078	female	SAMEA3302813		Sardinian		West Eurasia 
 SC_GMFUL5306400	male		GWF	Gambian Fula	AFR	African Ancestry
-HGDP00938	female			Yoruba		Africa (HGDP)
-HGDP01035	male	SAMEA3302869		Bantu Herero		Africa (SGDP)
+HGDP00938	female			Yoruba		Africa 
+HGDP01035	male	SAMEA3302869		Bantu Herero		Africa 
 SC_GMFUL5309733	male		GWF	Gambian Fula	AFR	African Ancestry
-HGDP00940	male			Yoruba		Africa (HGDP)
-SA0722	female	SAMEA3302800		Khomani San		Africa (SGDP)
+HGDP00940	male			Yoruba		Africa 
+SA0722	female	SAMEA3302800		Khomani San		Africa 
 SC_GMFUL5306424	male		GWF	Gambian Fula	AFR	African Ancestry
-HGDP00945	male			Yakut		East Asia (HGDP)
-Nlk3	female	SAMEA3302720		Even		Central Asia and Siberia (SGDP)
+HGDP00945	male			Yakut		East Asia 
+Nlk3	female	SAMEA3302720		Even		Central Asia and Siberia 
 SC_GMFUL5306361	female		GWF	Gambian Fula	AFR	African Ancestry
-HGDP01037	male			Pima		America (HGDP)
-mg27	male	SAMEA3302808		Georgian		West Eurasia (SGDP)
+HGDP01037	male			Pima		America 
+mg27	male	SAMEA3302808		Georgian		West Eurasia 
 SC_GMFUL5309702	female		GWF	Gambian Fula	AFR	African Ancestry
-HGDP01051	female			Pima		America (HGDP)
-ALB212	female	SAMEA3302780		Albanian		West Eurasia (SGDP)
+HGDP01051	female			Pima		America 
+ALB212	female	SAMEA3302780		Albanian		West Eurasia 
 SC_GMFUL5306385	female		GWF	Gambian Fula	AFR	African Ancestry
-HGDP01056	female			Pima		America (HGDP)
-HGDP01403	male			Adygei		Europe (HGDP)
+HGDP01056	female			Pima		America 
+HGDP01403	male			Adygei		Europe 
 SC_GMJOL5309933	female		GWJ	Gambian Jola	AFR	African Ancestry
-HGDP01063	male			Sardinian		Europe (HGDP)
-HGDP01408	male			Bantu Kenya		Africa (HGDP)
+HGDP01063	male			Sardinian		Europe 
+HGDP01408	male			Bantu Kenya		Africa 
 SC_GMJOL5309957	female		GWJ	Gambian Jola	AFR	African Ancestry
-HGDP00806	female			Orcadian		Europe (HGDP)
-HGDP01415	male			Bantu Kenya		Africa (HGDP)
+HGDP00806	female			Orcadian		Europe 
+HGDP01415	male			Bantu Kenya		Africa 
 SC_GMJOL5309926	male		GWJ	Gambian Jola	AFR	African Ancestry
-HGDP00813	female			Han		East Asia (HGDP)
-HGDP01333	male	SAMEA3302817		She		East Asia (SGDP)
+HGDP00813	female			Han		East Asia 
+HGDP01333	male	SAMEA3302817		She		East Asia 
 SC_GMJOL5309919	male		GWJ	Gambian Jola	AFR	African Ancestry
-HGDP00818	female			Han		East Asia (HGDP)
-HGDP00157	female	SAMEA3302616		Makrani		South Asia (SGDP)
+HGDP00818	female			Han		East Asia 
+HGDP00157	female	SAMEA3302616		Makrani		South Asia 
 SC_GMJOL5309983	female		GWJ	Gambian Jola	AFR	African Ancestry
-HGDP00820	female			Han		East Asia (HGDP)
-HGDP01338	male	SAMEA3302888		Naxi		East Asia (SGDP)
+HGDP00820	female			Han		East Asia 
+HGDP01338	male	SAMEA3302888		Naxi		East Asia 
 SC_GMJOL5309952	male		GWJ	Gambian Jola	AFR	African Ancestry
-HGDP00870	female			Maya		America (HGDP)
-SAH41	male	SAMEA3302694		Saharawi		Africa (SGDP)
+HGDP00870	female			Maya		America 
+SAH41	male	SAMEA3302694		Saharawi		Africa 
 SC_GMJOL5309976	male		GWJ	Gambian Jola	AFR	African Ancestry
-HGDP00875	female			Maya		America (HGDP)
-HGDP00796	female	SAMEA3302713		Orcadian		West Eurasia (SGDP)
+HGDP00875	female			Maya		America 
+HGDP00796	female	SAMEA3302713		Orcadian		West Eurasia 
 SC_GMJOL5309921	male		GWJ	Gambian Jola	AFR	African Ancestry
-HGDP00882	male			Russian		Europe (HGDP)
-HGDP01047	male	SAMEA3302779		Pima		America (SGDP)
+HGDP00882	male			Russian		Europe 
+HGDP01047	male	SAMEA3302779		Pima		America 
 NA21112	male	SAME124182	GIH	Gujarati	SAS	South Asian Ancestry
-HGDP00894	male			Russian		Europe (HGDP)
-HGDP00722	male	SAMEA3302652		Palestinian		West Eurasia (SGDP)
+HGDP00894	male			Russian		Europe 
+HGDP00722	male	SAMEA3302652		Palestinian		West Eurasia 
 NA21117	male	SAME124185	GIH	Gujarati	SAS	South Asian Ancestry
-HGDP01068	female			Sardinian		Europe (HGDP)
-HGDP01314	female	SAMEA3302827		Dai		East Asia (SGDP)
+HGDP01068	female			Sardinian		Europe 
+HGDP01314	female	SAMEA3302827		Dai		East Asia 
 NA21124	male	SAME124024	GIH	Gujarati	SAS	South Asian Ancestry
-HGDP01070	female			Sardinian		Europe (HGDP)
-HGDP00328	male	SAMEA3302754		Kalash		South Asia (SGDP)
+HGDP01070	female			Sardinian		Europe 
+HGDP00328	male	SAMEA3302754		Kalash		South Asia 
 NA21129	male	SAME124023	GIH	Gujarati	SAS	South Asian Ancestry
-HGDP01075	male			Sardinian		Europe (HGDP)
-NA15203	female	SAMEA3302678		Hungarian		West Eurasia (SGDP)
+HGDP01075	male			Sardinian		Europe 
+NA15203	female	SAMEA3302678		Hungarian		West Eurasia 
 SC_GMFUL5306359	female		GWF	Gambian Fula	AFR	African Ancestry
-HGDP01087	male			Biaka		Africa (HGDP)
-mixa0105	female	SAMEA3302811		Mixtec		America (SGDP)
+HGDP01087	male			Biaka		Africa 
+mixa0105	female	SAMEA3302811		Mixtec		America 
 SC_GMFUL5306431	female		GWF	Gambian Fula	AFR	African Ancestry
-HGDP01094	male			Biaka		Africa (HGDP)
-lez49	male	SAMEA3302664		Lezgin		West Eurasia (SGDP)
+HGDP01094	male			Biaka		Africa 
+lez49	male	SAMEA3302664		Lezgin		West Eurasia 
 SC_GMFUL5306347	male		GWF	Gambian Fula	AFR	African Ancestry
-HGDP01099	male			Tujia		East Asia (HGDP)
-abh100	male	SAMEA3302693		Abkhasian		West Eurasia (SGDP)
+HGDP01099	male			Tujia		East Asia 
+abh100	male	SAMEA3302693		Abkhasian		West Eurasia 
 SC_GMJOL5309844	male		GWJ	Gambian Jola	AFR	African Ancestry
-HGDP01102	male			Tujia		East Asia (HGDP)
-AV-21	female	SAMEA3302765		Crete		West Eurasia (SGDP)
+HGDP01102	male			Tujia		East Asia 
+AV-21	female	SAMEA3302765		Crete		West Eurasia 
 SC_GMJOL5309868	male		GWJ	Gambian Jola	AFR	African Ancestry
-HGDP01272	male			Mozabite		Middle East (HGDP)
-iran17	male	SAMEA3302874		Iranian		West Eurasia (SGDP)
+HGDP01272	male			Mozabite		Middle East 
+iran17	male	SAMEA3302874		Iranian		West Eurasia 
 SC_GMJOL5309813	female		GWJ	Gambian Jola	AFR	African Ancestry
-HGDP01277	female			Mozabite		Middle East (HGDP)
-zapo0099	male	SAMEA3302757		Zapotec		America (SGDP)
+HGDP01277	female			Mozabite		Middle East 
+zapo0099	male	SAMEA3302757		Zapotec		America 
 SC_GMJOL5309837	female		GWJ	Gambian Jola	AFR	African Ancestry
-HGDP01289	male			Northern Han		East Asia (HGDP)
-Bu5	male	SAMEA3302692		Burmese		East Asia (SGDP)
+HGDP01289	male			Northern Han		East Asia 
+Bu5	male	SAMEA3302692		Burmese		East Asia 
 SC_GMWOF5428778	male		GWW	Gambian Wolof	AFR	African Ancestry
-HGDP01291	female			Northern Han		East Asia (HGDP)
-HGDP00195	female	SAMEA3302685		Sindhi		South Asia (SGDP)
+HGDP01291	female			Northern Han		East Asia 
+HGDP00195	female	SAMEA3302685		Sindhi		South Asia 
 SC_GMWOF5428723	male		GWW	Gambian Wolof	AFR	African Ancestry
-HGDP01296	male			Northern Han		East Asia (HGDP)
-HGDP01364	male	SAMEA3302621		Basque		West Eurasia (SGDP)
+HGDP01296	male			Northern Han		East Asia 
+HGDP01364	male	SAMEA3302621		Basque		West Eurasia 
 SC_GMWOF5428747	male		GWW	Gambian Wolof	AFR	African Ancestry
-HGDP01152	male			Bergamo Italian		Europe (HGDP)
-HGDP01345	female	SAMEA3302620		Naxi		East Asia (SGDP)
+HGDP01152	male			Bergamo Italian		Europe 
+HGDP01345	female	SAMEA3302620		Naxi		East Asia 
 SC_GMWOF5428831	male		GWW	Gambian Wolof	AFR	African Ancestry
-HGDP01157	female			Bergamo Italian		Europe (HGDP)
-HGDP00474	male	SAMEA3302769		Mbuti		Africa (SGDP)
+HGDP01157	female			Bergamo Italian		Europe 
+HGDP00474	male	SAMEA3302769		Mbuti		Africa 
 SC_GMWOF5428855	male		GWW	Gambian Wolof	AFR	African Ancestry
-HGDP01164	male			Tuscan		Europe (HGDP)
-DNK05	male	SAMEA3302668		Dinka		Africa (SGDP)
+HGDP01164	male			Tuscan		Europe 
+DNK05	male	SAMEA3302668		Dinka		Africa 
 SC_GMWOF5428879	male		GWW	Gambian Wolof	AFR	African Ancestry
-HGDP01169	female			Tuscan		Europe (HGDP)
-ch113	male	SAMEA3302820		Chechen		West Eurasia (SGDP)
+HGDP01169	female			Tuscan		Europe 
+ch113	male	SAMEA3302820		Chechen		West Eurasia 
 SC_GMWOF5428792	female		GWW	Gambian Wolof	AFR	African Ancestry
-HGDP01171	female			Bergamo Italian		Europe (HGDP)
-NA11201	female	SAMEA3302896		Quechua		America (SGDP)
+HGDP01171	female			Bergamo Italian		Europe 
+NA11201	female	SAMEA3302896		Quechua		America 
 SC_GMWOF5428800	female		GWW	Gambian Wolof	AFR	African Ancestry
-HGDP01183	male			Yi		East Asia (HGDP)
-Jordan445	male	SAMEA3302887		Jordanian		West Eurasia (SGDP)
+HGDP01183	male			Yi		East Asia 
+Jordan445	male	SAMEA3302887		Jordanian		West Eurasia 
 SC_GMWOF5428824	female		GWW	Gambian Wolof	AFR	African Ancestry
-HGDP01304	male			Uygur		Central South Asia (HGDP)
-SA0342	female	SAMEA3302708		Khomani San		Africa (SGDP)
+HGDP01304	male			Uygur		Central South Asia 
+SA0342	female	SAMEA3302708		Khomani San		Africa 
 SC_GMWOF5428817	male		GWW	Gambian Wolof	AFR	African Ancestry
-HGDP01309	male			Dai		East Asia (HGDP)
-HGDP01030	male	SAMEA3302630		Bantu Tswana		Africa (SGDP)
+HGDP01309	male			Dai		East Asia 
+HGDP01030	male	SAMEA3302630		Bantu Tswana		Africa 
 SC_GMMAN5482172	female		GWD	Gambian Mandinka	AFR	African Ancestry
-HGDP01311	male			Dai		East Asia (HGDP)
-NA17374	male	SAMEA3302763		Greek		West Eurasia (SGDP)
+HGDP01311	male			Dai		East Asia 
+NA17374	male	SAMEA3302763		Greek		West Eurasia 
 SC_GMMAN5482228	male		GWD	Gambian Mandinka	AFR	African Ancestry
-HGDP01316	female			Dai		East Asia (HGDP)
-Bishkek28439	female	SAMEA3302768		Kyrgyz		Central Asia and Siberia (SGDP)
+HGDP01316	female			Dai		East Asia 
+Bishkek28439	female	SAMEA3302768		Kyrgyz		Central Asia and Siberia 
 SC_GMMAN5482165	female		GWD	Gambian Mandinka	AFR	African Ancestry
-HGDP01328	male			She		East Asia (HGDP)
-HGDP01198	female	SAMEA3302777		Miao		East Asia (SGDP)
+HGDP01328	male			She		East Asia 
+HGDP01198	female	SAMEA3302777		Miao		East Asia 
 SC_GMMAN5482189	female		GWD	Gambian Mandinka	AFR	African Ancestry
-HGDP01330	male			She		East Asia (HGDP)
-Kayseri23827	male	SAMEA3302750		Turkish		West Eurasia (SGDP)
+HGDP01330	male			She		East Asia 
+Kayseri23827	male	SAMEA3302750		Turkish		West Eurasia 
 SC_GMMAN5482191	male		GWD	Gambian Mandinka	AFR	African Ancestry
-HGDP01366	female			Basque		Europe (HGDP)
-HGDP01179	male	SAMEA3302615		Yi		East Asia (SGDP)
+HGDP01366	female			Basque		Europe 
+HGDP01179	male	SAMEA3302615		Yi		East Asia 
 SC_GMMAN5482223	female		GWD	Gambian Mandinka	AFR	African Ancestry
-HGDP01373	female			Basque		Europe (HGDP)
+HGDP01373	female			Basque		Europe 
 GM19320	female		LWK	Luhya	AFR	African Ancestry
 SC_GMJOL5309945	male		GWJ	Gambian Jola	AFR	African Ancestry
-HGDP01378	male			Basque		Europe (HGDP)
+HGDP01378	male			Basque		Europe 
 SC_GMJOL5309969	female		GWJ	Gambian Jola	AFR	African Ancestry
-HGDP01380	female			Basque		Europe (HGDP)
+HGDP01380	female			Basque		Europe 
 SC_GMJOL5309851	male		GWJ	Gambian Jola	AFR	African Ancestry
-HGDP01385	male			Adygei		Europe (HGDP)
+HGDP01385	male			Adygei		Europe 
 SC_GMJOL5309875	male		GWJ	Gambian Jola	AFR	African Ancestry
-HGDP01222	female			Daur		East Asia (HGDP)
+HGDP01222	female			Daur		East Asia 
 SC_GMJOL5309820	female		GWJ	Gambian Jola	AFR	African Ancestry
-HGDP01227	male			Mongolian		East Asia (HGDP)
+HGDP01227	male			Mongolian		East Asia 
 SC_GMMAN5482247	female		GWD	Gambian Mandinka	AFR	African Ancestry
-HGDP01234	female			Hezhen		East Asia (HGDP)
+HGDP01234	female			Hezhen		East Asia 
 SC_GMMAN5482184	male		GWD	Gambian Mandinka	AFR	African Ancestry
-HGDP01239	female			Hezhen		East Asia (HGDP)
+HGDP01239	female			Hezhen		East Asia 
 SC_GMMAN5482216	male		GWD	Gambian Mandinka	AFR	African Ancestry
-HGDP01241	male			Hezhen		East Asia (HGDP)
+HGDP01241	male			Hezhen		East Asia 
 SC_GMMAN5482177	female		GWD	Gambian Mandinka	AFR	African Ancestry
-HGDP01342	male			Naxi		East Asia (HGDP)
+HGDP01342	male			Naxi		East Asia 
 SC_GMMAN5482209	male		GWD	Gambian Mandinka	AFR	African Ancestry
-HGDP01347	male			Tu		East Asia (HGDP)
+HGDP01347	male			Tu		East Asia 
 SC_GMWOF5428906	male		GWW	Gambian Wolof	AFR	African Ancestry
-HGDP01354	female			Tu		East Asia (HGDP)
+HGDP01354	female			Tu		East Asia 
 SC_GMMAN5482242	female		GWD	Gambian Mandinka	AFR	African Ancestry
-HGDP01359	male			Basque		Europe (HGDP)
+HGDP01359	male			Basque		Europe 
 SC_GMMAN5482211	male		GWD	Gambian Mandinka	AFR	African Ancestry
-HGDP01361	male			Basque		Europe (HGDP)
+HGDP01361	male			Basque		Europe 
 SC_GMMAN5482235	female		GWD	Gambian Mandinka	AFR	African Ancestry
-HGDP01258	male			Mozabite		Middle East (HGDP)
+HGDP01258	male			Mozabite		Middle East 
 SC_GMWOF5428812	female		GWW	Gambian Wolof	AFR	African Ancestry
-HGDP01260	male			Mozabite		Middle East (HGDP)
+HGDP01260	male			Mozabite		Middle East 
 SC_GMWOF5428797	female		GWW	Gambian Wolof	AFR	African Ancestry
-HGDP01265	male			Mozabite		Middle East (HGDP)
+HGDP01265	male			Mozabite		Middle East 
 SC_GMWOF5428805	male		GWW	Gambian Wolof	AFR	African Ancestry
-HGDP01190	male			Miao		East Asia (HGDP)
+HGDP01190	male			Miao		East Asia 
 SC_GMWOF5428829	male		GWW	Gambian Wolof	AFR	African Ancestry
-HGDP01195	male			Miao		East Asia (HGDP)
+HGDP01195	male			Miao		East Asia 
 SC_GMWOF5428850	male		GWW	Gambian Wolof	AFR	African Ancestry
-HGDP01208	male			Oroqen		East Asia (HGDP)
+HGDP01208	male			Oroqen		East Asia 
 SC_GMWOF5428874	male		GWW	Gambian Wolof	AFR	African Ancestry
-HGDP01188	female	SAMEA3302793		Yi		East Asia (SGDP)
+HGDP01188	female	SAMEA3302793		Yi		East Asia 
 SC_GMWOF5428843	female		GWW	Gambian Wolof	AFR	African Ancestry
-Kusunda02	male	SAMEA3302819		Kusunda		South Asia (SGDP)
+Kusunda02	male	SAMEA3302819		Kusunda		South Asia 
 SC_GMWOF5428867	female		GWW	Gambian Wolof	AFR	African Ancestry
-HGDP01203	male	SAMEA3302893		Oroqen		East Asia (SGDP)
+HGDP01203	male	SAMEA3302893		Oroqen		East Asia 
 SC_GMWOF5428716	female		GWW	Gambian Wolof	AFR	African Ancestry
-Sir19	male	SAMEA3302734		Chukchi		Central Asia and Siberia (SGDP)
+Sir19	male	SAMEA3302734		Chukchi		Central Asia and Siberia 
 SC_GMWOF5428728	male		GWW	Gambian Wolof	AFR	African Ancestry
-Igor20	female	SAMEA3302724		Igorot		Oceania (SGDP)
+Igor20	female	SAMEA3302724		Igorot		Oceania 
 SC_GMMAN5482292	female		GWD	Gambian Mandinka	AFR	African Ancestry
-HGDP00058	male	SAMEA3449877		Balochi		South Asia (SGDP)
+HGDP00058	male	SAMEA3449877		Balochi		South Asia 
 SC_GMMAN5482300	male		GWD	Gambian Mandinka	AFR	African Ancestry
-Nesk_22	female	SAMEA3302831		Eskimo Naukan		Central Asia and Siberia (SGDP)
+Nesk_22	female	SAMEA3302831		Eskimo Naukan		Central Asia and Siberia 
 SC_GMMAN5482324	male		GWD	Gambian Mandinka	AFR	African Ancestry
-HGDP01018	female	SAMEA3302662		Karitiana		America (SGDP)
+HGDP01018	female	SAMEA3302662		Karitiana		America 
 SC_GMMAN5482348	male		GWD	Gambian Mandinka	AFR	African Ancestry
-HGDP01246	male	SAMEA3302648		Xibo		East Asia (SGDP)
+HGDP01246	male	SAMEA3302648		Xibo		East Asia 
 SC_GMMAN5482285	female		GWD	Gambian Mandinka	AFR	African Ancestry
-HGDP01335	female	SAMEA3302787		She		East Asia (SGDP)
+HGDP01335	female	SAMEA3302787		She		East Asia 
 NA18594	female		CHB	Han Chinese	EAS	East Asian Ancestry
-HGDP01032	male	SAMEA3302682		Ju|'hoan North		Africa (SGDP)
-HGDP00007	male			Brahui		Central South Asia (HGDP)
-I1	male	SAMEA3302610		Irula		South Asia (SGDP)
+HGDP01032	male	SAMEA3302682		Ju|'hoan North		Africa 
+HGDP00007	male			Brahui		Central South Asia 
+I1	male	SAMEA3302610		Irula		South Asia 
 SC_GMMAN5482266	female		GWD	Gambian Mandinka	AFR	African Ancestry
-HGDP00027	male	SAMEA3302782		Brahui		South Asia (SGDP)
-HGDP00108	male			Hazara		Central South Asia (HGDP)
-HGDP01417	male	SAMEA3302737		Bantu Kenya		Africa (SGDP)
-HGDP00110	male			Hazara		Central South Asia (HGDP)
-Ayodo_81S	female	SAMEA3302884		Somali		Africa (SGDP)
-HGDP00115	male			Hazara		Central South Asia (HGDP)
-NA21581	male	SAMEA3302687	MKK	Masai		Africa (SGDP)
-HGDP00122	male			Hazara		Central South Asia (HGDP)
-Jordan214	male	SAMEA3302729		Jordanian		West Eurasia (SGDP)
-HGDP00127	male			Hazara		Central South Asia (HGDP)
-Mansi41	female	SAMEA3302654		Mansi		Central Asia and Siberia (SGDP)
-HGDP00134	male			Makrani		Central South Asia (HGDP)
-HGDP00798	male	SAMEA3302667		Orcadian		West Eurasia (SGDP)
-HGDP00139	male			Makrani		Central South Asia (HGDP)
-NorthOssetia12	male	SAMEA3302797		North Ossetian		West Eurasia (SGDP)
-HGDP00141	male			Makrani		Central South Asia (HGDP)
-HGDP00616	male	SAMEA3302823		Bedouin B		West Eurasia (SGDP)
-HGDP00146	male			Makrani		Central South Asia (HGDP)
-HGDP00887	male	SAMEA3302786		Russian		West Eurasia (SGDP)
-HGDP00153	female			Makrani		Central South Asia (HGDP)
-Sir26	male	SAMEA3302670		Eskimo Sireniki		Central Asia and Siberia (SGDP)
-HGDP00158	male			Makrani		Central South Asia (HGDP)
-HGDP00286	female	SAMEA3302761		Kalash		South Asia (SGDP)
-HGDP00165	male			Sindhi		Central South Asia (HGDP)
-HGDP01323	female	SAMEA3302882		Lahu		East Asia (SGDP)
-HGDP00247	female			Pathan		Central South Asia (HGDP)
-Ale32	male	SAMEA3302853		Tlingit		Central Asia and Siberia (SGDP)
-HGDP00254	male			Pathan		Central South Asia (HGDP)
-DNK07	male	SAMEA3302733		Dinka		Africa (SGDP)
-HGDP00259	male			Pathan		Central South Asia (HGDP)
-HGDP00457	male	SAMEA3302816		Biaka		Africa (SGDP)
-HGDP00285	male			Kalash		Central South Asia (HGDP)
-HGDP01044	female	SAMEA3302627		Pima		America (SGDP)
-HGDP00021	male			Brahui		Central South Asia (HGDP)
-M4	male	SAMEA3302834		Madiga		South Asia (SGDP)
-HGDP00033	male			Brahui		Central South Asia (HGDP)
-Ayodo_502C	female	SAMEA3302810		Luo		Africa (SGDP)
-HGDP00045	male			Brahui		Central South Asia (HGDP)
-Ale20	female	SAMEA3302642		Aleut		Central Asia and Siberia (SGDP)
-HGDP00052	male			Balochi		Central South Asia (HGDP)
-HGDP01397	male			Adygei		Europe (HGDP)
-HGDP00057	male			Balochi		Central South Asia (HGDP)
-HGDP01400	female			Adygei		Europe (HGDP)
-HGDP00177	male			Sindhi		Central South Asia (HGDP)
-HGDP01405	male			Bantu Kenya		Africa (HGDP)
-HGDP00189	male			Sindhi		Central South Asia (HGDP)
-HGDP01412	male			Bantu Kenya		Africa (HGDP)
-HGDP00191	male			Sindhi		Central South Asia (HGDP)
-mg31	male	SAMEA3302838		Georgian		West Eurasia (SGDP)
-HGDP00228	male			Pathan		Central South Asia (HGDP)
-Utsa21	female	SAMEA3302875		Saami		West Eurasia (SGDP)
-HGDP00230	male			Pathan		Central South Asia (HGDP)
-HGDP01253	male	SAMEA3302825		Mozabite		Africa (SGDP)
-HGDP00064	male			Balochi		Central South Asia (HGDP)
-HGDP00476	female	SAMEA3302716		Mbuti,Mbuti		Africa (SGDP),Africa (HGDP)
-HGDP00076	male			Balochi		Central South Asia (HGDP)
-HGDP01215	female	SAMEA3302840		Daur		East Asia (SGDP)
-HGDP00088	male			Balochi		Central South Asia (HGDP)
-Kayseri24424	female	SAMEA3302809		Turkish		West Eurasia (SGDP)
-HGDP00103	male			Hazara		Central South Asia (HGDP)
-Sir40	female	SAMEA3302641		Eskimo Sireniki		Central Asia and Siberia (SGDP)
-HGDP00444	female			Burusho		Central South Asia (HGDP)
-Tuba9	female	SAMEA3302781		Tubalar		Central Asia and Siberia (SGDP)
-HGDP00463	male			Mbuti		Africa (HGDP)
-Y8	male	SAMEA3302725		Yadava		South Asia (SGDP)
-HGDP00519	male			French		Europe (HGDP)
-HGDP00717	male	SAMEA3302689		Cambodian		East Asia (SGDP)
-HGDP00538	male			French		Europe (HGDP)
-Dus16	female	SAMEA3302759		Dusun		Oceania (SGDP)
-HGDP00540	male			Papuan,Papuan Sepik		Oceania (SGDP),Oceania (HGDP)
-tdj430_shugnan	male	SAMEA3302691		Tajik		West Eurasia (SGDP)
-HGDP00545	male			Papuan,Papuan Sepik		Oceania (SGDP),Oceania (HGDP)
-SAH31	male	SAMEA3302857		Saharawi		Africa (SGDP)
-HGDP00711	male			Cambodian		East Asia (HGDP)
-B11	male	SAMEA3302829		Brahmin		South Asia (SGDP)
-HGDP00716	male			Cambodian		East Asia (HGDP)
-YemeniteJew4695	female	SAMEA3302634		Yemenite Jew		West Eurasia (SGDP)
-HGDP00723	male			Palestinian		Middle East (HGDP)
+HGDP00027	male	SAMEA3302782		Brahui		South Asia 
+HGDP00108	male			Hazara		Central South Asia 
+HGDP01417	male	SAMEA3302737		Bantu Kenya		Africa 
+HGDP00110	male			Hazara		Central South Asia 
+Ayodo_81S	female	SAMEA3302884		Somali		Africa 
+HGDP00115	male			Hazara		Central South Asia 
+NA21581	male	SAMEA3302687	MKK	Masai		Africa 
+HGDP00122	male			Hazara		Central South Asia 
+Jordan214	male	SAMEA3302729		Jordanian		West Eurasia 
+HGDP00127	male			Hazara		Central South Asia 
+Mansi41	female	SAMEA3302654		Mansi		Central Asia and Siberia 
+HGDP00134	male			Makrani		Central South Asia 
+HGDP00798	male	SAMEA3302667		Orcadian		West Eurasia 
+HGDP00139	male			Makrani		Central South Asia 
+NorthOssetia12	male	SAMEA3302797		North Ossetian		West Eurasia 
+HGDP00141	male			Makrani		Central South Asia 
+HGDP00616	male	SAMEA3302823		Bedouin B		West Eurasia 
+HGDP00146	male			Makrani		Central South Asia 
+HGDP00887	male	SAMEA3302786		Russian		West Eurasia 
+HGDP00153	female			Makrani		Central South Asia 
+Sir26	male	SAMEA3302670		Eskimo Sireniki		Central Asia and Siberia 
+HGDP00158	male			Makrani		Central South Asia 
+HGDP00286	female	SAMEA3302761		Kalash		South Asia 
+HGDP00165	male			Sindhi		Central South Asia 
+HGDP01323	female	SAMEA3302882		Lahu		East Asia 
+HGDP00247	female			Pathan		Central South Asia 
+Ale32	male	SAMEA3302853		Tlingit		Central Asia and Siberia 
+HGDP00254	male			Pathan		Central South Asia 
+DNK07	male	SAMEA3302733		Dinka		Africa 
+HGDP00259	male			Pathan		Central South Asia 
+HGDP00457	male	SAMEA3302816		Biaka		Africa 
+HGDP00285	male			Kalash		Central South Asia 
+HGDP01044	female	SAMEA3302627		Pima		America 
+HGDP00021	male			Brahui		Central South Asia 
+M4	male	SAMEA3302834		Madiga		South Asia 
+HGDP00033	male			Brahui		Central South Asia 
+Ayodo_502C	female	SAMEA3302810		Luo		Africa 
+HGDP00045	male			Brahui		Central South Asia 
+Ale20	female	SAMEA3302642		Aleut		Central Asia and Siberia 
+HGDP00052	male			Balochi		Central South Asia 
+HGDP01397	male			Adygei		Europe 
+HGDP00057	male			Balochi		Central South Asia 
+HGDP01400	female			Adygei		Europe 
+HGDP00177	male			Sindhi		Central South Asia 
+HGDP01405	male			Bantu Kenya		Africa 
+HGDP00189	male			Sindhi		Central South Asia 
+HGDP01412	male			Bantu Kenya		Africa 
+HGDP00191	male			Sindhi		Central South Asia 
+mg31	male	SAMEA3302838		Georgian		West Eurasia 
+HGDP00228	male			Pathan		Central South Asia 
+Utsa21	female	SAMEA3302875		Saami		West Eurasia 
+HGDP00230	male			Pathan		Central South Asia 
+HGDP01253	male	SAMEA3302825		Mozabite		Africa 
+HGDP00064	male			Balochi		Central South Asia 
+HGDP00476	female	SAMEA3302716		Mbuti		Africa 
+HGDP00076	male			Balochi		Central South Asia 
+HGDP01215	female	SAMEA3302840		Daur		East Asia 
+HGDP00088	male			Balochi		Central South Asia 
+Kayseri24424	female	SAMEA3302809		Turkish		West Eurasia 
+HGDP00103	male			Hazara		Central South Asia 
+Sir40	female	SAMEA3302641		Eskimo Sireniki		Central Asia and Siberia 
+HGDP00444	female			Burusho		Central South Asia 
+Tuba9	female	SAMEA3302781		Tubalar		Central Asia and Siberia 
+HGDP00463	male			Mbuti		Africa 
+Y8	male	SAMEA3302725		Yadava		South Asia 
+HGDP00519	male			French		Europe 
+HGDP00717	male	SAMEA3302689		Cambodian		East Asia 
+HGDP00538	male			French		Europe 
+Dus16	female	SAMEA3302759		Dusun		Oceania 
+HGDP00540	male			Papuan		Oceania 
+tdj430_shugnan	male	SAMEA3302691		Tajik		West Eurasia 
+HGDP00545	male			Papuan		Oceania 
+SAH31	male	SAMEA3302857		Saharawi		Africa 
+HGDP00711	male			Cambodian		East Asia 
+B11	male	SAMEA3302829		Brahmin		South Asia 
+HGDP00716	male			Cambodian		East Asia 
+YemeniteJew4695	female	SAMEA3302634		Yemenite Jew		West Eurasia 
+HGDP00723	male			Palestinian		Middle East 
 GM20355	female		ASW	African Ancestry SW	AFR	African Ancestry
-HGDP00730	male			Palestinian		Middle East (HGDP)
-HGDP00735	female			Palestinian		Middle East (HGDP)
-HGDP00468	male			Mbuti		Africa (HGDP)
-HGDP00470	male			Biaka		Africa (HGDP)
-HGDP00475	male			Biaka		Africa (HGDP)
-HGDP00514	female			French		Europe (HGDP)
-HGDP00684	female			Palestinian		Middle East (HGDP)
-HGDP00689	female			Palestinian		Middle East (HGDP)
-HGDP00691	female			Palestinian		Middle East (HGDP)
-HGDP00696	female			Palestinian		Middle East (HGDP)
-HGDP00704	female			Colombian		America (HGDP)
-HGDP00653	female			Bedouin		Middle East (HGDP)
-HGDP00672	female			Sardinian		Europe (HGDP)
-HGDP00677	male			Palestinian		Middle East (HGDP)
-HGDP00576	male			Druze		Middle East (HGDP)
-HGDP00583	female			Druze		Middle East (HGDP)
-HGDP00588	male			Druze		Middle East (HGDP)
-HGDP00590	female			Druze		Middle East (HGDP)
-HGDP00595	male			Druze		Middle East (HGDP)
-HGDP00627	male			Bedouin		Middle East (HGDP)
-HGDP00634	female			Bedouin		Middle East (HGDP)
-HGDP00639	male			Bedouin		Middle East (HGDP)
-HGDP00641	male			Bedouin		Middle East (HGDP)
-HGDP00646	female			Bedouin		Middle East (HGDP)
-HGDP00608	male			Bedouin		Middle East (HGDP)
-HGDP00610	male			Bedouin		Middle East (HGDP)
-HGDP00615	female			Bedouin		Middle East (HGDP)
-HGDP00622	male			Bedouin		Middle East (HGDP)
-HGDP00557	female			Druze		Middle East (HGDP)
-HGDP00564	female			Druze		Middle East (HGDP)
-HGDP00571	female			Druze		Middle East (HGDP)
-HGDP00994	male			Bantu South Africa		Africa (HGDP)
-HGDP00999	female			Karitiana		America (HGDP)
-HGDP01024	female			Han		East Asia (HGDP)
-HGDP01029	male			San		Africa (HGDP)
-HGDP00898	female			Russian		Europe (HGDP)
-HGDP00901	female			Russian		Europe (HGDP)
-HGDP00906	male			Mandenka		Africa (HGDP)
-HGDP00913	male			Mandenka		Africa (HGDP)
-HGDP00918	female			Mandenka		Africa (HGDP)
-HGDP00920	female			Yoruba		Africa (HGDP)
-HGDP00925	female			Yoruba		Africa (HGDP)
-HGDP00963	female			Yakut		East Asia (HGDP)
-HGDP00968	male			Yakut		East Asia (HGDP)
-HGDP00970	female			Colombian		America (HGDP)
-HGDP00975	female			Han		East Asia (HGDP)
-HGDP00766	male			Japanese		East Asia (HGDP)
-HGDP00780	male			Han		East Asia (HGDP)
-HGDP00797	female			Orcadian		Europe (HGDP)
-HGDP00800	female			Orcadian		Europe (HGDP)
-HGDP00805	female			Orcadian		Europe (HGDP)
-HGDP00812	female			Han		East Asia (HGDP)
-HGDP00817	female			Han		East Asia (HGDP)
-HGDP00937	male			Yoruba		Africa (HGDP)
-HGDP00944	male			Yoruba		Africa (HGDP)
-HGDP00949	male			Yakut		East Asia (HGDP)
-HGDP00747	male			Japanese		East Asia (HGDP)
-HGDP00754	female			Japanese		East Asia (HGDP)
-HGDP00759	male			Japanese		East Asia (HGDP)
-HGDP00761	female			Japanese		East Asia (HGDP)
-HGDP00879	male			Russian		Europe (HGDP)
-HGDP00881	female			Russian		Europe (HGDP)
-HGDP00886	male			Russian		Europe (HGDP)
-HGDP00893	male			Russian		Europe (HGDP)
-HGDP00843	male			Surui		America (HGDP)
-HGDP00862	female			Maya		America (HGDP)
-HGDP01074	female			Sardinian		Europe (HGDP)
-HGDP01081	male			Mbuti		Africa (HGDP)
-HGDP01086	male			Biaka		Africa (HGDP)
-HGDP01101	male			Tujia		East Asia (HGDP)
-HGDP01149	male			Bergamo Italian		Europe (HGDP)
-HGDP01151	male			Bergamo Italian		Europe (HGDP)
-HGDP01031	male			Bantu South Africa		Africa (HGDP)
-HGDP01043	male			Pima		America (HGDP)
-HGDP01050	male			Pima		America (HGDP)
-HGDP01055	male			Pima		America (HGDP)
-HGDP01062	female			Sardinian		Europe (HGDP)
-HGDP01067	male			Sardinian		Europe (HGDP)
-HGDP01276	female			Mozabite		Middle East (HGDP)
-HGDP01283	male			Mandenka		Africa (HGDP)
-HGDP01288	male			Northern Han		East Asia (HGDP)
-HGDP01290	male			Northern Han		East Asia (HGDP)
-HGDP01295	male			Northern Han		East Asia (HGDP)
-HGDP01219	female			Daur		East Asia (HGDP)
-HGDP01221	male			Daur		East Asia (HGDP)
-HGDP01226	male			Mongolian		East Asia (HGDP)
-HGDP01233	male			Hezhen		East Asia (HGDP)
-HGDP01238	female			Hezhen		East Asia (HGDP)
-HGDP01245	male			Xibo		East Asia (HGDP)
-HGDP01339	male			Naxi		East Asia (HGDP)
-HGDP01341	male			Naxi		East Asia (HGDP)
-HGDP01346	female			Naxi		East Asia (HGDP)
-HGDP01353	male			Tu		East Asia (HGDP)
-HGDP01358	male			Basque		Europe (HGDP)
-HGDP01360	male			Basque		Europe (HGDP)
-HGDP01194	male			Miao		East Asia (HGDP)
-HGDP01202	male			Mandenka		Africa (HGDP)
-HGDP01207	male			Oroqen		East Asia (HGDP)
-HGDP01214	male			Daur		East Asia (HGDP)
-HGDP01257	male			Mozabite		Middle East (HGDP)
-HGDP01264	male			Mozabite		Middle East (HGDP)
-HGDP01269	male			Mozabite		Middle East (HGDP)
-HGDP01271	male			Mozabite		Middle East (HGDP)
-HGDP01303	male			Uygur		Central South Asia (HGDP)
-HGDP01310	male			Dai		East Asia (HGDP)
-HGDP01322	male			Lahu		East Asia (HGDP)
-HGDP01327	male			She		East Asia (HGDP)
-HGDP01334	female			She		East Asia (HGDP)
-HGDP01156	female			Bergamo Italian		Europe (HGDP)
-HGDP01182	male			Yi		East Asia (HGDP)
-HGDP01187	male			Yi		East Asia (HGDP)
-CHI-007	male	SAMEA3302663		Thai		East Asia (SGDP)
-HGDP00449	male	SAMEA3302659		Mbuti,Mbuti		Africa (SGDP),Africa (HGDP)
-HGDP00019	male	SAMEA3302677		Brahui		South Asia (SGDP)
-Igor21	male	SAMEA3302696		Igorot		Oceania (SGDP)
-Utsa22	male	SAMEA3302851		Saami		West Eurasia (SGDP)
-HGDP00533	male	SAMEA3302712		French		West Eurasia (SGDP)
-HGDP00526	female	SAMEA3302828		French		West Eurasia (SGDP)
-HGDP01036	male	SAMEA3302894		Ju|'hoan North,San		Africa (SGDP),Africa (HGDP)
-HGDP01365	female	SAMEA3302903		Basque		West Eurasia (SGDP)
-Sam02	male	SAMEA3302863		Samaritan		West Eurasia (SGDP)
-HGDP01079	male	SAMEA3302822		Sardinian		West Eurasia (SGDP)
-NOR111	female	SAMEA3449879		Norwegian		West Eurasia (SGDP)
-HGDP00660	female	SAMEA3302841		Bougainville		Oceania (SGDP)
-HGDP01396	male			Adygei		Europe (HGDP)
-HGDP01404	male			Adygei		Europe (HGDP)
-HGDP01411	male			Bantu Kenya		Africa (HGDP)
-HGDP01416	male			Bantu Kenya		Africa (HGDP)
-HGDP00090	male	SAMEA3302890		Balochi		South Asia (SGDP)
-HGDP00569	female	SAMEA3302739		Druze		West Eurasia (SGDP)
-NA15761	female	SAMEA3302837		Icelandic		West Eurasia (SGDP)
-YemeniteJew5433	male	SAMEA3302807		Yemenite Jew		West Eurasia (SGDP)
-HGDP01199	male	SAMEA3302756		Mandenka		Africa (SGDP)
-HGDP01168	female	SAMEA3302684		Tuscan		West Eurasia (SGDP)
-HGDP00552	female	SAMEA3302700		Papuan		Oceania (SGDP)
-HGDP00956	female	SAMEA3302706		Yakut		Central Asia and Siberia (SGDP)
-armenia293	male	SAMEA3302624		Armenian		West Eurasia (SGDP)
-NA15728	male	SAMEA3302844		Czech		West Eurasia (SGDP)
-K4	male	SAMEA3302839		Kapu		South Asia (SGDP)
-Bu16	male	SAMEA3302895		Burmese		East Asia (SGDP)
-HGDP01012	male	SAMEA3302790		Karitiana		America (SGDP)
-HGDP00987	male	SAMEA3302900		Ju|'hoan North,San		Africa (SGDP),Africa (HGDP)
-HGDP00932	male	SAMEA3302632		Yoruba		Africa (SGDP)
-HGDP01315	female	SAMEA3302785		Dai		East Asia (SGDP)
-HGDP01308	male	SAMEA3302666		Dai		East Asia (SGDP)
-Dus22	female	SAMEA3302688		Dusun		Oceania (SGDP)
-Est400	male	SAMEA3302679		Estonian		West Eurasia (SGDP)
-HGDP01240	male	SAMEA3302880		Hezhen		East Asia (SGDP)
-mixe0042	female	SAMEA3302723		Mixe		America (SGDP)
-HGDP00216	male	SAMEA3302674		Pathan		South Asia (SGDP)
-HGDP01372	male			Basque		Europe (HGDP)
-HGDP01377	male			Basque		Europe (HGDP)
-HGDP01384	female			Adygei		Europe (HGDP)
-HGDP00982	male	SAMEA3302833		Mbuti		Africa (SGDP)
-HGDP01098	female	SAMEA3302665		Tujia		East Asia (SGDP)
-HGDP00160	male	SAMEA3302771		Makrani		South Asia (SGDP)
-Bishkek28440	male	SAMEA3302717		Kyrgyz		Central Asia and Siberia (SGDP)
-HGDP01163	male	SAMEA3302758		Tuscan		West Eurasia (SGDP)
-HGDP00951	male	SAMEA3302802		Yakut		Central Asia and Siberia (SGDP)
-HGDP00785	male	SAMEA3302804		Han		East Asia (SGDP)
-HGDP00855	female	SAMEA3302866		Mayan,Maya		America (SGDP),America (HGDP)
-Kusunda15	male	SAMEA3302911		Kusunda		South Asia (SGDP)
-NA13607	male	SAMEA3302722		Ami		East Asia (SGDP)
-HGDP00773	female	SAMEA3302906		Japanese		East Asia (SGDP)
-R3	male	SAMEA3302714		Relli		South Asia (SGDP)
+HGDP00730	male			Palestinian		Middle East 
+HGDP00735	female			Palestinian		Middle East 
+HGDP00468	male			Mbuti		Africa 
+HGDP00470	male			Biaka		Africa 
+HGDP00475	male			Biaka		Africa 
+HGDP00514	female			French		Europe 
+HGDP00684	female			Palestinian		Middle East 
+HGDP00689	female			Palestinian		Middle East 
+HGDP00691	female			Palestinian		Middle East 
+HGDP00696	female			Palestinian		Middle East 
+HGDP00704	female			Colombian		America 
+HGDP00653	female			Bedouin		Middle East 
+HGDP00672	female			Sardinian		Europe 
+HGDP00677	male			Palestinian		Middle East 
+HGDP00576	male			Druze		Middle East 
+HGDP00583	female			Druze		Middle East 
+HGDP00588	male			Druze		Middle East 
+HGDP00590	female			Druze		Middle East 
+HGDP00595	male			Druze		Middle East 
+HGDP00627	male			Bedouin		Middle East 
+HGDP00634	female			Bedouin		Middle East 
+HGDP00639	male			Bedouin		Middle East 
+HGDP00641	male			Bedouin		Middle East 
+HGDP00646	female			Bedouin		Middle East 
+HGDP00608	male			Bedouin		Middle East 
+HGDP00610	male			Bedouin		Middle East 
+HGDP00615	female			Bedouin		Middle East 
+HGDP00622	male			Bedouin		Middle East 
+HGDP00557	female			Druze		Middle East 
+HGDP00564	female			Druze		Middle East 
+HGDP00571	female			Druze		Middle East 
+HGDP00994	male			Bantu South Africa		Africa 
+HGDP00999	female			Karitiana		America 
+HGDP01024	female			Han		East Asia 
+HGDP01029	male			San		Africa 
+HGDP00898	female			Russian		Europe 
+HGDP00901	female			Russian		Europe 
+HGDP00906	male			Mandenka		Africa 
+HGDP00913	male			Mandenka		Africa 
+HGDP00918	female			Mandenka		Africa 
+HGDP00920	female			Yoruba		Africa 
+HGDP00925	female			Yoruba		Africa 
+HGDP00963	female			Yakut		East Asia 
+HGDP00968	male			Yakut		East Asia 
+HGDP00970	female			Colombian		America 
+HGDP00975	female			Han		East Asia 
+HGDP00766	male			Japanese		East Asia 
+HGDP00780	male			Han		East Asia 
+HGDP00797	female			Orcadian		Europe 
+HGDP00800	female			Orcadian		Europe 
+HGDP00805	female			Orcadian		Europe 
+HGDP00812	female			Han		East Asia 
+HGDP00817	female			Han		East Asia 
+HGDP00937	male			Yoruba		Africa 
+HGDP00944	male			Yoruba		Africa 
+HGDP00949	male			Yakut		East Asia 
+HGDP00747	male			Japanese		East Asia 
+HGDP00754	female			Japanese		East Asia 
+HGDP00759	male			Japanese		East Asia 
+HGDP00761	female			Japanese		East Asia 
+HGDP00879	male			Russian		Europe 
+HGDP00881	female			Russian		Europe 
+HGDP00886	male			Russian		Europe 
+HGDP00893	male			Russian		Europe 
+HGDP00843	male			Surui		America 
+HGDP00862	female			Maya		America 
+HGDP01074	female			Sardinian		Europe 
+HGDP01081	male			Mbuti		Africa 
+HGDP01086	male			Biaka		Africa 
+HGDP01101	male			Tujia		East Asia 
+HGDP01149	male			Bergamo Italian		Europe 
+HGDP01151	male			Bergamo Italian		Europe 
+HGDP01031	male			Bantu South Africa		Africa 
+HGDP01043	male			Pima		America 
+HGDP01050	male			Pima		America 
+HGDP01055	male			Pima		America 
+HGDP01062	female			Sardinian		Europe 
+HGDP01067	male			Sardinian		Europe 
+HGDP01276	female			Mozabite		Middle East 
+HGDP01283	male			Mandenka		Africa 
+HGDP01288	male			Northern Han		East Asia 
+HGDP01290	male			Northern Han		East Asia 
+HGDP01295	male			Northern Han		East Asia 
+HGDP01219	female			Daur		East Asia 
+HGDP01221	male			Daur		East Asia 
+HGDP01226	male			Mongolian		East Asia 
+HGDP01233	male			Hezhen		East Asia 
+HGDP01238	female			Hezhen		East Asia 
+HGDP01245	male			Xibo		East Asia 
+HGDP01339	male			Naxi		East Asia 
+HGDP01341	male			Naxi		East Asia 
+HGDP01346	female			Naxi		East Asia 
+HGDP01353	male			Tu		East Asia 
+HGDP01358	male			Basque		Europe 
+HGDP01360	male			Basque		Europe 
+HGDP01194	male			Miao		East Asia 
+HGDP01202	male			Mandenka		Africa 
+HGDP01207	male			Oroqen		East Asia 
+HGDP01214	male			Daur		East Asia 
+HGDP01257	male			Mozabite		Middle East 
+HGDP01264	male			Mozabite		Middle East 
+HGDP01269	male			Mozabite		Middle East 
+HGDP01271	male			Mozabite		Middle East 
+HGDP01303	male			Uygur		Central South Asia 
+HGDP01310	male			Dai		East Asia 
+HGDP01322	male			Lahu		East Asia 
+HGDP01327	male			She		East Asia 
+HGDP01334	female			She		East Asia 
+HGDP01156	female			Bergamo Italian		Europe 
+HGDP01182	male			Yi		East Asia 
+HGDP01187	male			Yi		East Asia 
+CHI-007	male	SAMEA3302663		Thai		East Asia 
+HGDP00449	male	SAMEA3302659		Mbuti		Africa 
+HGDP00019	male	SAMEA3302677		Brahui		South Asia 
+Igor21	male	SAMEA3302696		Igorot		Oceania 
+Utsa22	male	SAMEA3302851		Saami		West Eurasia 
+HGDP00533	male	SAMEA3302712		French		West Eurasia 
+HGDP00526	female	SAMEA3302828		French		West Eurasia 
+HGDP01036	male	SAMEA3302894		Ju|'hoan North		Africa 
+HGDP01365	female	SAMEA3302903		Basque		West Eurasia 
+Sam02	male	SAMEA3302863		Samaritan		West Eurasia 
+HGDP01079	male	SAMEA3302822		Sardinian		West Eurasia 
+NOR111	female	SAMEA3449879		Norwegian		West Eurasia 
+HGDP00660	female	SAMEA3302841		Bougainville		Oceania 
+HGDP01396	male			Adygei		Europe 
+HGDP01404	male			Adygei		Europe 
+HGDP01411	male			Bantu Kenya		Africa 
+HGDP01416	male			Bantu Kenya		Africa 
+HGDP00090	male	SAMEA3302890		Balochi		South Asia 
+HGDP00569	female	SAMEA3302739		Druze		West Eurasia 
+NA15761	female	SAMEA3302837		Icelandic		West Eurasia 
+YemeniteJew5433	male	SAMEA3302807		Yemenite Jew		West Eurasia 
+HGDP01199	male	SAMEA3302756		Mandenka		Africa 
+HGDP01168	female	SAMEA3302684		Tuscan		West Eurasia 
+HGDP00552	female	SAMEA3302700		Papuan		Oceania 
+HGDP00956	female	SAMEA3302706		Yakut		Central Asia and Siberia 
+armenia293	male	SAMEA3302624		Armenian		West Eurasia 
+NA15728	male	SAMEA3302844		Czech		West Eurasia 
+K4	male	SAMEA3302839		Kapu		South Asia 
+Bu16	male	SAMEA3302895		Burmese		East Asia 
+HGDP01012	male	SAMEA3302790		Karitiana		America 
+HGDP00987	male	SAMEA3302900		Ju|'hoan North		Africa 
+HGDP00932	male	SAMEA3302632		Yoruba		Africa 
+HGDP01315	female	SAMEA3302785		Dai		East Asia 
+HGDP01308	male	SAMEA3302666		Dai		East Asia 
+Dus22	female	SAMEA3302688		Dusun		Oceania 
+Est400	male	SAMEA3302679		Estonian		West Eurasia 
+HGDP01240	male	SAMEA3302880		Hezhen		East Asia 
+mixe0042	female	SAMEA3302723		Mixe		America 
+HGDP00216	male	SAMEA3302674		Pathan		South Asia 
+HGDP01372	male			Basque		Europe 
+HGDP01377	male			Basque		Europe 
+HGDP01384	female			Adygei		Europe 
+HGDP00982	male	SAMEA3302833		Mbuti		Africa 
+HGDP01098	female	SAMEA3302665		Tujia		East Asia 
+HGDP00160	male	SAMEA3302771		Makrani		South Asia 
+Bishkek28440	male	SAMEA3302717		Kyrgyz		Central Asia and Siberia 
+HGDP01163	male	SAMEA3302758		Tuscan		West Eurasia 
+HGDP00951	male	SAMEA3302802		Yakut		Central Asia and Siberia 
+HGDP00785	male	SAMEA3302804		Han		East Asia 
+HGDP00855	female	SAMEA3302866		Mayan		America 
+Kusunda15	male	SAMEA3302911		Kusunda		South Asia 
+NA13607	male	SAMEA3302722		Ami		East Asia 
+HGDP00773	female	SAMEA3302906		Japanese		East Asia 
+R3	male	SAMEA3302714		Relli		South Asia 
 NA12236	female	SAMEA6604124	CEU	CEPH	EUR	European Ancestry
-HGDP00456	male			Mbuti		Africa (HGDP)
+HGDP00456	male			Mbuti		Africa 
 GM19129	female		YRI	Yoruba	AFR	African Ancestry

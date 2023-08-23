@@ -88,7 +88,6 @@ ggplot(pca2) +
   theme_light()
 ```
 
-
 ## Session Info
 
 ```{r display-session-info}

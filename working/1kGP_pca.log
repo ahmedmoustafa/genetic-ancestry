@@ -1,0 +1,26 @@
+PLINK v1.90b7 64-bit (16 Jan 2023)
+Options in effect:
+  --bfile working/1kGP_plink
+  --out working/1kGP_pca
+  --pca 10
+
+Hostname: biglab
+Working directory: /home/ahmed/projects/genetic-ancestry
+Start time: Wed Aug 23 08:39:26 2023
+
+Random number seed: 1692769166
+515606 MB RAM detected; reserving 257803 MB for main workspace.
+8687 variants loaded from .bim file.
+3202 people (0 males, 0 females, 3202 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to working/1kGP_pca.nosex .
+Using up to 191 threads (change this with --threads).
+Before main variant filters, 3202 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is in [0.9999995, 1).
+8687 variants and 3202 people pass filters and QC.
+Note: No phenotypes present.
+Relationship matrix calculation complete.
+--pca: Results saved to working/1kGP_pca.eigenval and working/1kGP_pca.eigenvec
+.
+
+End time: Wed Aug 23 08:39:31 2023

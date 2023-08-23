@@ -1,0 +1,96 @@
+---
+title: "Plot Principal Component Analysis (PCA) of 1kGP"
+author: "Ahmed Moustafa"
+date: "`r format(Sys.time(), '%d %B, %Y %H:%M %z')`"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Loading Libraries
+
+```{r load-packages, message=FALSE}
+library(tidyverse)
+library(tidylog)
+```
+
+## Data Loading: Eigenvalues
+
+```{r load-eigenvalues}
+# Load the eigenvalues
+eigenval = read_tsv("working/1kGP_pca.eigenval", col_names = c("value"))
+head(eigenval)
+```
+
+## Calculating Variance Explained by Each Principal Component
+
+```{r}
+variance_explained = tibble(pc = paste0("PC", 1:nrow(eigenval)), var = eigenval$value / sum(eigenval))
+head(variance_explained)
+```
+
+## Plotting the Variance Explained by Principal Components
+
+```{r}
+ggplot(variance_explained %>% top_n(3)) + 
+  geom_bar(aes(x = pc, y = var), stat = "identity") + 
+  theme_light() +
+  labs (x = "PC", y = "Variance Explained") +
+  scale_y_continuous(labels = scales::percent)
+```
+
+## Data Loading: Eigenvectors
+
+```{r load-eigenvectors}
+# Load the eigenvectors
+eigenvec = read.table("working/1kGP_pca.eigenvec", sep = " ")
+dim(eigenvec)
+```
+
+```{r}
+# Display the first few rows of the PCA data to inspect the structure
+head(eigenvec)
+```
+
+```{r}
+pca = tibble(sample = eigenvec$V1, PC1 = eigenvec$V3, PC2 = eigenvec$V4, PC3 = eigenvec$V5)
+head(pca)
+```
+## Plotting PCA: Visualization of Population Structure
+
+```{r}
+ggplot(pca) + 
+  geom_jitter(aes(x = PC1, y = PC2), alpha = 0.7) + 
+  theme_light()
+```
+
+## Enhancing the PCA Plot: Color by Population
+
+```{r load-samples-metadata}
+samples = read_tsv("data/populations.tsv")
+head(samples)
+```
+```{r}
+pca2 = pca %>% inner_join(samples)
+head(pca2)
+```
+```{r}
+ggplot(pca2) + 
+  geom_jitter(aes(x = PC1, y = PC2, color = superpopulation), alpha = 0.7) + 
+  theme_light()
+```
+
+```{r}
+ggplot(pca2) + 
+  geom_jitter(aes(x = PC1, y = PC2, color = population), alpha = 0.7) + 
+  theme_light()
+```
+
+
+## Session Info
+
+```{r display-session-info}
+sessionInfo()
+```

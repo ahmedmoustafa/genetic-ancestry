@@ -1,0 +1,27 @@
+PLINK v1.90b7 64-bit (16 Jan 2023)
+Options in effect:
+  --make-bed
+  --out working/1kGP_plink
+  --vcf data/1kGP.fingerprinting.vcf.gz
+
+Hostname: biglab
+Working directory: /home/ahmed/projects/genetic-ancestry
+Start time: Wed Aug 23 08:39:25 2023
+
+Random number seed: 1692769165
+515606 MB RAM detected; reserving 257803 MB for main workspace.
+--vcf: working/1kGP_plink-temporary.bed + working/1kGP_plink-temporary.bim +
+working/1kGP_plink-temporary.fam written.
+8687 variants loaded from .bim file.
+3202 people (0 males, 0 females, 3202 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to working/1kGP_plink.nosex .
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 3202 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is in [0.9999995, 1).
+8687 variants and 3202 people pass filters and QC.
+Note: No phenotypes present.
+--make-bed to working/1kGP_plink.bed + working/1kGP_plink.bim +
+working/1kGP_plink.fam ... done.
+
+End time: Wed Aug 23 08:39:26 2023

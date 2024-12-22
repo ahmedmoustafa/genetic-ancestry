@@ -1,13 +1,14 @@
 Plot Principal Component Analysis (PCA) of 1kGP
 ================
 Ahmed Moustafa
-23 August, 2023 11:04 +0300
+22 December, 2024 18:02 +0200
 
 ## Loading Libraries
 
 ``` r
 library(tidyverse)
 library(tidylog)
+library(Rtsne)
 ```
 
 ## Data Loading: Eigenvalues
@@ -163,7 +164,7 @@ pca2 = pca %>% inner_join(samples)
     ## inner_join: added 6 columns (sex, biosample, population, population_name,
     ## superpopulation, …)
     ## > rows only in x ( 0)
-    ## > rows only in y (1,776)
+    ## > rows only in samples (1,776)
     ## > matched rows 3,202
     ## > =======
     ## > rows total 3,202
@@ -199,48 +200,197 @@ ggplot(pca2) +
 
 ![](plot-1kGP-pca_files/figure-gfm/unnamed-chunk-8-1.png)<!-- -->
 
+## Alternative Clustering using t-SNE
+
+``` r
+n = 10
+df = data.frame (eigenvec[, 3:(n+2)])
+colnames(df) = paste0("PC", 1:n)
+rownames(df) = eigenvec$V1
+head(df)
+```
+
+    ##                 PC1       PC2         PC3       PC4          PC5         PC6
+    ## HG00096 -0.00979116 0.0246988  0.00300170 0.0175045 -0.000177201 -0.02154430
+    ## HG00097 -0.00860299 0.0246735  0.00216549 0.0173607 -0.005536730  0.00307645
+    ## HG00099 -0.00940134 0.0242093  0.00428509 0.0207030 -0.007276840 -0.01732370
+    ## HG00100 -0.00974342 0.0227575 -0.00062867 0.0176841 -0.008215210 -0.01135090
+    ## HG00101 -0.00949396 0.0236118  0.00404194 0.0183175  0.000795819 -0.01490100
+    ## HG00102 -0.01004650 0.0232639  0.00285737 0.0144682 -0.001366250 -0.01884990
+    ##                 PC7          PC8          PC9        PC10
+    ## HG00096 -0.00710697  4.00740e-03 -0.011880200 -0.00355934
+    ## HG00097 -0.00263790  9.36712e-05  0.007745490  0.00669956
+    ## HG00099 -0.00154378 -4.40629e-03 -0.004739370  0.00448401
+    ## HG00100 -0.00653149  4.08700e-04 -0.004569230 -0.00936117
+    ## HG00101 -0.00882091  7.70109e-03  0.002463610  0.02843140
+    ## HG00102  0.00368535 -1.34158e-02 -0.000063343 -0.00326615
+
+### Perform t-SNE
+
+``` r
+# Perform t-SNE
+set.seed(123)  # Set a seed for reproducibility
+tsne_result <- Rtsne(as.matrix(df), dims = 2, perplexity = 30, theta = 0.5, verbose = TRUE)
+```
+
+    ## Performing PCA
+    ## Read the 3202 x 10 data matrix successfully!
+    ## Using no_dims = 2, perplexity = 30.000000, and theta = 0.500000
+    ## Computing input similarities...
+    ## Building tree...
+    ## Done in 0.14 seconds (sparsity = 0.036737)!
+    ## Learning embedding...
+    ## Iteration 50: error is 80.026927 (50 iterations in 0.20 seconds)
+    ## Iteration 100: error is 64.730357 (50 iterations in 0.20 seconds)
+    ## Iteration 150: error is 62.662983 (50 iterations in 0.19 seconds)
+    ## Iteration 200: error is 61.832415 (50 iterations in 0.19 seconds)
+    ## Iteration 250: error is 61.380744 (50 iterations in 0.19 seconds)
+    ## Iteration 300: error is 1.752580 (50 iterations in 0.22 seconds)
+    ## Iteration 350: error is 1.456704 (50 iterations in 0.17 seconds)
+    ## Iteration 400: error is 1.307920 (50 iterations in 0.16 seconds)
+    ## Iteration 450: error is 1.221664 (50 iterations in 0.17 seconds)
+    ## Iteration 500: error is 1.173401 (50 iterations in 0.17 seconds)
+    ## Iteration 550: error is 1.147737 (50 iterations in 0.17 seconds)
+    ## Iteration 600: error is 1.131094 (50 iterations in 0.17 seconds)
+    ## Iteration 650: error is 1.116694 (50 iterations in 0.17 seconds)
+    ## Iteration 700: error is 1.106174 (50 iterations in 0.17 seconds)
+    ## Iteration 750: error is 1.097210 (50 iterations in 0.19 seconds)
+    ## Iteration 800: error is 1.088086 (50 iterations in 0.19 seconds)
+    ## Iteration 850: error is 1.079247 (50 iterations in 0.17 seconds)
+    ## Iteration 900: error is 1.072591 (50 iterations in 0.17 seconds)
+    ## Iteration 950: error is 1.068788 (50 iterations in 0.16 seconds)
+    ## Iteration 1000: error is 1.065359 (50 iterations in 0.17 seconds)
+    ## Fitting performed in 3.60 seconds.
+
+``` r
+# The results are stored in tsne_result$Y
+head(tsne_result$Y)
+```
+
+    ##          [,1]     [,2]
+    ## [1,] 24.77744 21.75235
+    ## [2,] 20.83018 17.98410
+    ## [3,] 22.44079 21.63661
+    ## [4,] 25.42296 16.83022
+    ## [5,] 17.74731 22.45361
+    ## [6,] 20.66063 20.02540
+
+### Visualizing t-SNE Clustering
+
+``` r
+# Create a data frame for plotting
+tsne_df = data.frame(TSNE1 = tsne_result$Y[, 1], 
+                     TSNE2 = tsne_result$Y[, 2], 
+                     sample = rownames(df)) %>% inner_join(samples)
+```
+
+    ## Joining with `by = join_by(sample)`
+    ## inner_join: added 6 columns (sex, biosample, population, population_name,
+    ## superpopulation, …)
+    ## > rows only in x ( 0)
+    ## > rows only in samples (1,776)
+    ## > matched rows 3,202
+    ## > =======
+    ## > rows total 3,202
+
+``` r
+head(tsne_df)
+```
+
+    ##      TSNE1    TSNE2  sample    sex  biosample population population_name
+    ## 1 24.77744 21.75235 HG00096   male SAME123268        GBR         British
+    ## 2 20.83018 17.98410 HG00097 female SAME123267        GBR         British
+    ## 3 22.44079 21.63661 HG00099 female SAME123271        GBR         British
+    ## 4 25.42296 16.83022 HG00100 female SAME125154        GBR         British
+    ## 5 17.74731 22.45361 HG00101   male SAME125153        GBR         British
+    ## 6 20.66063 20.02540 HG00102 female SAME123945        GBR         British
+    ##   superpopulation superpopulation_name
+    ## 1             EUR    European Ancestry
+    ## 2             EUR    European Ancestry
+    ## 3             EUR    European Ancestry
+    ## 4             EUR    European Ancestry
+    ## 5             EUR    European Ancestry
+    ## 6             EUR    European Ancestry
+
+``` r
+ggplot(tsne_df, aes(x = TSNE1, y = TSNE2, color = population), alpha = 0.7) +
+  geom_point() +
+  theme_light()
+```
+
+![](plot-1kGP-pca_files/figure-gfm/plot-tsne-by-population-1.png)<!-- -->
+
+``` r
+  labs(x = "t-SNE1", y = "t-SNE2")
+```
+
+    ## $x
+    ## [1] "t-SNE1"
+    ## 
+    ## $y
+    ## [1] "t-SNE2"
+    ## 
+    ## attr(,"class")
+    ## [1] "labels"
+
+``` r
+ggplot(tsne_df, aes(x = TSNE1, y = TSNE2, color = superpopulation), alpha = 0.7) +
+  geom_point() +
+  theme_light()
+```
+
+![](plot-1kGP-pca_files/figure-gfm/plot-tsne-by-superpopulation-1.png)<!-- -->
+
+``` r
+  labs(x = "t-SNE1", y = "t-SNE2")
+```
+
+    ## $x
+    ## [1] "t-SNE1"
+    ## 
+    ## $y
+    ## [1] "t-SNE2"
+    ## 
+    ## attr(,"class")
+    ## [1] "labels"
+
 ## Session Info
 
 ``` r
 sessionInfo()
 ```
 
-    ## R version 4.3.1 (2023-06-16)
-    ## Platform: x86_64-pc-linux-gnu (64-bit)
-    ## Running under: Ubuntu 22.04.3 LTS
+    ## R version 4.4.2 (2024-10-31)
+    ## Platform: aarch64-apple-darwin24.1.0
+    ## Running under: macOS Sequoia 15.2
     ## 
     ## Matrix products: default
-    ## BLAS:   /usr/lib/x86_64-linux-gnu/blas/libblas.so.3.10.0 
-    ## LAPACK: /usr/lib/x86_64-linux-gnu/lapack/liblapack.so.3.10.0
+    ## BLAS:   /opt/homebrew/Cellar/openblas/0.3.28/lib/libopenblasp-r0.3.28.dylib 
+    ## LAPACK: /opt/homebrew/Cellar/r/4.4.2_2/lib/R/lib/libRlapack.dylib;  LAPACK version 3.12.0
     ## 
     ## locale:
-    ##  [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C              
-    ##  [3] LC_TIME=en_US.UTF-8        LC_COLLATE=en_US.UTF-8    
-    ##  [5] LC_MONETARY=en_US.UTF-8    LC_MESSAGES=en_US.UTF-8   
-    ##  [7] LC_PAPER=en_US.UTF-8       LC_NAME=C                 
-    ##  [9] LC_ADDRESS=C               LC_TELEPHONE=C            
-    ## [11] LC_MEASUREMENT=en_US.UTF-8 LC_IDENTIFICATION=C       
+    ## [1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
     ## 
     ## time zone: Africa/Cairo
-    ## tzcode source: system (glibc)
+    ## tzcode source: internal
     ## 
     ## attached base packages:
     ## [1] stats     graphics  grDevices utils     datasets  methods   base     
     ## 
     ## other attached packages:
-    ##  [1] tidylog_1.0.2   lubridate_1.9.2 forcats_1.0.0   stringr_1.5.0  
-    ##  [5] dplyr_1.1.2     purrr_1.0.2     readr_2.1.4     tidyr_1.3.0    
-    ##  [9] tibble_3.2.1    ggplot2_3.4.3   tidyverse_2.0.0
+    ##  [1] Rtsne_0.17      tidylog_1.1.0   lubridate_1.9.4 forcats_1.0.0  
+    ##  [5] stringr_1.5.1   dplyr_1.1.4     purrr_1.0.2     readr_2.1.5    
+    ##  [9] tidyr_1.3.1     tibble_3.2.1    ggplot2_3.5.1   tidyverse_2.0.0
     ## 
     ## loaded via a namespace (and not attached):
-    ##  [1] utf8_1.2.3        generics_0.1.3    stringi_1.7.12    hms_1.1.3        
-    ##  [5] digest_0.6.33     magrittr_2.0.3    evaluate_0.21     grid_4.3.1       
-    ##  [9] timechange_0.2.0  fastmap_1.1.1     fansi_1.0.4       scales_1.2.1     
-    ## [13] cli_3.6.1         rlang_1.1.1       crayon_1.5.2      bit64_4.0.5      
-    ## [17] munsell_0.5.0     withr_2.5.0       yaml_2.3.7        tools_4.3.1      
-    ## [21] parallel_4.3.1    tzdb_0.4.0        colorspace_2.1-0  vctrs_0.6.3      
-    ## [25] R6_2.5.1          lifecycle_1.0.3   bit_4.0.5         clisymbols_1.2.0 
-    ## [29] vroom_1.6.3       pkgconfig_2.0.3   pillar_1.9.0      gtable_0.3.4     
-    ## [33] glue_1.6.2        xfun_0.40         tidyselect_1.2.0  highr_0.10       
-    ## [37] rstudioapi_0.15.0 knitr_1.43        farver_2.1.1      htmltools_0.5.6  
-    ## [41] rmarkdown_2.24    labeling_0.4.2    compiler_4.3.1
+    ##  [1] utf8_1.2.4        generics_0.1.3    stringi_1.8.4     hms_1.1.3        
+    ##  [5] digest_0.6.37     magrittr_2.0.3    evaluate_1.0.1    grid_4.4.2       
+    ##  [9] timechange_0.3.0  fastmap_1.2.0     scales_1.3.0      cli_3.6.3        
+    ## [13] rlang_1.1.4       crayon_1.5.3      bit64_4.5.2       munsell_0.5.1    
+    ## [17] withr_3.0.2       yaml_2.3.10       tools_4.4.2       parallel_4.4.2   
+    ## [21] tzdb_0.4.0        colorspace_2.1-1  vctrs_0.6.5       R6_2.5.1         
+    ## [25] lifecycle_1.0.4   bit_4.5.0.1       clisymbols_1.2.0  vroom_1.6.5      
+    ## [29] pkgconfig_2.0.3   pillar_1.10.0     gtable_0.3.6      glue_1.7.0       
+    ## [33] Rcpp_1.0.13       highr_0.11        xfun_0.47         tidyselect_1.2.1 
+    ## [37] rstudioapi_0.17.1 knitr_1.48        farver_2.1.2      htmltools_0.5.8.1
+    ## [41] rmarkdown_2.28    labeling_0.4.3    compiler_4.4.2

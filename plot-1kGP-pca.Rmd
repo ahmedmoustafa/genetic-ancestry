@@ -14,6 +14,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```{r load-packages, message=FALSE}
 library(tidyverse)
 library(tidylog)
+library(Rtsne)
 ```
 
 ## Data Loading: Eigenvalues
@@ -58,6 +59,7 @@ head(eigenvec)
 pca = tibble(sample = eigenvec$V1, PC1 = eigenvec$V3, PC2 = eigenvec$V4, PC3 = eigenvec$V5)
 head(pca)
 ```
+
 ## Plotting PCA: Visualization of Population Structure
 
 ```{r}
@@ -86,6 +88,53 @@ ggplot(pca2) +
 ggplot(pca2) + 
   geom_jitter(aes(x = PC1, y = PC2, color = population), alpha = 0.7) + 
   theme_light()
+```
+
+
+## Alternative Clustering using t-SNE
+
+```{r}
+n = 10
+df = data.frame (eigenvec[, 3:(n+2)])
+colnames(df) = paste0("PC", 1:n)
+rownames(df) = eigenvec$V1
+head(df)
+```
+
+### Perform t-SNE
+
+```{r perform-tsne}
+# Perform t-SNE
+set.seed(123)  # Set a seed for reproducibility
+tsne_result <- Rtsne(as.matrix(df), dims = 2, perplexity = 30, theta = 0.5, verbose = TRUE)
+
+# The results are stored in tsne_result$Y
+head(tsne_result$Y)
+
+```
+
+### Visualizing t-SNE Clustering
+
+```{r create-tsne-dataframe}
+# Create a data frame for plotting
+tsne_df = data.frame(TSNE1 = tsne_result$Y[, 1], 
+                     TSNE2 = tsne_result$Y[, 2], 
+                     sample = rownames(df)) %>% inner_join(samples)
+head(tsne_df)
+```
+
+```{r plot-tsne-by-population}
+ggplot(tsne_df, aes(x = TSNE1, y = TSNE2, color = population), alpha = 0.7) +
+  geom_point() +
+  theme_light()
+  labs(x = "t-SNE1", y = "t-SNE2")
+```
+
+```{r plot-tsne-by-superpopulation}
+ggplot(tsne_df, aes(x = TSNE1, y = TSNE2, color = superpopulation), alpha = 0.7) +
+  geom_point() +
+  theme_light()
+  labs(x = "t-SNE1", y = "t-SNE2")
 ```
 
 ## Session Info

@@ -14,10 +14,21 @@ knitr::opts_chunk$set(echo = TRUE)
 ```{r load-packages, message=FALSE}
 library(tidyverse)
 library(tidylog)
+library(printr)
 library(Rtsne)
+library(umap)
 ```
 
-## Data Loading: Eigenvalues
+## Data Loading
+
+### Metadata (populations information)
+
+```{r load-samples-metadata}
+samples = read_tsv("data/populations.tsv")
+head(samples)
+```
+
+### Eigenvalues
 
 ```{r load-eigenvalues}
 # Load the eigenvalues
@@ -25,24 +36,7 @@ eigenval = read_tsv("working/1kGP_pca.eigenval", col_names = c("value"))
 head(eigenval)
 ```
 
-## Calculating Variance Explained by Each Principal Component
-
-```{r}
-variance_explained = tibble(pc = paste0("PC", 1:nrow(eigenval)), var = eigenval$value / sum(eigenval))
-head(variance_explained)
-```
-
-## Plotting the Variance Explained by Principal Components
-
-```{r}
-ggplot(variance_explained %>% top_n(3)) + 
-  geom_bar(aes(x = pc, y = var), stat = "identity") + 
-  theme_light() +
-  labs (x = "PC", y = "Variance Explained") +
-  scale_y_continuous(labels = scales::percent)
-```
-
-## Data Loading: Eigenvectors
+### Eigenvectors
 
 ```{r load-eigenvectors}
 # Load the eigenvectors
@@ -55,62 +49,66 @@ dim(eigenvec)
 head(eigenvec)
 ```
 
-```{r}
-pca = tibble(sample = eigenvec$V1, PC1 = eigenvec$V3, PC2 = eigenvec$V4, PC3 = eigenvec$V5)
-head(pca)
+```{r extract-pcs}
+pcs = eigenvec[, 3:ncol(eigenvec)]
+colnames(pcs) = paste0("PC", 1:ncol(pcs))
+rownames(pcs) = eigenvec$V1
+head(pcs)
 ```
 
-## Plotting PCA: Visualization of Population Structure
-
-```{r}
-ggplot(pca) + 
-  geom_jitter(aes(x = PC1, y = PC2), alpha = 0.7) + 
-  theme_light()
+```{r create-pca-dataframe}
+pca_df = data.frame(sample = row.names(pcs), pcs) %>% inner_join(samples)
+head(pca_df)
 ```
 
-## Enhancing the PCA Plot: Color by Population
+## Variance Explained
 
-```{r load-samples-metadata}
-samples = read_tsv("data/populations.tsv")
-head(samples)
-```
-```{r}
-pca2 = pca %>% inner_join(samples)
-head(pca2)
-```
-```{r}
-ggplot(pca2) + 
-  geom_jitter(aes(x = PC1, y = PC2, color = superpopulation), alpha = 0.7) + 
-  theme_light()
+```{r calculate-variance-explained-by-each-component}
+variance_explained = tibble(pc = paste0("PC", 1:nrow(eigenval)), var = eigenval$value / sum(eigenval))
+head(variance_explained)
 ```
 
+### Plotting the Variance Explained
+
 ```{r}
-ggplot(pca2) + 
+ggplot(variance_explained %>% top_n(3)) + 
+  geom_bar(aes(x = pc, y = var), stat = "identity") + 
+  theme_light() +
+  labs (x = "PC", y = "Variance Explained") +
+  scale_y_continuous(labels = scales::percent)
+```
+
+
+
+## Visualization of Population Structure
+
+### By population
+
+```{r plot-pca-by-population}
+ggplot(pca_df) + 
   geom_jitter(aes(x = PC1, y = PC2, color = population), alpha = 0.7) + 
   theme_light()
 ```
 
+### By superpopulation
+
+```{r plot-pca-by-superpopulation}
+ggplot(pca_df) + 
+  geom_jitter(aes(x = PC1, y = PC2, color = superpopulation), alpha = 0.7) + 
+  theme_light()
+```
 
 ## Alternative Clustering using t-SNE
-
-```{r}
-n = 10
-df = data.frame (eigenvec[, 3:(n+2)])
-colnames(df) = paste0("PC", 1:n)
-rownames(df) = eigenvec$V1
-head(df)
-```
 
 ### Perform t-SNE
 
 ```{r perform-tsne}
 # Perform t-SNE
 set.seed(123)  # Set a seed for reproducibility
-tsne_result <- Rtsne(as.matrix(df), dims = 2, perplexity = 30, theta = 0.5, verbose = TRUE)
+tsne_result = Rtsne(as.matrix(pcs[,1:3]), dims = 2, perplexity = 30, theta = 0.5, verbose = TRUE)
 
 # The results are stored in tsne_result$Y
 head(tsne_result$Y)
-
 ```
 
 ### Visualizing t-SNE Clustering
@@ -119,23 +117,84 @@ head(tsne_result$Y)
 # Create a data frame for plotting
 tsne_df = data.frame(TSNE1 = tsne_result$Y[, 1], 
                      TSNE2 = tsne_result$Y[, 2], 
-                     sample = rownames(df)) %>% inner_join(samples)
+                     sample = rownames(pcs)) %>% inner_join(samples)
 head(tsne_df)
 ```
+### By population
 
 ```{r plot-tsne-by-population}
 ggplot(tsne_df, aes(x = TSNE1, y = TSNE2, color = population), alpha = 0.7) +
   geom_point() +
-  theme_light()
+  theme_light() +
   labs(x = "t-SNE1", y = "t-SNE2")
 ```
+### By superpopulation
 
 ```{r plot-tsne-by-superpopulation}
 ggplot(tsne_df, aes(x = TSNE1, y = TSNE2, color = superpopulation), alpha = 0.7) +
   geom_point() +
-  theme_light()
+  theme_light() +
   labs(x = "t-SNE1", y = "t-SNE2")
 ```
+## Alternative Clustering using UMAP
+
+### Setting UMAP parameters
+
+```{r}
+# Set parameters for UMAP
+umap_config = umap::umap.defaults
+umap_config$n_neighbors = 20
+umap_config$min_dist = 0.9
+umap_config$metric = "euclidean"
+```
+
+### Perform UMAP
+
+```{r}
+# Perform UMAP
+set.seed(123)  # Set a seed for reproducibility
+umap_result = umap(as.matrix(pcs[, 1:3]), config = umap_config)
+
+# The results are stored in umap_result$layout
+head(umap_result$layout)
+```
+
+### Visualizing UMAP Clustering
+
+```{r}
+# Create a data frame for plotting
+umap_df = data.frame(UMAP1 = umap_result$layout[, 1], 
+                     UMAP2 = umap_result$layout[, 2], 
+                     sample = rownames(pcs)) %>% inner_join(samples)
+head(umap_df)
+```
+
+### By population
+
+```{r plot-umap-by-population}
+# Plot the UMAP results
+ggplot(umap_df, aes(x = UMAP1, y = UMAP2, color = population), alpha = 0.7) +
+  geom_point() +
+  theme_light() +
+  labs(x = "UMAP1", y = "UMAP2")
+```
+
+### By superpopulation
+
+```{r plot-umap-by-superpopulation}
+# Plot the UMAP results
+ggplot(umap_df, aes(x = UMAP1, y = UMAP2, color = superpopulation), alpha = 0.7) +
+  geom_point() +
+  theme_light() +
+  labs(x = "UMAP1", y = "UMAP2")
+```
+
+
+## Further Readings
+
+- [Dimensionality Reduction: PCA, t-SNE, and UMAP](https://medium.com/@aastha.code/dimensionality-reduction-pca-t-sne-and-umap-41d499da2df2)
+- [Seeing data as t-SNE and UMAP do](https://pubmed.ncbi.nlm.nih.gov/38789649/) [[pdf](https://www.nature.com/articles/s41592-024-02301-x.pdf)]
+
 
 ## Session Info
 

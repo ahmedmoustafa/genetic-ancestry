@@ -1,7 +1,7 @@
 Plot Principal Component Analysis (PCA) of 1kGP
 ================
 Ahmed Moustafa
-23 December, 2024 01:48 +0200
+23 December, 2024 01:55 +0200
 
 ## Loading Libraries
 
@@ -167,7 +167,7 @@ ggplot(variance_explained %>% top_n(3)) +
 
 ![](plot-1kGP-pca_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
 
-## Visualization of Population Structure
+## Visualizing PCA Clustering
 
 ### By population
 
@@ -206,27 +206,27 @@ tsne_result = Rtsne(as.matrix(pcs[,1:3]), dims = 2, perplexity = 30, theta = 0.5
     ## Building tree...
     ## Done in 0.09 seconds (sparsity = 0.035335)!
     ## Learning embedding...
-    ## Iteration 50: error is 79.204083 (50 iterations in 0.17 seconds)
+    ## Iteration 50: error is 79.204083 (50 iterations in 0.16 seconds)
     ## Iteration 100: error is 64.772105 (50 iterations in 0.14 seconds)
     ## Iteration 150: error is 62.385642 (50 iterations in 0.14 seconds)
     ## Iteration 200: error is 61.401533 (50 iterations in 0.14 seconds)
     ## Iteration 250: error is 60.846001 (50 iterations in 0.14 seconds)
-    ## Iteration 300: error is 1.500679 (50 iterations in 0.13 seconds)
+    ## Iteration 300: error is 1.500679 (50 iterations in 0.15 seconds)
     ## Iteration 350: error is 1.140660 (50 iterations in 0.15 seconds)
-    ## Iteration 400: error is 0.968229 (50 iterations in 0.14 seconds)
+    ## Iteration 400: error is 0.968229 (50 iterations in 0.15 seconds)
     ## Iteration 450: error is 0.873545 (50 iterations in 0.13 seconds)
-    ## Iteration 500: error is 0.827076 (50 iterations in 0.13 seconds)
-    ## Iteration 550: error is 0.806732 (50 iterations in 0.13 seconds)
-    ## Iteration 600: error is 0.790258 (50 iterations in 0.13 seconds)
-    ## Iteration 650: error is 0.777408 (50 iterations in 0.13 seconds)
-    ## Iteration 700: error is 0.768881 (50 iterations in 0.13 seconds)
+    ## Iteration 500: error is 0.827076 (50 iterations in 0.12 seconds)
+    ## Iteration 550: error is 0.806732 (50 iterations in 0.12 seconds)
+    ## Iteration 600: error is 0.790258 (50 iterations in 0.12 seconds)
+    ## Iteration 650: error is 0.777408 (50 iterations in 0.12 seconds)
+    ## Iteration 700: error is 0.768881 (50 iterations in 0.12 seconds)
     ## Iteration 750: error is 0.760994 (50 iterations in 0.13 seconds)
     ## Iteration 800: error is 0.753550 (50 iterations in 0.13 seconds)
     ## Iteration 850: error is 0.746623 (50 iterations in 0.13 seconds)
-    ## Iteration 900: error is 0.739908 (50 iterations in 0.13 seconds)
-    ## Iteration 950: error is 0.734250 (50 iterations in 0.12 seconds)
-    ## Iteration 1000: error is 0.729056 (50 iterations in 0.14 seconds)
-    ## Fitting performed in 2.72 seconds.
+    ## Iteration 900: error is 0.739908 (50 iterations in 0.12 seconds)
+    ## Iteration 950: error is 0.734250 (50 iterations in 0.13 seconds)
+    ## Iteration 1000: error is 0.729056 (50 iterations in 0.13 seconds)
+    ## Fitting performed in 2.69 seconds.
 
 ``` r
 # The results are stored in tsne_result$Y
@@ -273,7 +273,7 @@ head(tsne_df)
 | 13.59423 | 1.797826 | HG00101 | male | SAME125153 | GBR | British | EUR | European Ancestry |
 | 20.18693 | -0.624645 | HG00102 | female | SAME123945 | GBR | British | EUR | European Ancestry |
 
-### By population
+#### By population
 
 ``` r
 ggplot(tsne_df, aes(x = TSNE1, y = TSNE2, color = population), alpha = 0.7) +
@@ -283,7 +283,7 @@ ggplot(tsne_df, aes(x = TSNE1, y = TSNE2, color = population), alpha = 0.7) +
 ```
 
 ![](plot-1kGP-pca_files/figure-gfm/plot-tsne-by-population-1.png)<!-- -->
-\### By superpopulation
+\#### By superpopulation
 
 ``` r
 ggplot(tsne_df, aes(x = TSNE1, y = TSNE2, color = superpopulation), alpha = 0.7) +
@@ -356,7 +356,7 @@ head(umap_df)
 | -0.0701956 | -0.3116174 | HG00101 | male | SAME125153 | GBR | British | EUR | European Ancestry |
 | 1.6608518 | 0.2403880 | HG00102 | female | SAME123945 | GBR | British | EUR | European Ancestry |
 
-### By population
+#### By population
 
 ``` r
 # Plot the UMAP results
@@ -368,7 +368,7 @@ ggplot(umap_df, aes(x = UMAP1, y = UMAP2, color = population), alpha = 0.7) +
 
 ![](plot-1kGP-pca_files/figure-gfm/plot-umap-by-population-1.png)<!-- -->
 
-### By superpopulation
+#### By superpopulation
 
 ``` r
 # Plot the UMAP results

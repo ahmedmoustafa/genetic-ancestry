@@ -80,7 +80,7 @@ ggplot(variance_explained %>% top_n(3)) +
 
 
 
-## Visualization of Population Structure
+## Visualizing PCA Clustering
 
 ### By population
 
@@ -120,7 +120,7 @@ tsne_df = data.frame(TSNE1 = tsne_result$Y[, 1],
                      sample = rownames(pcs)) %>% inner_join(samples)
 head(tsne_df)
 ```
-### By population
+#### By population
 
 ```{r plot-tsne-by-population}
 ggplot(tsne_df, aes(x = TSNE1, y = TSNE2, color = population), alpha = 0.7) +
@@ -128,7 +128,7 @@ ggplot(tsne_df, aes(x = TSNE1, y = TSNE2, color = population), alpha = 0.7) +
   theme_light() +
   labs(x = "t-SNE1", y = "t-SNE2")
 ```
-### By superpopulation
+#### By superpopulation
 
 ```{r plot-tsne-by-superpopulation}
 ggplot(tsne_df, aes(x = TSNE1, y = TSNE2, color = superpopulation), alpha = 0.7) +
@@ -169,7 +169,7 @@ umap_df = data.frame(UMAP1 = umap_result$layout[, 1],
 head(umap_df)
 ```
 
-### By population
+#### By population
 
 ```{r plot-umap-by-population}
 # Plot the UMAP results
@@ -179,7 +179,7 @@ ggplot(umap_df, aes(x = UMAP1, y = UMAP2, color = population), alpha = 0.7) +
   labs(x = "UMAP1", y = "UMAP2")
 ```
 
-### By superpopulation
+#### By superpopulation
 
 ```{r plot-umap-by-superpopulation}
 # Plot the UMAP results

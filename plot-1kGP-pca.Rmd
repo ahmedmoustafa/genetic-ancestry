@@ -82,20 +82,19 @@ ggplot(variance_explained %>% top_n(3)) +
 
 ## Visualizing PCA Clustering
 
-### By population
-
-```{r plot-pca-by-population}
-ggplot(pca_df) + 
-  geom_jitter(aes(x = PC1, y = PC2, color = population), alpha = 0.7) + 
-  theme_light()
-```
-
-
 ### By superpopulation
 
 ```{r plot-pca-by-superpopulation}
 ggplot(pca_df) + 
   geom_jitter(aes(x = PC1, y = PC2, color = superpopulation), alpha = 0.7) + 
+  theme_light()
+```
+
+### By population
+
+```{r plot-pca-by-population}
+ggplot(pca_df) + 
+  geom_jitter(aes(x = PC1, y = PC2, color = population), alpha = 0.7) + 
   theme_light()
 ```
 
@@ -122,6 +121,15 @@ tsne_df = data.frame(TSNE1 = tsne_result$Y[, 1],
 head(tsne_df)
 ```
 
+#### By superpopulation
+
+```{r plot-tsne-by-superpopulation}
+ggplot(tsne_df, aes(x = TSNE1, y = TSNE2, color = superpopulation), alpha = 0.7) +
+  geom_point() +
+  theme_light() +
+  labs(x = "t-SNE1", y = "t-SNE2")
+```
+
 #### By population
 
 ```{r plot-tsne-by-population}
@@ -131,14 +139,6 @@ ggplot(tsne_df, aes(x = TSNE1, y = TSNE2, color = population), alpha = 0.7) +
   labs(x = "t-SNE1", y = "t-SNE2")
 ```
 
-#### By superpopulation
-
-```{r plot-tsne-by-superpopulation}
-ggplot(tsne_df, aes(x = TSNE1, y = TSNE2, color = superpopulation), alpha = 0.7) +
-  geom_point() +
-  theme_light() +
-  labs(x = "t-SNE1", y = "t-SNE2")
-```
 
 ## Alternative Clustering using UMAP
 
@@ -172,6 +172,15 @@ umap_df = data.frame(UMAP1 = umap_result$layout[, 1],
                      sample = rownames(pcs)) %>% inner_join(samples)
 head(umap_df)
 ```
+#### By superpopulation
+
+```{r plot-umap-by-superpopulation}
+# Plot the UMAP results
+ggplot(umap_df, aes(x = UMAP1, y = UMAP2, color = superpopulation), alpha = 0.7) +
+  geom_point() +
+  theme_light() +
+  labs(x = "UMAP1", y = "UMAP2")
+```
 
 #### By population
 
@@ -183,15 +192,6 @@ ggplot(umap_df, aes(x = UMAP1, y = UMAP2, color = population), alpha = 0.7) +
   labs(x = "UMAP1", y = "UMAP2")
 ```
 
-#### By superpopulation
-
-```{r plot-umap-by-superpopulation}
-# Plot the UMAP results
-ggplot(umap_df, aes(x = UMAP1, y = UMAP2, color = superpopulation), alpha = 0.7) +
-  geom_point() +
-  theme_light() +
-  labs(x = "UMAP1", y = "UMAP2")
-```
 
 
 ## Further Readings

@@ -90,6 +90,7 @@ ggplot(pca_df) +
   theme_light()
 ```
 
+
 ### By superpopulation
 
 ```{r plot-pca-by-superpopulation}
@@ -120,6 +121,7 @@ tsne_df = data.frame(TSNE1 = tsne_result$Y[, 1],
                      sample = rownames(pcs)) %>% inner_join(samples)
 head(tsne_df)
 ```
+
 #### By population
 
 ```{r plot-tsne-by-population}
@@ -128,6 +130,7 @@ ggplot(tsne_df, aes(x = TSNE1, y = TSNE2, color = population), alpha = 0.7) +
   theme_light() +
   labs(x = "t-SNE1", y = "t-SNE2")
 ```
+
 #### By superpopulation
 
 ```{r plot-tsne-by-superpopulation}
@@ -136,6 +139,7 @@ ggplot(tsne_df, aes(x = TSNE1, y = TSNE2, color = superpopulation), alpha = 0.7)
   theme_light() +
   labs(x = "t-SNE1", y = "t-SNE2")
 ```
+
 ## Alternative Clustering using UMAP
 
 ### Setting UMAP parameters
